@@ -4546,17 +4546,6 @@
             "hasNew": false
         },
         {
-            "name": "BASLIQ PD 20W APPLE 13PRO MAX WHITE",
-            "price": "5",
-            "imageSrc": "/img/pd20w-13promax.jpg",
-            "category": "Apple basliq",
-            "group": "Basliq",
-            "brand": "",
-            "discount": "",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
             "name": "CHARGER USB QC MI 67W 2IN1 C",
             "price": "10",
             "imageSrc": "/img/mi-67w-2in1.jpg",
@@ -12430,8 +12419,8 @@
             "name": "BASLIQ USB 20W EUROACS EU-MA325",
             "price": "5",
             "imageSrc": "/img/ma325-b.png",
-            "category": "Basliq",
-            "group": "Digər",
+            "category": "Digər",
+            "group": "Basliq",
             "brand": "Euroacs",
             "pinned": true,
             "hasNew": false
