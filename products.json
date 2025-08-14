@@ -1,5 +1,95 @@
 {
-    "products": [      
+    "products": [
+        {
+            "name": "CAR BASLIQ PD 48W EUROACS EU-MC445 QC",
+            "price": "7.50",
+            "imageSrc": "/img/eu-mc442.jpg",
+            "category": "Car charger",
+            "brand": "Euroacs",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "CHARGER PD 45W SAMSUNG TA8789",
+            "price": "14",
+            "imageSrc": "/img/ta8789.jpg",
+            "category": "Adapterlər",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "CHARGER PD 25W SAMSUNG TA8630 C",
+            "price": "12",
+            "imageSrc": "/img/ta8630.jpg",
+            "category": "Adapterlər",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },         
+        {
+            "name": "BASLIQ PD 25W SAMSUNG TA2510 ",
+            "price": "5",
+            "imageSrc": "/img/ta2510.jpg",
+            "category": "Samsung basliq",
+            "group": "Basliq",
+            "brand": "Samsung",
+            "pinned": false,
+            "hasNew": false
+        },         
+        {
+            "name": "CHARGER PD 45W SAMSUNG ORIGINAL NEW C",
+            "price": "20",
+            "imageSrc": "/img/CHARGER-PD-45W-ORIGINAL-NEW-CC.jpg",
+            "category": "Adapterlər",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },   
+        {
+            "name": "CHARGER PD 25W SAMSUNG TA3510 NEW C",
+            "price": "12",
+            "imageSrc": "/img/SAMSUNG-TA3510-NEW-C.jpg",
+            "category": "Adapterlər",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "BASLIQ PD 45W SAMSUNG ORIGINAL NEW",
+            "price": "18",
+            "imageSrc": "/img/45W-ORIGINAL-NEW.jpg",
+            "category": "Samsung basliq",
+            "group": "Basliq",
+            "brand": "Samsung",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "BASLIQ PD SAMSUNG TA4550",
+            "price": "5.50",
+            "imageSrc": "/img/TA4550.jpg",
+            "category": "Samsung basliq",
+            "group": "Basliq",
+            "brand": "Samsung",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "BASLIQ PD 20W SAMSUNG ORIGINAL NFC NEW",
+            "price": "20",
+            "imageSrc": "/img/SAMSUNG-CHARGER-ORIGINAL-NFC-NEW.jpg",
+            "category": "Samsung basliq",
+            "group": "Basliq",
+            "brand": "Samsung",
+            "pinned": false,
+            "hasNew": false
+        },          
         {
             "name": "[BUBBLEBERRY] ESCOBAR ES60 6000 tüstü",
             "price": "12.50",
