@@ -1,6 +1,216 @@
 {
     "products": [
         {
+            "name": "SESGUCLENDIRICI X-911 MIX COLOR",
+            "price": "10",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-08-25 saat 15.04.22_f305cc86.jpg",
+            "category": "Sesguclendirici",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "SESGUCLENDIRICI X-536 MIX COLOR",
+            "price": "9",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-08-25 saat 15.03.31_d47a5d93.jpg",
+            "category": "Sesguclendirici",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },  
+        {
+            "name": "SESGUCLENDIRICI X-19 MIX COLOR",
+            "price": "9.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-08-25 saat 15.02.46_35def572.jpg",
+            "category": "Sesguclendirici",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "HF BIG BT MARSHALL MONITOR L3",
+            "price": "17.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-08-22 saat 17.09.32_d2f25b6a.jpg",
+            "category": "HF BIG BT",
+            "brand": "",
+            "pinned": true,
+            "hasNew": false
+        }, 
+        {
+            "name": "HF BIG BT MARSHALL MAJOR L5",
+            "price": "14",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-08-22 saat 17.09.07_e071c9d0.jpg",
+            "category": "HF BIG BT",
+            "brand": "",
+            "pinned": true,
+            "hasNew": false
+        },        
+        {
+            "name": "HF BIG BT ST855 BLACK",
+            "price": "16",
+            "imageSrc": "/img/ST855.jpg",
+            "category": "Qarışıq məhsullar",
+            "brand": "",
+            "pinned": true,
+            "hasNew": false
+        },
+        {
+            "name": "LIGHT G RGB G3 MINI SPEAKER+WIRELESS CHARGER",
+            "price": "14",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-08-21 saat 18.05.59_793904c5.jpg",
+            "category": "HF BIG BT",
+            "brand": "",
+            "pinned": true,
+            "hasNew": false
+        },
+        {
+            "name": "LIGHT G RGB X-63 SPEAKER+WIRELESS CHARGER",
+            "price": "20",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-08-21 saat 18.05.21_25bc50f9.jpg",
+            "category": "Qarışıq məhsullar",
+            "brand": "JL",
+            "pinned": true,
+            "hasNew": false
+        },
+        {
+            "name": "LIGHT G RGB BT-3401 SPEAKER+ WIRELESS CHARGER  ",
+            "price": "16",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-08-21 saat 18.04.30_d7419b99.jpg",
+            "category": "Qarışıq məhsullar",
+            "brand": "",
+            "pinned": true,
+            "hasNew": false
+        },
+        {
+            "name": "LIGHT G RGB BT-3401 MINI SPEAKER+WIRELESS CHARGER ",
+            "price": "10",
+            "imageSrc": "/img/BT-3401.jpg",
+            "category": "Qarışıq məhsullar",
+            "brand": "",
+            "pinned": true,
+            "hasNew": false
+        },  
+        {
+            "name": "HF BIG BT SODO SD1004",
+            "price": "12.50",
+            "imageSrc": "/img/SD1103.jpg",
+            "category": "HF BIG BT",
+            "brand": "",
+            "pinned": true,
+            "hasNew": false
+        },  
+        {
+            "name": "HF BIG BT SODO SD1004",
+            "price": "17.50",
+            "imageSrc": "/img/SD1004.jpg",
+            "category": "HF BIG BT",
+            "brand": "",
+            "pinned": true,
+            "hasNew": false
+        },  
+        {
+            "name": "HF BIG BT JBL TUNE 510 RGB",
+            "price": "11",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-08-21 saat 17.54.50_1485fe02.jpg",
+            "category": "HF BIG BT",
+            "brand": "JBL",
+            "pinned": true,
+            "hasNew": false
+        },        
+        {
+            "name": "HF BIG BT MARSHALL MONITOR 2 BROWN",
+            "price": "24",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-08-21 saat 17.49.48_61135880.jpg",
+            "category": "HF BIG BT",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },  
+        {
+            "name": "HF BIG BT MARSHALL MONITOR 2 BROWN",
+            "price": "24",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-08-21 saat 17.49.48_61135880.jpg",
+            "category": "HF BIG BT",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },  
+        {
+            "name": "HF BIG JBL 760BT ANC",
+            "price": "12",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-08-21 saat 17.48.45_93669e7d.jpg",
+            "category": "HF BIG BT",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "[QARA] HF BIG BT GLBY CA-0353",
+            "price": "29.50",
+            "imageSrc": "/img/CA-0353.jpg",
+            "category": "HF BIG BT",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "[GOLD] HF BIG BT GLBY CA-0353",
+            "price": "29.50",
+            "imageSrc": "/img/CA-0353.jpg",
+            "category": "HF BIG BT",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "[GREEN] HF BIG BT GLBY CA-0353",
+            "price": "29.50",
+            "imageSrc": "/img/CA-0353.jpg",
+            "category": "HF BIG BT",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "[ORANGE] HF BIG BT GLBY CA-0353",
+            "price": "29.50",
+            "imageSrc": "/img/CA-0353.jpg",
+            "category": "HF BIG BT",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },       
+        {
+            "name": "[PURPLE] HF BIG BT GLBY CA-0353",
+            "price": "29.50",
+            "imageSrc": "/img/CA-0353.jpg",
+            "category": "HF BIG BT",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },         
+        {
+            "name": "HF BIG BT GLBY CA-0353",
+            "price": "29.50",
+            "imageSrc": "/img/CA-0353.jpg",
+            "category": "HF BIG BT",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
             "name": "CAR BASLIQ PD 48W EUROACS EU-MC445 QC",
             "price": "7.50",
             "imageSrc": "/img/eu-mc442.jpg",
@@ -13181,7 +13391,7 @@
         },
         {
             "name": "HF BIG BT JBL MSL-710",
-            "price": "12",
+            "price": "9",
             "imageSrc": "/img/msl-710.jpg",
             "category": "HF BIG BT",
             "brand": "JBL",
