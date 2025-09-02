@@ -1,6 +1,106 @@
 {
     "products": [
         {
+            "name": "LED PLOKAMA PK-360 + HOLDER",
+            "price": "18",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 13.02.34_9062e8dd.jpg",
+            "category": "Led işıq",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "LED PLOKAMA PK-330 +HOLDER",
+            "price": "15",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 13.01.33_dfa006a3.jpg",
+            "category": "Led işıq",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },  
+        {
+            "name": "LED PLOKAMA LIVE R56SM PRO RGB+3HOLDER",
+            "price": "65",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 13.00.40_46cf1546.jpg",
+            "category": "Led işıq",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },  
+        {
+            "name": "LED PLOKAMA LIVE R45SM PRO RGB+3HOLDER",
+            "price": "50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 12.59.20_dd5dbcf0.jpg",
+            "category": "Led işıq",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },     
+        {
+            "name": "SELFIE LED PLOKAMA U80 PRO RGB",
+            "price": "16",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 13.04.23_54dc4363.jpg",
+            "category": "Led işıq",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "SELFIE LED PLOKAMA U20 PRO RGB",
+            "price": "9.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 13.03.23_1d0f3bec.jpg",
+            "category": "Led işıq",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },           
+        {
+            "name": "LED 45SM RGB+HOLDER",
+            "price": "42",
+            "imageSrc": "/img/LED-45SM.jpg",
+            "category": "Led işıq",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "LED 56SM RGB+HOLDER",
+            "price": "57",
+            "imageSrc": "/img/LED 56SM.jpg",
+            "category": "Led işıq",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "LED 36SM RGB+HOLDER",
+            "price": "15",
+            "imageSrc": "/img/led36.jpg",
+            "category": "Led işıq",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "LED 30SM RGB+HOLDER",
+            "price": "12",
+            "imageSrc": "/img/led30sm.jpg",
+            "category": "Led işıq",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },                        
+        {
             "name": "TWS EUROACS EA-PRO2",
             "price": "19.50",
             "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 17.32.18_faeebb3d.jpg",
