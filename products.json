@@ -1,6 +1,285 @@
 {
     "products": [
         {
+            "name": "TWS EUROACS EA-PRO2",
+            "price": "19.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 17.32.18_faeebb3d.jpg",
+            "category": "Digər airpodslar",
+            "group": "Airpods",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },   
+        {
+            "name": "TWS ONIKUMA P12",
+            "price": "18",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-02 saat 14.46.43_651e1422.jpg",
+            "category": "Digər airpodslar",
+            "group": "Airpods",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },                  
+        {
+            "name": "KAMERA PTZ EUROACS EU-RC4 OUTDOOR HD",
+            "price": "48.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 17.30.36_37b4ad41.jpg",
+            "category": "Qarışıq məhsullar",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "PRINTER MINI A35 INKLESS WITH 2 TERMAL PAPER",
+            "price": "20",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 16.25.00_46b2743b.jpg",
+            "category": "Qarışıq məhsullar",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "DVR CAR DASH CAM T717 WITH 3 CAMERA NO WIFI",
+            "price": "25",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 16.23.02_3af24a89.jpg",
+            "category": "Qarışıq məhsullar",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "DVR CAR DASH CAM A16 WITH 3 CAMERA WIFI ",
+            "price": "35",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 16.21.57_e2d6eb24.jpg",
+            "category": "Qarışıq məhsullar",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "DIGITAL CAMERA KIDS AM300 WITH 2 TERMAL PAPER",
+            "price": "34",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 16.19.50_4b238335.jpg",
+            "category": "Qarışıq məhsullar",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "CAMERA DIGITAL RETRO CCD VIDEO RECORDER Y02",
+            "price": "35",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 15.59.07_e59f5f1d.jpg",
+            "category": "Qarışıq məhsullar",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "TWS G39 LABIRINT",
+            "price": "15",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 15.52.34_73535524.jpg",
+            "category": "Digər airpodslar",
+            "group": "Airpods",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "POWERBANK 5000 DISPLAY WITH TWS",
+            "price": "40",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 15.23.37_cdfaae9b.jpg",
+            "category": "Digər airpodslar",
+            "group": "Airpods",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "CHARGER PD 35W APPLE 16 PM C",
+            "price": "15",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 15.22.42_ff83ecb0.jpg",
+            "category": "Adapterlər",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "CHARGER PD 35W APPLE 16 PM C",
+            "price": "15",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 15.22.42_ff83ecb0.jpg",
+            "category": "Adapterlər",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "CHARGER USB 100W HONOR HN2100 C",
+            "price": "12",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 15.10.58_0e193c5a.jpg",
+            "category": "Adapterlər",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "CHARGER USB 66W HONOR HN2066 C",
+            "price": "10",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-02 saat 14.46.13_729428b9.jpg",
+            "category": "Adapterlər",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },         
+        {
+            "name": "CHARGER PD 25W SAMSUNG TA8610 C",
+            "price": "5.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-02 saat 14.45.50_e38fe0ba.jpg",
+            "category": "Adapterlər",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "CHARGER PD 25W SAMSUNG TA8620 C",
+            "price": "10",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 15.09.08_45bf0e3e.jpg",
+            "category": "Adapterlər",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "CHARGER PD 25W SAMSUNG ORIGILAN NEW C",
+            "price": "15",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 15.07.51_f94ba37e.jpg",
+            "category": "Adapterlər",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "CABLE PD APPLE MM34 C",
+            "price": "4.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 15.04.28_deb550d4.jpg",
+            "category": "Cable",
+            "brand": "Apple",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "CABLE PD APPLE LONG C",
+            "price": "3",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 15.03.37_a4807dc8.jpg",
+            "category": "Cable",
+            "brand": "Apple",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },  
+        {
+            "name": "CABLE PD APPLE 2IN1",
+            "price": "5",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 15.02.55_2764c633.jpg",
+            "category": "Cable",
+            "brand": "Apple",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },  
+        {
+            "name": "CABLE PD APPLE 16 PRO MAX C",
+            "price": "8",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 15.01.35_5b4156ab.jpg",
+            "category": "Cable",
+            "brand": "Apple",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "BASLIQ PD 45W SAMSUNG ORIGINAL NFC NEW",
+            "price": "25",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 15.00.19_a7c8e729.jpg",
+            "category": "Samsung basliq",
+            "group": "Basliq",
+            "brand": "Samsung",
+            "pinned": false,
+            "hasNew": false
+        },         
+        {
+            "name": "BASLIQ PD 25W SAMSUNG TA2530 ",
+            "price": "7",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 14.58.43_e5fb3666.jpg",
+            "category": "Samsung basliq",
+            "group": "Basliq",
+            "brand": "Samsung",
+            "pinned": false,
+            "hasNew": false
+        },  
+        {
+            "name": "BASLIQ PD 25W SAMSUNG TA800 ORG",
+            "price": "9",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 14.57.51_01dd498a.jpg",
+            "category": "Samsung basliq",
+            "group": "Basliq",
+            "brand": "Samsung",
+            "pinned": false,
+            "hasNew": false
+        },  
+        {
+            "name": "BASLIQ PD 25w SAMSUNG ORIGINAL NFC NEW",
+            "price": "16",
+            "imageSrc": "/img/SAMSUNG-CHARGER-ORIGINAL-NFC-NEW.jpg",
+            "category": "Samsung basliq",
+            "group": "Basliq",
+            "brand": "Samsung",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "BASLIQ PD 25W SAMSUNG ORIGINAL NEW",
+            "price": "12",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 14.51.56_14c01769.jpg",
+            "category": "Samsung basliq",
+            "group": "Basliq",
+            "brand": "Samsung",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "BASLIQ PD 20W APPLE A2347",
+            "price": "5",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 14.50.20_66a61102.jpg",
+            "category": "Apple basliq",
+            "group": "Basliq",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "SELFIE STICK PLOKAMA K5 WITH LED",
+            "price": "10",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 13.10.09_1ba30a34.jpg",
+            "category": "Qarışıq məhsullar",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },  
+        {
             "name": "SESGUCLENDIRICI X-911 MIX COLOR",
             "price": "10",
             "imageSrc": "/img/WhatsApp Şəkil 2025-08-25 saat 15.04.22_f305cc86.jpg",
@@ -272,7 +551,7 @@
         },
         {
             "name": "BASLIQ PD 45W SAMSUNG ORIGINAL NEW",
-            "price": "18",
+            "price": "16",
             "imageSrc": "/img/45W-ORIGINAL-NEW.jpg",
             "category": "Samsung basliq",
             "group": "Basliq",
@@ -284,16 +563,6 @@
             "name": "BASLIQ PD SAMSUNG TA4550",
             "price": "5.50",
             "imageSrc": "/img/TA4550.jpg",
-            "category": "Samsung basliq",
-            "group": "Basliq",
-            "brand": "Samsung",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "BASLIQ PD 20W SAMSUNG ORIGINAL NFC NEW",
-            "price": "20",
-            "imageSrc": "/img/SAMSUNG-CHARGER-ORIGINAL-NFC-NEW.jpg",
             "category": "Samsung basliq",
             "group": "Basliq",
             "brand": "Samsung",
@@ -2530,16 +2799,6 @@
             "hasNew": false
         },
         {
-            "name": "LED 45SM RGB+HOLDER",
-            "price": "42",
-            "imageSrc": "/img/LED-45SM.jpg",
-            "category": "Qarışıq məhsullar",
-            "brand": "",
-            "discount": "",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
             "name": "HOLDER CAR VACUUM RT666",
             "price": "5.50",
             "imageSrc": "/img/rt666.jpg",
@@ -2556,16 +2815,6 @@
             "imageSrc": "/img/rt663.jpg",
             "category": "Car Holder",
             "group": "Avtomobil aksesuarları",
-            "brand": "",
-            "discount": "",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "LED 56SM RGB+HOLDER",
-            "price": "57",
-            "imageSrc": "/img/LED 56SM.jpg",
-            "category": "Qarışıq məhsullar",
             "brand": "",
             "discount": "",
             "pinned": false,
@@ -4410,26 +4659,6 @@
             "category": "Mouse",
             "brand": "Mikuso",
             "pinned": true,
-            "hasNew": false
-        },
-        {
-            "name": "LED 36SM RGB+HOLDER",
-            "price": "15",
-            "imageSrc": "/img/led36.jpg",
-            "category": "Qarışıq məhsullar",
-            "brand": "",
-            "discount": "",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "LED 30SM RGB+HOLDER",
-            "price": "12",
-            "imageSrc": "/img/led30sm.jpg",
-            "category": "Qarışıq məhsullar",
-            "brand": "",
-            "discount": "",
-            "pinned": false,
             "hasNew": false
         },
         {
@@ -11231,7 +11460,7 @@
             "hasNew": false
         },
         {
-            "name": "BASLIQ PD 25W SAMSUNG ORG ",
+            "name": "BASLIQ PD 25W SAMSUNG ORG",
             "price": "12",
             "imageSrc": "/img/25w-org.jpg",
             "category": "Samsung basliq",
@@ -12659,7 +12888,7 @@
         },
         {
             "name": "BASLIQ PD 20W APPLE MH32",
-            "price": "9",
+            "price": "7",
             "imageSrc": "/img/mh32.jpg",
             "category": "Apple basliq",
             "group": "Basliq",
