@@ -1,6 +1,326 @@
 {
     "products": [
         {
+            "name": "SAAT SMART HD40 ULTRA LUXURY GOLD STRAP 2IN1",
+            "price": "14",
+            "imageSrc": "/img/IMG-20250529-WA0027.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART HG9 MAX BLACK STRAP 7IN1",
+            "price": "19",
+            "imageSrc": "/img/IMG-20250908-WA0022.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART HG9 MAX SILVER STRAP 7IN1",
+            "price": "19",
+            "imageSrc": "/img/IMG-20250908-WA0022.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART HK10 ULTRA AMOLED BLACK STRAP BLACK",
+            "price": "35",
+            "imageSrc": "/img/IMG-20250425-WA0045.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART HW10 PRO AMOLED BLACK STRAP 2IN1",
+            "price": "19.5",
+            "imageSrc": "IMG-20250908-WA0021.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART KW02 ULTRA GOLD STRAP 11IN1",
+            "price": "19",
+            "imageSrc": "/img/IMG-20250908-WA0020.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART S10 ULTRA 2 BLACK 7IN1",
+            "price": "17",
+            "imageSrc": "/img/IMG-20250908-WA0023.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART T SERIES 10 BLACK STRAP 2IN1",
+            "price": "11.5",
+            "imageSrc": "/img/IMG-20250718-WA0019.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART T SERIES 10 GOLD STRAP 2IN1",
+            "price": "11.5",
+            "imageSrc": "/img/IMG-20250718-WA0019.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART T SERIES 10 SILVER STRAP 2IN1",
+            "price": "11.5",
+            "imageSrc": "/img/IMG-20250718-WA0019.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART T20 ULTRA 2 BLACK 4IN1",
+            "price": "15",
+            "imageSrc": "/img/IMG-20250908-WA0026.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART T214 GOLD STRAP METAL GOLD L-Y",
+            "price": "42",
+            "imageSrc": "/img/IMG-20250908-WA0025.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART T214 SILVER STRAP METAL SILVER L-Y",
+            "price": "40",
+            "imageSrc": "/img/IMG-20250908-WA0025.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART V59 4IN1 WITH GAMING GIFT BOX",
+            "price": "29.5",
+            "imageSrc": "/img/IMG-20250509-WA0029.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART WISME 7 ULTRA BLACK STRAP BLACK",
+            "price": "49",
+            "imageSrc": "/img/IMG-20250908-WA0024.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART WISME 7 ULTRA SILVER STRAP WHITE",
+            "price": "49",
+            "imageSrc": "/img/IMG-20250908-WA0024.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART WISME X18 MINI 3+2 BLACK",
+            "price": "32",
+            "imageSrc": "/img/IMG-20250404-WA0116.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART WISME X19 ULTRA3 5+2 BLACK",
+            "price": "28",
+            "imageSrc": "/img/IMG-20250404-WA0112.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART WS-19 BLACK AMOLED",
+            "price": "40",
+            "imageSrc": "/img/IMG-20250908-WA0030.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART WS-19 GOLD AMOLED",
+            "price": "40",
+            "imageSrc": "/img/IMG-20250908-WA0030.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART WS-25 MINI BLACK 4+1",
+            "price": "25",
+            "imageSrc": "/img/IMG-20250908-WA0027.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART WS-25 MINI PINK 4+1",
+            "price": "25",
+            "imageSrc": "/img/IMG-20250908-WA0027.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART WS-26 BLACK 3 STRAP",
+            "price": "30",
+            "imageSrc": "/img/IMG-20250908-WA0029.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART WS-80 ULTRA 2 BLACK 7+2",
+            "price": "26",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-08 saat 21.11.19_253d6447.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART WS-83 MAX BLACK 7+2 H",
+            "price": "28",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-08 saat 21.11.19_e570c4e9.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART WS-X12 SERIES 10 BLACK STRAP 3+1",
+            "price": "34",
+            "imageSrc": "/img/IMG-20250908-WA0055.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART WS-X12 SERIES 10 SILVER STRAP 3+1",
+            "price": "34",
+            "imageSrc": "/img/IMG-20250908-WA0055.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART X90 ULTRA LUXURY GOLD STRAP 2IN1",
+            "price": "15",
+            "imageSrc": "/img/IMG-20250908-WA0057.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART Y36 ULTRA BLACK STRAP 6IN2 BIG H BLACK",
+            "price": "19.5",
+            "imageSrc": "/img/IMG-20250718-WA0008.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART Y-50 SUIT MAX 13IN1 GIFT BOX",
+            "price": "34",
+            "imageSrc": "/img/IMG-20250509-WA0031.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART Z ULTRA BLACK STRAP BLACK",
+            "price": "29",
+            "imageSrc": "/img/IMG-20250908-WA0056.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAAT SMART Z93 PRO BLACK STRAP BLACK",
+            "price": "25",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-08 saat 21.11.20_f6fe4b95.jpg",
+            "category": "Kampaniya",
+            "brand": "",
+            "discount": "30",
+            "pinned": "false",
+            "hasNew": "false"
+        },        
+        {
             "name": "LED PLOKAMA PK-360 + HOLDER",
             "price": "18",
             "imageSrc": "/img/WhatsApp Şəkil 2025-09-01 saat 13.02.34_9062e8dd.jpg",
