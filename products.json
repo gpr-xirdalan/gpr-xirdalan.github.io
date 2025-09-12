@@ -1,6 +1,252 @@
 {
     "products": [
         {
+            "name": "BASLIQ PD 20W APPLE 100% ORIGINAL",
+            "price": "35",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-11 saat 11.22.20_337d3697.jpg",
+            "category": "Apple basliq",
+            "group": "Basliq",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },         
+        {
+            "name": "POPSOCKET LABUBU MIRROR BZ-3058 ",
+            "price": "2",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-12 saat 11.56.04_85705332.jpg",
+            "category": "Qarışıq məhsullar",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },         
+        {
+            "name": "STICKER LABUBU BZ-3059",
+            "price": "1.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-10 saat 16.59.59_dc6b410a.jpg",
+            "category": "Qarışıq məhsullar",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },           
+        {
+            "name": "STIKER BZ-3060 POPIT",
+            "price": "1.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-09 saat 18.00.44_5b9f43ce.jpg",
+            "category": "Qarışıq məhsullar",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },         
+        {
+            "name": "HF L  APPLE 14 PRO MAX K194 ",
+            "price": "3.5",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-09 saat 14.13.53_b05ea084.jpg",
+            "category": "Simli qulaqlıqlar",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },         
+        {
+            "name": "HF L APPLE 14 PRO MAX K182",
+            "price": "3.5",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-09 saat 14.13.27_31dc7781.jpg",
+            "category": "Simli qulaqlıqlar",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "HF C APPLE 16 PRO MAX K193",
+            "price": "3.5",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-09 saat 14.11.50_adae0fe2.jpg",
+            "category": "Simli qulaqlıqlar",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "HF C APPLE 16 PRO MAX K181 ",
+            "price": "3.5",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-09 saat 14.11.13_0a0cf61f.jpg",
+            "category": "Simli qulaqlıqlar",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "HF C MI M24 ORIGINAL",
+            "price": "5",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-09 saat 14.12.26_ce13a4dc.jpg",
+            "category": "Simli qulaqlıqlar",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "HF C SAMSUNG ORIGINAL ",
+            "price": "6",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-09 saat 14.10.05_90199a61.jpg",
+            "category": "Simli qulaqlıqlar",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },         
+        {
+            "name": "HF C SAMSUNG IC9501L",
+            "price": "4",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-09 saat 14.08.58_b4287959.jpg",
+            "category": "Simli qulaqlıqlar",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },          
+        {
+            "name": "HF 3.5MM SAMGUNG ORIGINAL",
+            "price": "5",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-09 saat 14.08.23_38d86811.jpg",
+            "category": "Simli qulaqlıqlar",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },         
+        {
+            "name": "HF 3.5MM SAMSUNG IC8501 ",
+            "price": "3",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-09 saat 14.06.39_bc308092.jpg",
+            "category": "Simli qulaqlıqlar",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "HOLDER CAR WIRELESS AIR F18",
+            "price": "27",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-08 saat 17.58.11_18c5e9b4.jpg",
+            "category": "Car Holder",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "COOLER S10",
+            "price": "4",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-08 saat 17.54.46_56c0eb59.jpg",
+            "category": "Cooler",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },         
+        {
+            "name": "COOLER JS120 TYPE-C",
+            "price": "11.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-08 saat 17.54.06_14eed609.jpg",
+            "category": "Cooler",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "COOLER CX06-LCD",
+            "price": "15",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-08 saat 17.52.17_b0b115ec.jpg",
+            "category": "Cooler",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "SESGUCLENDIRICI KBROAD KTS-2119 5W WATERPROOF BLK ",
+            "price": "8",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-08 saat 11.57.29_ec2545f5.jpg",
+            "category": "Sesguclendirici",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "SESGUCLENDIRICI GREATNICE GTS-2088 20W 4'x2 MIC",
+            "price": "35",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-08 saat 11.54.47_8599aa53.jpg",
+            "category": "Sesguclendirici",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },         
+        {
+            "name": "SESGUCLENDIRICI KBROAD KTS-2142 40W 8'x3 2MIC ",
+            "price": "95",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-05 saat 12.51.35_9f244a1e.jpg",
+            "category": "Sesguclendirici",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },         
+        {
+            "name": "SESGUCLENDIRICI KBROAD KTS-2143 40W RGB 8''x3 2MIC",
+            "price": "105",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-05 saat 12.43.10_64f60b18.jpg",
+            "category": "Sesguclendirici",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },           
+        {
+            "name": "SESGUCLENDIRICI BRODU BTS-2250 60W 8'' 2MIC+REM ",
+            "price": "140",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-05 saat 11.48.53_ac8b39db.jpg",
+            "category": "Sesguclendirici",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "DOLL BZ-3027 LABUBU ",
+            "price": "12",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-05 saat 11.39.03_5fc8ba49.jpg",
+            "category": "Qarışıq məhsullar",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },          
+        {
+            "name": "DOLL BZ-3028 LABUBU COCA COLA ",
+            "price": "15",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-05 saat 11.38.34_7f615801.jpg",
+            "category": "Qarışıq məhsullar",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+       {
+            "name": "CHARGER PD 20W APPLE MH003 L",
+            "price": "9.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-03 saat 14.23.00_646d8de1.jpg",
+            "category": "Adapterlər",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
             "name": "SAAT SMART HD40 ULTRA LUXURY GOLD STRAP 2IN1",
             "price": "14",
             "imageSrc": "/img/IMG-20250529-WA0027.jpg",
