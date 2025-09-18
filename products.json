@@ -1,6 +1,176 @@
 {
     "products": [
         {
+            "name": "VINIL V-7060",
+            "price": "2.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-15 saat 12.29.49_2675db41.jpg",
+            "category": "Vinil",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "VINIL V-7060",
+            "price": "2.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-15 saat 12.29.49_2675db41 - Copy.jpg",
+            "category": "Vinil",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "VINIL V-7066 LEON",
+            "price": "2.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-15 saat 11.37.26_d2602a99.jpg",
+            "category": "Vinil",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "VINIL V-7059 MERMER",
+            "price": "2.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-15 saat 11.34.50_f04d9533.jpg",
+            "category": "Vinil",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "VINIL V-7050",
+            "price": "2.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-15 saat 11.33.30_ca9a720c.jpg",
+            "category": "Vinil",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "VINIL V-7050",
+            "price": "2.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-15 saat 11.33.30_ca9a720c - Copy.jpg",
+            "category": "Vinil",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "VINIL V-7050",
+            "price": "2.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-15 saat 11.33.30_ca9a720c - Copy (4).jpg",
+            "category": "Vinil",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "VINIL V-7050",
+            "price": "2.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-15 saat 11.33.30_ca9a720c - Copy (3).jpg",
+            "category": "Vinil",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "VINIL V-7050",
+            "price": "2.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-15 saat 11.33.30_ca9a720c - Copy (2).jpg",
+            "category": "Vinil",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "VINIL V-7048",
+            "price": "2.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-15 saat 11.29.51_d2e1ce85.jpg",
+            "category": "Vinil",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "VINIL V-7048",
+            "price": "2.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-15 saat 11.29.51_d2e1ce85 - Copy.jpg",
+            "category": "Vinil",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "VINIL V-7048",
+            "price": "2.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-15 saat 11.29.51_d2e1ce85 - Copy (4).jpg",
+            "category": "Vinil",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "VINIL V-7048",
+            "price": "2.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-15 saat 11.29.51_d2e1ce85 - Copy (3).jpg",
+            "category": "Vinil",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "VINIL V-7048",
+            "price": "2.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-15 saat 11.29.51_d2e1ce85 - Copy (2).jpg",
+            "category": "Vinil",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "VINIL V-7028 MAGSAFE ",
+            "price": "2.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-15 saat 11.27.41_6e692b69 - Copy (2).jpg",
+            "category": "Vinil",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "VINIL V-7028 MAGSAFE ",
+            "price": "2.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-15 saat 11.27.41_6e692b69.jpg",
+            "category": "Vinil",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "VINIL V-7028 MAGSAFE ",
+            "price": "2.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-15 saat 11.27.41_6e692b69 - Copy.jpg",
+            "category": "Vinil",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
             "name": "BASLIQ PD 20W APPLE 100% ORIGINAL",
             "price": "35",
             "imageSrc": "/img/WhatsApp Şəkil 2025-09-11 saat 11.22.20_337d3697.jpg",
