@@ -1,6 +1,175 @@
 {
     "products": [
         {
+            "name": "OTURUCU L TO AUX JOKADE JA108 BK",
+            "price": "3",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-17 saat 10.40.13_0623053a.jpg",
+            "category": "Oturucu (OTG, AUX)",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "CHARGER USB QC JOKADE JB098 C",
+            "price": "4",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-17 saat 10.33.51_a39192b4.jpg",
+            "category": "Adapterlər",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "CHARGER USB QC JOKADE JB098 M",
+            "price": "4",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-17 saat 10.33.51_a39192b4.jpg",
+            "category": "Adapterlər",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },         
+        {
+            "name": "CHARGER PD 45W JOKADE JB108 L",
+            "price": "5.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-17 saat 10.30.28_4af34ee9.jpg",
+            "category": "Adapterlər",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },  
+        {
+            "name": "CHARGER PD 45W JOKADE JB108 C",
+            "price": "5",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-17 saat 10.30.28_4af34ee9.jpg",
+            "category": "Adapterlər",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },          
+        {
+            "name": "CAR BASLIQ PD 90W JOKADE JH047 USB QC",
+            "price": "4",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-17 saat 10.25.51_c43f0f46.jpg",
+            "category": "Car charger",
+            "brand": "Jokade",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "CAR BASLIQ PD 100W JOKADE JH052 USB QC",
+            "price": "19",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-17 saat 10.25.29_7972a018.jpg",
+            "category": "Car charger",
+            "brand": "Jokade",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "CAR BASLIQ PD 100W JOKADE JH052 USB QC",
+            "price": "19",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-17 saat 10.25.29_7972a018.jpg",
+            "category": "Car charger",
+            "brand": "Jokade",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "CABLE USB SILICON JOKADE JA054 C",
+            "price": "2",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-17 saat 09.47.08_9e7e90af.jpg",
+            "category": "Cable",
+            "brand": "Jokade",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "CABLE USB SILICON JOKADE JA054 L",
+            "price": "2",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-17 saat 09.47.08_9e7e90af.jpg",
+            "category": "Cable",
+            "brand": "Jokade",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "CABLE USB SILICON JOKADE JA054 M",
+            "price": "1.80",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-17 saat 09.47.08_9e7e90af.jpg",
+            "category": "Cable",
+            "brand": "Jokade",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },                
+        {
+            "name": "CABLE USB JOKADE JA049 C",
+            "price": "2.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-17 saat 09.45.52_15519e63.jpg",
+            "category": "Cable",
+            "brand": "Jokade",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "CABLE USB JOKADE JA049 L",
+            "price": "2.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-17 saat 09.45.52_15519e63.jpg",
+            "category": "Cable",
+            "brand": "Jokade",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },         
+        {
+            "name": "CABLE 2 METR USB JOKADE JA041 MIKRO",
+            "price": "1.80",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-17 saat 09.40.02_245235ea.jpg",
+            "category": "Cable",
+            "brand": "Jokade",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "CABLE 2 METR USB JOKADE JA041 TYPE-C",
+            "price": "2",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-17 saat 09.40.02_245235ea - Copy.jpg",
+            "category": "Cable",
+            "brand": "Jokade",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "POCKET 3061",
+            "price": "3",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-16 saat 10.51.56_3cc33117.jpg",
+            "category": "Qarışıq məhsullar",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },          
+        {
+            "name": "CAR CHARGER PD 68W EUROACS EU-MC440 USB",
+            "price": "17",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-15 saat 17.35.13_6fea7a56.jpg",
+            "category": "Car charger",
+            "brand": "Euroacs",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
             "name": "VINIL V-7060",
             "price": "2.50",
             "imageSrc": "/img/WhatsApp Şəkil 2025-09-15 saat 12.29.49_2675db41.jpg",
