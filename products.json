@@ -1,6 +1,105 @@
 {
     "products": [
         {
+            "name": "[IPH 14 PRO/PRO MAX] GLASS CAMERA EUROACS-G3",
+            "price": "3.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-11 saat 09.46.29_7e6039e7.jpg",
+            "category": "Camera glass",
+            "brand": "Euroacs",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "[IPH 15 PRO/PRO MAX] GLASS CAMERA EUROACS-G3",
+            "price": "3.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-11 saat 09.46.29_7e6039e7.jpg",
+            "category": "Camera glass",
+            "brand": "Euroacs",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "[IPH 15/15 PLUS] GLASS CAMERA EUROACS-G3",
+            "price": "3.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-11 saat 09.46.29_7e6039e7.jpg",
+            "category": "Camera glass",
+            "brand": "Euroacs",
+            "pinned": "false",
+            "hasNew": "false"
+        },        
+        {
+            "name": "[IPH 16 PRO/PRO MAX] GLASS CAMERA EUROACS-G3",
+            "price": "3.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-11 saat 09.46.29_7e6039e7.jpg",
+            "category": "Camera glass",
+            "brand": "Euroacs",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "[IPH 16/16 PLUS] GLASS CAMERA EUROACS-G3",
+            "price": "3.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-11 saat 09.46.29_7e6039e7.jpg",
+            "category": "Camera glass",
+            "brand": "Euroacs",
+            "pinned": "false",
+            "hasNew": "false"
+        }, 
+        {
+            "name": "[SAM S24] GLASS CAMERA EUROACS-G3",
+            "price": "4",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-11 saat 09.46.29_7e6039e7.jpg",
+            "category": "Camera glass",
+            "brand": "Euroacs",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "[SAM S24 PLUS] GLASS CAMERA EUROACS-G3",
+            "price": "3.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-11 saat 09.46.29_7e6039e7.jpg",
+            "category": "Camera glass",
+            "brand": "Euroacs",
+            "pinned": "false",
+            "hasNew": "false"
+        }, 
+        {
+            "name": "[SAM S24 ULTRA] GLASS CAMERA EUROACS-G3",
+            "price": "3.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-11 saat 09.46.29_7e6039e7.jpg",
+            "category": "Camera glass",
+            "brand": "Euroacs",
+            "pinned": "false",
+            "hasNew": "false"
+        },           
+        {
+            "name": "[SAM S25] GLASS CAMERA EUROACS-G3",
+            "price": "3.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-11 saat 09.46.29_7e6039e7.jpg",
+            "category": "Camera glass",
+            "brand": "Euroacs",
+            "pinned": "false",
+            "hasNew": "false"
+        }, 
+        {
+            "name": "[SAM S25 PLUS] GLASS CAMERA EUROACS-G3",
+            "price": "3.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-11 saat 09.46.29_7e6039e7.jpg",
+            "category": "Camera glass",
+            "brand": "Euroacs",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "[SAM S25 ULTRA] GLASS CAMERA EUROACS-G3",
+            "price": "3.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-11 saat 09.46.29_7e6039e7.jpg",
+            "category": "Camera glass",
+            "brand": "Euroacs",
+            "pinned": "false",
+            "hasNew": "false"
+        },                                  
+        {
             "name": "GLASS BIO HD EUROACS SAM A07",
             "price": "1.6",
             "imageSrc": "/img/bio-hd.png",
