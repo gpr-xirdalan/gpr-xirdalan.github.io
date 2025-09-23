@@ -1,6 +1,122 @@
 {
     "products": [
         {
+            "name": "GLASS BIO HD EUROACS SAM A07",
+            "price": "1.6",
+            "imageSrc": "/img/bio-hd.png",
+            "category": "Şüşə BIO HD",
+            "group": "Şüşə",
+            "brand": "Euroacs",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS BIO HD EUROACS SAM A17",
+            "price": "1.6",
+            "imageSrc": "/img/bio-hd.png",
+            "category": "Şüşə BIO HD",
+            "group": "Şüşə",
+            "brand": "Euroacs",
+            "pinned": "false",
+            "hasNew": "false"
+        },                
+        {
+            "name": "GLASS TIGER HD SAM A07",
+            "price": "1.20",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },  
+        {
+            "name": "GLASS TIGER HD SAM A17",
+            "price": "1.20",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },                
+        {
+            "name": "GLASS TIGER PRIVACY IPH 17",
+            "price": "2",
+            "imageSrc": "/img/tiger-privacy.png",
+            "category": "Şüşə Tiger Privacy",
+            "group": "Şüşə",
+            "brand": "TIGER PRIVACY",
+            "pinned": "false",
+            "hasNew": "false"
+        }, 
+        {
+            "name": "GLASS TIGER PRIVACY IPH 17 PRO",
+            "price": "2",
+            "imageSrc": "/img/tiger-privacy.png",
+            "category": "Şüşə Tiger Privacy",
+            "group": "Şüşə",
+            "brand": "TIGER PRIVACY",
+            "pinned": "false",
+            "hasNew": "false"
+        },   
+        {
+            "name": "GLASS TIGER PRIVACY IPH 17 PRO MAX",
+            "price": "2",
+            "imageSrc": "/img/tiger-privacy.png",
+            "category": "Şüşə Tiger Privacy",
+            "group": "Şüşə",
+            "brand": "TIGER PRIVACY",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER PRIVACY IPH 17 AIR",
+            "price": "2",
+            "imageSrc": "/img/tiger-privacy.png",
+            "category": "Şüşə Tiger Privacy",
+            "group": "Şüşə",
+            "brand": "TIGER PRIVACY",
+            "pinned": "false",
+            "hasNew": "false"
+        },                                   
+        {
+            "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 17",
+            "price": "3.50",
+            "imageSrc": "/img/magsafe-case.png",
+            "category": "Case (Kabura)",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },  
+        {
+            "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 17 PRO",
+            "price": "3.50",
+            "imageSrc": "/img/magsafe-case.png",
+            "category": "Case (Kabura)",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        }, 
+        {
+            "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 17 PRO MAX",
+            "price": "3.50",
+            "imageSrc": "/img/magsafe-case.png",
+            "category": "Case (Kabura)",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },  
+        {
+            "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 17 AIR",
+            "price": "3.50",
+            "imageSrc": "/img/magsafe-case.png",
+            "category": "Case (Kabura)",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },                             
+        {
             "name": "OTURUCU L TO AUX JOKADE JA108 BK",
             "price": "3",
             "imageSrc": "/img/WhatsApp Şəkil 2025-09-17 saat 10.40.13_0623053a.jpg",
@@ -7317,6 +7433,286 @@
             "hasNew": "false"
         },
         {
+            "name": "GLASS TIGER HD IPH 11 PRO/X/XS",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 11/IPH XR",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 12 MINI",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 12 PRO MAX",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 12/12 PRO",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 13 MINI",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 13 PRO MAX",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 13/13 PRO",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 14",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 14 PLUS",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 14 PRO",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 14 PRO MAX",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 15",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 15 PRO",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 15 PRO MAX",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 15+",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 16",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 16 PLUS",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 16 PRO",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 16 PRO MAX",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 5G",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 5G WHITE",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 6G",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 6G WHITE",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 6G+/7G+/8G+",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 6G+/7G+/8G+ WHITE",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 7G/8G",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 7G/8G WHITE",
+            "price": "0.9",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },        
+        {
             "name": "GLASS TIGER HD HONOR 10 LITE",
             "price": "0.9",
             "imageSrc": "/img/tiger-hd.png",
@@ -7508,286 +7904,6 @@
         },
         {
             "name": "GLASS TIGER HD IPH 11 PRO MAX",
-            "price": "0.9",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 11 PRO/X/XS",
-            "price": "0.9",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 11/IPH XR",
-            "price": "0.9",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 12 MINI",
-            "price": "0.9",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 12 PRO MAX",
-            "price": "0.9",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 12/12 PRO",
-            "price": "0.9",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 13 MINI",
-            "price": "0.9",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 13 PRO MAX",
-            "price": "0.9",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 13/13 PRO",
-            "price": "0.9",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 14",
-            "price": "0.9",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 14 PLUS",
-            "price": "0.9",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 14 PRO",
-            "price": "0.9",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 14 PRO MAX",
-            "price": "0.9",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 15",
-            "price": "0.9",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 15 PRO",
-            "price": "0.9",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 15 PRO MAX",
-            "price": "0.9",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 15+",
-            "price": "0.9",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 16",
-            "price": "1.5",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 16 PLUS",
-            "price": "1.5",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 16 PRO",
-            "price": "1.5",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 16 PRO MAX",
-            "price": "1.5",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 5G",
-            "price": "0.9",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 5G WHITE",
-            "price": "0.9",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 6G",
-            "price": "0.9",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 6G WHITE",
-            "price": "0.9",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 6G+/7G+/8G+",
-            "price": "0.9",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 6G+/7G+/8G+ WHITE",
-            "price": "0.9",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 7G/8G",
-            "price": "0.9",
-            "imageSrc": "/img/tiger-hd.png",
-            "category": "Şüşə Tiger HD",
-            "group": "Şüşə",
-            "brand": "TIGER HD",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER HD IPH 7G/8G WHITE",
             "price": "0.9",
             "imageSrc": "/img/tiger-hd.png",
             "category": "Şüşə Tiger HD",
@@ -10687,106 +10803,6 @@
             "hasNew": "false"
         },
         {
-            "name": "GLASS TIGER PRIVACY HONOR 200 LITE",
-            "price": "1.4",
-            "imageSrc": "/img/tiger-privacy.png",
-            "category": "Şüşə Tiger Privacy",
-            "group": "Şüşə",
-            "brand": "TIGER PRIVACY",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER PRIVACY HONOR X5B",
-            "price": "1.4",
-            "imageSrc": "/img/tiger-privacy.png",
-            "category": "Şüşə Tiger Privacy",
-            "group": "Şüşə",
-            "brand": "TIGER PRIVACY",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER PRIVACY HONOR X5B PLUS",
-            "price": "1.4",
-            "imageSrc": "/img/tiger-privacy.png",
-            "category": "Şüşə Tiger Privacy",
-            "group": "Şüşə",
-            "brand": "TIGER PRIVACY",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER PRIVACY HONOR X6B",
-            "price": "1.4",
-            "imageSrc": "/img/tiger-privacy.png",
-            "category": "Şüşə Tiger Privacy",
-            "group": "Şüşə",
-            "brand": "TIGER PRIVACY",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER PRIVACY HONOR X7A",
-            "price": "1.4",
-            "imageSrc": "/img/tiger-privacy.png",
-            "category": "Şüşə Tiger Privacy",
-            "group": "Şüşə",
-            "brand": "TIGER PRIVACY",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER PRIVACY HONOR X7B",
-            "price": "1.4",
-            "imageSrc": "/img/tiger-privacy.png",
-            "category": "Şüşə Tiger Privacy",
-            "group": "Şüşə",
-            "brand": "TIGER PRIVACY",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER PRIVACY HONOR X7C",
-            "price": "2",
-            "imageSrc": "/img/tiger-privacy.png",
-            "category": "Şüşə Tiger Privacy",
-            "group": "Şüşə",
-            "brand": "TIGER PRIVACY",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER PRIVACY HONOR X8",
-            "price": "1.4",
-            "imageSrc": "/img/tiger-privacy.png",
-            "category": "Şüşə Tiger Privacy",
-            "group": "Şüşə",
-            "brand": "TIGER PRIVACY",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER PRIVACY HONOR X8A",
-            "price": "1.4",
-            "imageSrc": "/img/tiger-privacy.png",
-            "category": "Şüşə Tiger Privacy",
-            "group": "Şüşə",
-            "brand": "TIGER PRIVACY",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
-            "name": "GLASS TIGER PRIVACY HONOR X8B",
-            "price": "1.4",
-            "imageSrc": "/img/tiger-privacy.png",
-            "category": "Şüşə Tiger Privacy",
-            "group": "Şüşə",
-            "brand": "TIGER PRIVACY",
-            "pinned": "false",
-            "hasNew": "false"
-        },
-        {
             "name": "GLASS TIGER PRIVACY IPH 11 PRO MAX",
             "price": "1.4",
             "imageSrc": "/img/tiger-privacy.png",
@@ -11048,6 +11064,106 @@
         },
         {
             "name": "GLASS TIGER PRIVACY IPH 7G/8G WHITE",
+            "price": "1.4",
+            "imageSrc": "/img/tiger-privacy.png",
+            "category": "Şüşə Tiger Privacy",
+            "group": "Şüşə",
+            "brand": "TIGER PRIVACY",
+            "pinned": "false",
+            "hasNew": "false"
+        },        
+        {
+            "name": "GLASS TIGER PRIVACY HONOR 200 LITE",
+            "price": "1.4",
+            "imageSrc": "/img/tiger-privacy.png",
+            "category": "Şüşə Tiger Privacy",
+            "group": "Şüşə",
+            "brand": "TIGER PRIVACY",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER PRIVACY HONOR X5B",
+            "price": "1.4",
+            "imageSrc": "/img/tiger-privacy.png",
+            "category": "Şüşə Tiger Privacy",
+            "group": "Şüşə",
+            "brand": "TIGER PRIVACY",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER PRIVACY HONOR X5B PLUS",
+            "price": "1.4",
+            "imageSrc": "/img/tiger-privacy.png",
+            "category": "Şüşə Tiger Privacy",
+            "group": "Şüşə",
+            "brand": "TIGER PRIVACY",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER PRIVACY HONOR X6B",
+            "price": "1.4",
+            "imageSrc": "/img/tiger-privacy.png",
+            "category": "Şüşə Tiger Privacy",
+            "group": "Şüşə",
+            "brand": "TIGER PRIVACY",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER PRIVACY HONOR X7A",
+            "price": "1.4",
+            "imageSrc": "/img/tiger-privacy.png",
+            "category": "Şüşə Tiger Privacy",
+            "group": "Şüşə",
+            "brand": "TIGER PRIVACY",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER PRIVACY HONOR X7B",
+            "price": "1.4",
+            "imageSrc": "/img/tiger-privacy.png",
+            "category": "Şüşə Tiger Privacy",
+            "group": "Şüşə",
+            "brand": "TIGER PRIVACY",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER PRIVACY HONOR X7C",
+            "price": "2",
+            "imageSrc": "/img/tiger-privacy.png",
+            "category": "Şüşə Tiger Privacy",
+            "group": "Şüşə",
+            "brand": "TIGER PRIVACY",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER PRIVACY HONOR X8",
+            "price": "1.4",
+            "imageSrc": "/img/tiger-privacy.png",
+            "category": "Şüşə Tiger Privacy",
+            "group": "Şüşə",
+            "brand": "TIGER PRIVACY",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER PRIVACY HONOR X8A",
+            "price": "1.4",
+            "imageSrc": "/img/tiger-privacy.png",
+            "category": "Şüşə Tiger Privacy",
+            "group": "Şüşə",
+            "brand": "TIGER PRIVACY",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER PRIVACY HONOR X8B",
             "price": "1.4",
             "imageSrc": "/img/tiger-privacy.png",
             "category": "Şüşə Tiger Privacy",
