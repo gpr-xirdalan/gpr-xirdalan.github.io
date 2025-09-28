@@ -1,10 +1,371 @@
 {
     "products": [
         {
+            "name": "GLASS TIGER HD HONOR X7D",
+            "price": "1.20",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },         
+        {
+            "name": "GLASS BIO HD EUROACS IPH 17",
+            "price": "2",
+            "imageSrc": "/img/bio-hd.png",
+            "category": "Şüşə BIO HD",
+            "group": "Şüşə",
+            "brand": "Euroacs",
+            "pinned": "false",
+            "hasNew": "false"
+        },  
+        {
+            "name": "GLASS BIO HD EUROACS IPH 17 AIR",
+            "price": "2",
+            "imageSrc": "/img/bio-hd.png",
+            "category": "Şüşə BIO HD",
+            "group": "Şüşə",
+            "brand": "Euroacs",
+            "pinned": "false",
+            "hasNew": "false"
+        },                
+        {
+            "name": "GLASS BIO HD EUROACS IPH 17 PRO",
+            "price": "2",
+            "imageSrc": "/img/bio-hd.png",
+            "category": "Şüşə BIO HD",
+            "group": "Şüşə",
+            "brand": "Euroacs",
+            "pinned": "false",
+            "hasNew": "false"
+        },          
+        {
+            "name": "GLASS BIO HD EUROACS IPH 17 PRO MAX",
+            "price": "2",
+            "imageSrc": "/img/bio-hd.png",
+            "category": "Şüşə BIO HD",
+            "group": "Şüşə",
+            "brand": "Euroacs",
+            "pinned": "false",
+            "hasNew": "false"
+        },          
+        {
+            "name": "GLASS TIGER HD IPH 17",
+            "price": "1.50",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        }, 
+        {
+            "name": "GLASS TIGER HD IPH 17 AIR",
+            "price": "1.50",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 17 PRO",
+            "price": "1.50",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 17 PRO",
+            "price": "1.50",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "GLASS TIGER HD IPH 17 PRO MAX",
+            "price": "1.50",
+            "imageSrc": "/img/tiger-hd.png",
+            "category": "Şüşə Tiger HD",
+            "group": "Şüşə",
+            "brand": "TIGER HD",
+            "pinned": "false",
+            "hasNew": "false"
+        },                                           
+        {
+            "name": "IPH 17 GLASS CAMERA G-9002",
+            "price": "2",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "IPH 17 AIR GLASS CAMERA G-9002",
+            "price": "2",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },        
+        {
+            "name": "IPH 17 PRO GLASS CAMERA G-9002",
+            "price": "2",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },        
+        {
+            "name": "IPH 17 PRO MAX GLASS CAMERA G-9002",
+            "price": "2",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },        
+        {
+            "name": "IPH 11 GLASS CAMERA G-9002",
+            "price": "1.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "IPH 12 PRO MAX GLASS CAMERA G-9002",
+            "price": "1.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "IPH 12/12 PRO GLASS CAMERA G-9002",
+            "price": "1.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "IPH 13 GLASS CAMERA G-9002",
+            "price": "1.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "IPH 13 PRO GLASS CAMERA G-9002",
+            "price": "1.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "IPH 13 PRO MAX GLASS CAMERA G-9002",
+            "price": "1.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "IPH 14 GLASS CAMERA G-9002",
+            "price": "1.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "IPH 14 PRO GLASS CAMERA G-9002",
+            "price": "1.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "IPH 14 PRO MAX GLASS CAMERA G-9002",
+            "price": "1.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "IPH 15 GLASS CAMERA G-9002",
+            "price": "1.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "IPH 15 PRO GLASS CAMERA G-9002",
+            "price": "1.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "IPH 15 PRO MAX GLASS CAMERA G-9002",
+            "price": "1.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "IPH 16 GLASS CAMERA G-9002",
+            "price": "1.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "IPH 16 PRO MAX GLASS CAMERA G-9002",
+            "price": "1.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAM S23 GLASS CAMERA G-9002",
+            "price": "1.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "SAM S23 ULTRA GLASS CAMERA G-9002",
+            "price": "1.50",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },   
+        {
+            "name": "SAM S24 GLASS CAMERA G-9002",
+            "price": "2",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        }, 
+        {
+            "name": "SAM S24 PLUS GLASS CAMERA G-9002",
+            "price": "2",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },                 
+        {
+            "name": "SAM S24 ULTRA GLASS CAMERA G-9002",
+            "price": "2",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },          
+        {
+            "name": "SAM S25 GLASS CAMERA G-9002",
+            "price": "2",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },      
+        {
+            "name": "SAM S25 PLUS GLASS CAMERA G-9002",
+            "price": "2",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },              
+        {
+            "name": "SAM S25 ULTRA GLASS CAMERA G-9002",
+            "price": "2",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-28 saat 18.11.51_68a67fd8.jpg",
+            "category": "G-9002",
+            "grpup": "Camera glass",
+            "brand": "",
+            "pinned": "false",
+            "hasNew": "false"
+        },             
+        {
             "name": "[IPH 14 PRO/PRO MAX] GLASS CAMERA EUROACS-G3",
             "price": "3.50",
             "imageSrc": "/img/WhatsApp Şəkil 2025-09-11 saat 09.46.29_7e6039e7.jpg",
-            "category": "Camera glass",
+            "category": "EUROACS-G3",
+            "group": "Camera glass",
             "brand": "Euroacs",
             "pinned": "false",
             "hasNew": "false"
@@ -13,7 +374,8 @@
             "name": "[IPH 15 PRO/PRO MAX] GLASS CAMERA EUROACS-G3",
             "price": "3.50",
             "imageSrc": "/img/WhatsApp Şəkil 2025-09-11 saat 09.46.29_7e6039e7.jpg",
-            "category": "Camera glass",
+            "category": "EUROACS-G3",
+            "group": "Camera glass",
             "brand": "Euroacs",
             "pinned": "false",
             "hasNew": "false"
@@ -22,7 +384,8 @@
             "name": "[IPH 15/15 PLUS] GLASS CAMERA EUROACS-G3",
             "price": "3.50",
             "imageSrc": "/img/WhatsApp Şəkil 2025-09-11 saat 09.46.29_7e6039e7.jpg",
-            "category": "Camera glass",
+            "category": "EUROACS-G3",
+            "group": "Camera glass",
             "brand": "Euroacs",
             "pinned": "false",
             "hasNew": "false"
@@ -31,7 +394,8 @@
             "name": "[IPH 16 PRO/PRO MAX] GLASS CAMERA EUROACS-G3",
             "price": "3.50",
             "imageSrc": "/img/WhatsApp Şəkil 2025-09-11 saat 09.46.29_7e6039e7.jpg",
-            "category": "Camera glass",
+            "category": "EUROACS-G3",
+            "group": "Camera glass",
             "brand": "Euroacs",
             "pinned": "false",
             "hasNew": "false"
@@ -40,7 +404,8 @@
             "name": "[IPH 16/16 PLUS] GLASS CAMERA EUROACS-G3",
             "price": "3.50",
             "imageSrc": "/img/WhatsApp Şəkil 2025-09-11 saat 09.46.29_7e6039e7.jpg",
-            "category": "Camera glass",
+            "category": "EUROACS-G3",
+            "group": "Camera glass",
             "brand": "Euroacs",
             "pinned": "false",
             "hasNew": "false"
@@ -49,7 +414,8 @@
             "name": "[SAM S24] GLASS CAMERA EUROACS-G3",
             "price": "4",
             "imageSrc": "/img/WhatsApp Şəkil 2025-09-11 saat 09.46.29_7e6039e7.jpg",
-            "category": "Camera glass",
+            "category": "EUROACS-G3",
+            "group": "Camera glass",
             "brand": "Euroacs",
             "pinned": "false",
             "hasNew": "false"
@@ -58,7 +424,8 @@
             "name": "[SAM S24 PLUS] GLASS CAMERA EUROACS-G3",
             "price": "3.50",
             "imageSrc": "/img/WhatsApp Şəkil 2025-09-11 saat 09.46.29_7e6039e7.jpg",
-            "category": "Camera glass",
+            "category": "EUROACS-G3",
+            "group": "Camera glass",
             "brand": "Euroacs",
             "pinned": "false",
             "hasNew": "false"
@@ -67,7 +434,8 @@
             "name": "[SAM S24 ULTRA] GLASS CAMERA EUROACS-G3",
             "price": "3.50",
             "imageSrc": "/img/WhatsApp Şəkil 2025-09-11 saat 09.46.29_7e6039e7.jpg",
-            "category": "Camera glass",
+            "category": "EUROACS-G3",
+            "group": "Camera glass",
             "brand": "Euroacs",
             "pinned": "false",
             "hasNew": "false"
@@ -76,7 +444,8 @@
             "name": "[SAM S25] GLASS CAMERA EUROACS-G3",
             "price": "3.50",
             "imageSrc": "/img/WhatsApp Şəkil 2025-09-11 saat 09.46.29_7e6039e7.jpg",
-            "category": "Camera glass",
+            "category": "EUROACS-G3",
+            "group": "Camera glass",
             "brand": "Euroacs",
             "pinned": "false",
             "hasNew": "false"
@@ -85,7 +454,8 @@
             "name": "[SAM S25 PLUS] GLASS CAMERA EUROACS-G3",
             "price": "3.50",
             "imageSrc": "/img/WhatsApp Şəkil 2025-09-11 saat 09.46.29_7e6039e7.jpg",
-            "category": "Camera glass",
+            "category": "EUROACS-G3",
+            "group": "Camera glass",
             "brand": "Euroacs",
             "pinned": "false",
             "hasNew": "false"
@@ -94,7 +464,8 @@
             "name": "[SAM S25 ULTRA] GLASS CAMERA EUROACS-G3",
             "price": "3.50",
             "imageSrc": "/img/WhatsApp Şəkil 2025-09-11 saat 09.46.29_7e6039e7.jpg",
-            "category": "Camera glass",
+            "category": "EUROACS-G3",
+            "group": "Camera glass",
             "brand": "Euroacs",
             "pinned": "false",
             "hasNew": "false"
