@@ -1,6 +1,46 @@
 {
     "products": [
         {
+            "name": "HF BIG BT P9 BLACK",
+            "price": "6.80",
+            "imageSrc": "/img/p9lite-white.jpg",
+            "category": "HF BIG BT",
+            "brand": "Ümumi",
+            "discount": "19",
+            "pinned": true,
+            "hasNew": false
+        },
+        {
+            "name": "HF BIG BT P9 SILVER",
+            "price": "6.80",
+            "imageSrc": "/img/p9lite-white.jpg",
+            "category": "HF BIG BT",
+            "brand": "Ümumi",
+            "discount": "19",            
+            "pinned": true,
+            "hasNew": false
+        },
+        {
+            "name": "HF BIG BT P9 BLUE",
+            "price": "6.80",
+            "imageSrc": "/img/p9lite-white.jpg",
+            "category": "HF BIG BT",
+            "brand": "Ümumi",
+            "discount": "19",            
+            "pinned": true,
+            "hasNew": false
+        },
+        {
+            "name": "HF BIG BT P9 RED",
+            "price": "6.80",
+            "imageSrc": "/img/p9lite-white.jpg",
+            "category": "HF BIG BT",
+            "brand": "Ümumi",
+            "discount": "19",            
+            "pinned": true,
+            "hasNew": false
+        },        
+        {
             "name": "GLASS TIGER HD HONOR X7D",
             "price": "1.20",
             "imageSrc": "/img/tiger-hd.png",
@@ -9,7 +49,187 @@
             "brand": "TIGER HD",
             "pinned": "false",
             "hasNew": "false"
+        },  
+        {
+            "name": "CASE KITAB 1818 SAM A9+",
+            "price": "13",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.28.42_e6b0fe3e.jpg",
+            "group": "Case",
+            "category": "PLANSET (KITAB)",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE KITAB 1818 XRM PAD 5",
+            "price": "13",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.28.42_e6b0fe3e.jpg",
+            "group": "Case",
+            "category": "PLANSET (KITAB)",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE KITAB 1818 XRM PAD 6",
+            "price": "13",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.28.42_e6b0fe3e.jpg",
+            "group": "Case",
+            "category": "PLANSET (KITAB)",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE KITAB 1818 XRM PAD 7/7 PRO",
+            "price": "13",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.28.42_e6b0fe3e.jpg",
+            "group": "Case",
+            "category": "PLANSET (KITAB)",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE KITAB 1818 XRM PAD SE",
+            "price": "13",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.28.42_e6b0fe3e.jpg",
+            "group": "Case",
+            "category": "PLANSET (KITAB)",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE KITAB 1818 SAM A9",
+            "price": "13",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.28.42_e6b0fe3e.jpg",
+            "group": "Case",
+            "category": "PLANSET (KITAB)",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE KITAB 1818 IPAD 10",
+            "price": "13",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.28.42_e6b0fe3e.jpg",
+            "group": "Case",
+            "category": "PLANSET (KITAB)",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE KITAB 1818 IPAD 11",
+            "price": "13",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.28.42_e6b0fe3e.jpg",
+            "group": "Case",
+            "category": "PLANSET (KITAB)",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE KITAB 1818 IPAD AIR 11",
+            "price": "13",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.28.42_e6b0fe3e.jpg",
+            "group": "Case",
+            "category": "PLANSET (KITAB)",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE KITAB 1818 XRM PAD PRO",
+            "price": "16",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.28.42_e6b0fe3e.jpg",
+            "group": "Case",
+            "category": "PLANSET (KITAB)",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },        
+        {
+            "name": "CASE KITAB 1818 IPAD AIR 13",
+            "price": "16",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.28.42_e6b0fe3e.jpg",
+            "group": "Case",
+            "category": "PLANSET (KITAB)",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
         },         
+        {
+            "name": "CASE KITAB 2525 IPAD 10",
+            "price": "14",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg",
+            "group": "Case",
+            "category": "PLANSET (KITAB)",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE KITAB 2525 IPAD 11",
+            "price": "14",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg",
+            "group": "Case",
+            "category": "PLANSET (KITAB)",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE KITAB 2525 IPAD AIR 11",
+            "price": "14",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg",
+            "group": "Case",
+            "category": "PLANSET (KITAB)",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE KITAB 2525 SAM A9",
+            "price": "14",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg",
+            "group": "Case",
+            "category": "PLANSET (KITAB)",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE KITAB 2525 SAM A9+",
+            "price": "14",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg",
+            "group": "Case",
+            "category": "PLANSET (KITAB)",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE KITAB 2525 XRM PAD SE",
+            "price": "14",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg",
+            "group": "Case",
+            "category": "PLANSET (KITAB)",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE KITAB 2525 IPAD AIR 13",
+            "price": "17",
+            "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg",
+            "group": "Case",
+            "category": "PLANSET (KITAB)",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },                      
         {
             "name": "GLASS BIO HD EUROACS IPH 17",
             "price": "2",
@@ -552,36 +772,40 @@
         },                                   
         {
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 17",
-            "price": "3.50",
+            "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
         },  
         {
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 17 PRO",
-            "price": "3.50",
+            "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
         }, 
         {
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 17 PRO MAX",
-            "price": "3.50",
+            "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
         },  
         {
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 17 AIR",
-            "price": "3.50",
+            "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13233,7 +13457,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 11",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13242,7 +13467,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 12 PRO MAX",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13251,7 +13477,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 12/12 PRO",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13260,7 +13487,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 13",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13269,7 +13497,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 13 PRO",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13278,7 +13507,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 13 PRO MAX",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13287,7 +13517,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 14",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13296,7 +13527,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 14 PLUS",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13305,7 +13537,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 14 PRO",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13314,7 +13547,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 14 PRO MAX",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13323,7 +13557,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 15",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13332,7 +13567,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 15 PLUS",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13341,7 +13577,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 15 PRO",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13350,7 +13587,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 15 PRO MAX",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13359,7 +13597,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 16",
             "price": "3.5",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13368,7 +13607,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 16 PLUS",
             "price": "3.5",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13377,7 +13617,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 16 PRO",
             "price": "3.5",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13386,7 +13627,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 16 PRO MAX",
             "price": "3.5",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13395,7 +13637,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH X/XS",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13404,7 +13647,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH XS MAX",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13413,7 +13657,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE SAM S23",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13422,7 +13667,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE SAM S23 PLUS",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13431,7 +13677,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE SAM S23 ULTRA",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13440,7 +13687,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE SAM S24",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13449,7 +13697,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE SAM S24 FE",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13458,7 +13707,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE SAM S24 PLUS",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13467,7 +13717,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE SAM S24 ULTRA",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13476,7 +13727,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE SAM Z FLIP 4",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13485,7 +13737,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE SAM Z FLIP 5",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13494,7 +13747,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE SAM Z FLIP 6",
             "price": "3.5",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13503,7 +13757,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE SAM Z FOLD 4",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13512,7 +13767,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE SAM Z FOLD 5",
             "price": "2.50",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13521,7 +13777,8 @@
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE SAM Z FOLD 6",
             "price": "3.5",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13530,7 +13787,8 @@
             "name": "KILIF PC 1793/A SHEFFAF MAGSAFE SAM S25",
             "price": "4",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13539,7 +13797,8 @@
             "name": "KILIF PC 1793/A SHEFFAF MAGSAFE SAM S25 PLUS",
             "price": "4",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -13548,7 +13807,8 @@
             "name": "KILIF PC 1793/A SHEFFAF MAGSAFE SAM S25 ULTRA",
             "price": "4",
             "imageSrc": "/img/magsafe-case.png",
-            "category": "Case (Kabura)",
+            "group": "Case",
+            "category": "SHEFFAF MAGSAFE",
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
@@ -15111,42 +15371,6 @@
             "hasNew": false
         },
         {
-            "name": "HF BIG BT P9 BLACK",
-            "price": "6.80",
-            "imageSrc": "/img/p9lite-white.jpg",
-            "category": "HF BIG BT",
-            "brand": "Ümumi",
-            "pinned": true,
-            "hasNew": false
-        },
-        {
-            "name": "HF BIG BT P9 SILVER",
-            "price": "6.80",
-            "imageSrc": "/img/p9lite-white.jpg",
-            "category": "HF BIG BT",
-            "brand": "Ümumi",
-            "pinned": true,
-            "hasNew": false
-        },
-        {
-            "name": "HF BIG BT P9 BLUE",
-            "price": "6.80",
-            "imageSrc": "/img/p9lite-white.jpg",
-            "category": "HF BIG BT",
-            "brand": "Ümumi",
-            "pinned": true,
-            "hasNew": false
-        },
-        {
-            "name": "HF BIG BT P9 RED",
-            "price": "6.80",
-            "imageSrc": "/img/p9lite-white.jpg",
-            "category": "HF BIG BT",
-            "brand": "Ümumi",
-            "pinned": true,
-            "hasNew": false
-        },
-        {
             "name": "HF BIG BT KRMAX BLUE",
             "price": "14.50",
             "imageSrc": "/img/kr-max.jpg",
@@ -15703,6 +15927,25 @@
             "brand": "Ümumi",
             "pinned": true,
             "hasNew": false
-        }
+        },
+        { "name": "CASE TPU 1724/S HONOR 90", "price": "1.50", "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
+        { "name": "CASE TPU 1724/S HONOR X5", "price": "1.50", "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
+        { "name": "CASE TPU 1724/S HONOR X5B", "price": "1.50", "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
+        { "name": "CASE TPU 1724/S HONOR X6A", "price": "1.50", "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
+        { "name": "CASE TPU 1724/S HONOR X6B", "price": "1.50", "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
+        { "name": "CASE TPU 1724/S HONOR X7", "price": "1.50", "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
+        { "name": "CASE TPU 1724/S HONOR X7A", "price": "1.50", "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
+        { "name": "CASE TPU 1724/S HONOR X7B", "price": "1.50", "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
+        { "name": "CASE TPU 1724/S HONOR X7C", "price": "1.50", "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
+        { "name": "CASE TPU 1724/S HONOR X8B", "price": "1.50", "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
+        { "name": "CASE TPU 1724/S HONOR X8C", "price": "1.50", "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
+        { "name": "CASE TPU 1724/S HONOR X9", "price": "1.50", "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
+        { "name": "CASE TPU 1724/S HONOR X9A", "price": "1.50", "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
+        { "name": "CASE TPU 1724/S HONOR X9B", "price": "1.50", "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
+        { "name": "CASE TPU 1724/S HONOR X9C", "price": "1.50", "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
+        { "name": "CASE TPU 1724/S IPH 11 PRO MAX", "price": "1.50", "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
+        { "name": "CASE TPU 1724/S IPH 12 PRO", "price": "1.50", "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
+        { "name": "CASE TPU 1724/S IPH 13 PRO", "price": "1.50", "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
+        { "name": "CASE TPU 1724/S IPH 13 PRO MAX", "price": "1.50", "imageSrc": "/img/WhatsApp Şəkil 2025-09-29 saat 13.29.06_61ded563.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" }        
     ]
 }
