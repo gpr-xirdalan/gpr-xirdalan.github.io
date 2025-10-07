@@ -27,7 +27,7 @@ $(document).ready(function() {
     let isLoading = false;
     let customData = [];
 
-    $.getJSON("products.json?v=163", function(data) {
+    $.getJSON("products.json?v=164", function(data) {
       products = data.products;
       getCategoryList();
 
@@ -112,7 +112,7 @@ $(document).ready(function() {
 
 
     $(document).on('click', '.open-add-to-card-modal', function() {
-        $('.add-to-card-modal').addClass('display-flex');
+        openAddOrderModal();
 
         let $this = $(this).closest('.products-card');
 
@@ -140,7 +140,7 @@ $(document).ready(function() {
 
 
     $(document).on('click', '.add-to-card', function() {
-        closeCartModal();
+        closeAddOrderModal();
         let $this = $(this).closest('.add-to-card-modal');
 
         let imageSrc = $this.find('.cart-product-image > img').attr('src');
@@ -184,25 +184,22 @@ $(document).ready(function() {
 
 
     $(document).on('click', '.close-add-card-modal', function() {
-      closeCartModal();
+      closeAddOrderModal();
     });
 
 
     $(document).on('click', '.close-card-list', function() {
-      $('.cart-list-modal').removeClass(['display-flex', 'active']);
-      $('body').removeClass('overflow-hidden');
-
+      closeCart();
     });
+
+
 
 
     $(document).on('click', '.openCart', function() {
       let savedOrder = getOrders();
 
-        $('body').addClass('overflow-hidden');
+      openCart();
 
-
-      $('.cart-list').html('');
-      $('.cart-list-modal').addClass(['display-flex', 'active']);
 
       let targetBrands = ['Foni', 'Euroacs', 'Joyroom'];
 
@@ -311,10 +308,15 @@ $(document).ready(function() {
     });
 
 
-    function closeCartModal() {
+    function closeAddOrderModal() {
       $('.add-to-card-modal').removeClass('display-flex');
       $('body').removeClass('overflow-hidden');
     } 
+
+    function openAddOrderModal() {
+      history.pushState({ modalOpen: true }, '');      
+      $('.add-to-card-modal').addClass('display-flex');
+    }
 
     $(document).on('input', '.cart-list-item-count', function() {
        let $delay = 450;
@@ -651,6 +653,35 @@ let sliderItemList = products.slice(0, 20);
     }); 
 }
 
+  function openCart() {
+    $('body').addClass('overflow-hidden');
+
+    history.pushState({ modalOpen: true }, ''); 
+
+    $('.cart-list').html('');
+    $('.cart-list-modal').addClass(['display-flex', 'active']);   
+  }
+
+  function closeCart() {
+    $('.cart-list-modal').removeClass(['display-flex', 'active']);
+    $('body').removeClass('overflow-hidden');    
+  }    
+
+
+  window.addEventListener('popstate', function (event) {
+    if ($('.cart-list-modal').hasClass('active')) {
+      closeCart(); 
+      history.pushState(null, ''); 
+      return;
+    }
+
+    if ($('.add-to-card-modal').hasClass('display-flex')) {
+      closeAddOrderModal();
+      history.pushState(null, ''); 
+      return;
+    }
+
+     history.back();
+  });
+
 });
-
-
