@@ -80,7 +80,7 @@ body {
     margin: 0 auto;
     margin-top: 0px;
     margin-bottom: 25px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 
 .search-container {
@@ -253,7 +253,7 @@ select {
     margin-left: -9px;
 }
 
-.openCart {
+.openCart, .open-category-btn {
     border-radius: 8px;
     width: 100%;
     height: 100%;
@@ -270,7 +270,7 @@ select {
     flex-direction: column;
 }
 
-.openCart i {
+.openCart i, .open-category-btn i{
     font-size: 30px;
     margin-right: 4px;
 }
@@ -955,4 +955,8 @@ font-size: 23px;
 
 .hide-bottom-control {
     bottom: -100px;
+}
+
+.open-category-btn {
+
 }
