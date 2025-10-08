@@ -52,12 +52,12 @@
 
 		<div class="content" id="content">
 			<div class="search-container">
-				<div class="search-by-category-wrapper">
+<!-- 				<div class="search-by-category-wrapper">
 					<span class="label">Kateqoriyalar</span>
 					<select name="select-category" class="select-category" id="">
 						<option class="select-category-option" value="all">ALL</option>
 					</select>
-				</div>
+				</div> -->
 
 <!-- 				<div class="search-by-name-wrapper">
 					<span class="label">Axtar...</span>
@@ -116,14 +116,35 @@
 					</div>
 					<button class="btn add-to-card"><i class="las la-cart-arrow-down"></i> Əlavə et</button>								
 				</div>
-			
+
 			</div>
 		</div>
 
-		<div class="cart-controll animate__animated animate__fadeInUp">
-			<button class="openCart"><i class="las la-shopping-basket"></i> Səbəti açmaq (<span class="sum-card">0</span>₼)</button>
+	<div class="bottom-contol">	
+		<div class="search-by-category-wrapper" id="categorySelect">
+			<!-- <label for="categorySelect" class="select-label label">Kateqoriyalar</label> -->
+
+			<div class="cart-controll animate__animated animate__fadeInUp">
+				<button class="openCart" id="categorySelect">
+					<i class="las la-stream"></i> 
+					<span class="button-text">Kateqoriyalar</span> 
+				</button>
+				<!-- (<span class="sum-card">0</span>₼) -->
+			</div>				
+					
+			<select name="select-category" class="select-category" id="categorySelect">
+				<option class="select-category-option" value="all">ALL</option>
+			</select>
 		</div>
 
+		<div class="cart-controll animate__animated animate__fadeInUp">
+			<button class="openCart">
+				<i class="las la-shopping-basket"></i> 
+				<span class="button-text">Səbətə keç</span> 
+			</button>
+			<!-- (<span class="sum-card">0</span>₼) -->
+		</div>
+	</div>
 
 		<div class="cart-list-modal">
 			<div class="cart-list-container">
