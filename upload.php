@@ -54,6 +54,7 @@ $productCategory = $_POST['productCategory'];
 $productBrand = $_POST['productBrand'];
 $discount = $_POST['productDsicount'];
 $productGroup = $_POST['productGroup'];
+$productAddedDated = date('d.m.Y');
 
 if(!empty($_POST['productName'])) {
 
@@ -78,13 +79,14 @@ $dataArray = json_decode($jsonData, true);
 $newEntry = [
     'name' => $productName,
     'price' => $productPrice,
-    'imageSrc' => '/img/'.$imageName,
+    'imageSrc' => 'img/'.$imageName,
     'category' => $productCategory,
     'group' => $productGroup ?: false,
     'brand' => $productBrand,
     'discount' => $discount,
     'pinned' => false,
-    'hasNew' => false
+    'hasNew' => false,
+    'addedDate' => $productAddedDated
 ];
 
 // $dataArray['products'][] = $newEntry;

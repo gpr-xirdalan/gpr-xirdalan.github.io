@@ -1,6 +1,102 @@
 {
     "products": [
         {
+            "name": "BASLIQ PD 20W FONI FN-B425 USB",
+            "price": "4.50",
+            "imageSrc": "img/Изображение WhatsApp 2025-10-10 в 18.22.06_0ff35832.jpg",
+            "category": "Digər",
+            "group": "Basliq",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "10.10.2025"
+        },
+        {
+            "name": "CAR BASLIQ USB FONI FN-KB220 2 USB",
+            "price": "2.20",
+            "imageSrc": "img/IMG-20251010-WA0021.jpg",
+            "category": "Car charger",
+            "group": false,
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "10.10.2025"
+        },
+        {
+            "name": "CHARGER USB 120W FONI FN-CH2120",
+            "price": "11",
+            "imageSrc": "img/IMG-20251010-WA0020.jpg",
+            "category": "Digər adapterlər",
+            "group": "Adapterlər",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "10.10.2025"
+        },
+        {
+            "name": "SPEAKER KOMPUTER FONI FN-S2212",
+            "price": "11.50",
+            "imageSrc": "img/IMG-20251010-WA0019.jpg",
+            "category": "Sesguclendirici",
+            "group": false,
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "10.10.2025"
+        },
+        {
+            "name": "SPEAKER KOMPUTER FONI FN-S2210",
+            "price": "6.50",
+            "imageSrc": "img/IMG-20251010-WA0018.jpg",
+            "category": "Sesguclendirici",
+            "group": false,
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "10.10.2025"
+        },
+        {
+            "name": "CAMERA DVR FN-D745 WIFI+G SENSOR",
+            "price": "35",
+            "imageSrc": "img/IMG-20251010-WA0017.jpg",
+            "category": "Qarışıq məhsullar",
+            "group": "Qarışıq məhsullar",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "10.10.2025"
+        },
+        {
+            "name": "BASLIQ USB FONI FN-B423 WHITE",
+            "price": "3",
+            "imageSrc": "img/IMG-20251010-WA0016.jpg",
+            "category": "Digər",
+            "group": "Basliq",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "10.10.2025"
+        },
+        {
+            "name": "PROJECTOR SMART EUROACS EU-TP5",
+            "price": "125",
+            "imageSrc": "img/IMG-20251010-WA0015.jpg",
+            "category": "Qarışıq məhsullar",
+            "group": "Qarışıq məhsullar",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "10.10.2025"
+        },
+        {
             "name": "HF BIG BT P9 BLACK",
             "price": "6.80",
             "imageSrc": "img/p9lite-white.jpg",
@@ -16,7 +112,7 @@
             "imageSrc": "img/p9lite-white.jpg",
             "category": "HF BIG BT",
             "brand": "Ümumi",
-            "discount": "19",            
+            "discount": "19",
             "pinned": true,
             "hasNew": false
         },
@@ -26,7 +122,7 @@
             "imageSrc": "img/p9lite-white.jpg",
             "category": "HF BIG BT",
             "brand": "Ümumi",
-            "discount": "19",            
+            "discount": "19",
             "pinned": true,
             "hasNew": false
         },
@@ -36,10 +132,10 @@
             "imageSrc": "img/p9lite-white.jpg",
             "category": "HF BIG BT",
             "brand": "Ümumi",
-            "discount": "19",            
+            "discount": "19",
             "pinned": true,
             "hasNew": false
-        },        
+        },
         {
             "name": "GLASS TIGER HD HONOR X7D",
             "price": "1.20",
@@ -49,7 +145,7 @@
             "brand": "TIGER HD",
             "pinned": "false",
             "hasNew": "false"
-        },  
+        },
         {
             "name": "CASE KITAB 1818 SAM A9+",
             "price": "13",
@@ -149,7 +245,7 @@
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
-        },        
+        },
         {
             "name": "CASE KITAB 1818 IPAD AIR 13",
             "price": "16",
@@ -159,7 +255,7 @@
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
-        },         
+        },
         {
             "name": "CASE KITAB 2525 IPAD 10",
             "price": "14",
@@ -229,7 +325,7 @@
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
-        },                      
+        },
         {
             "name": "GLASS BIO HD EUROACS IPH 17",
             "price": "2",
@@ -239,7 +335,7 @@
             "brand": "Euroacs",
             "pinned": "false",
             "hasNew": "false"
-        },  
+        },
         {
             "name": "GLASS BIO HD EUROACS IPH 17 AIR",
             "price": "2",
@@ -249,7 +345,7 @@
             "brand": "Euroacs",
             "pinned": "false",
             "hasNew": "false"
-        },                
+        },
         {
             "name": "GLASS BIO HD EUROACS IPH 17 PRO",
             "price": "2",
@@ -259,7 +355,7 @@
             "brand": "Euroacs",
             "pinned": "false",
             "hasNew": "false"
-        },          
+        },
         {
             "name": "GLASS BIO HD EUROACS IPH 17 PRO MAX",
             "price": "2",
@@ -269,7 +365,7 @@
             "brand": "Euroacs",
             "pinned": "false",
             "hasNew": "false"
-        },          
+        },
         {
             "name": "GLASS TIGER HD IPH 17",
             "price": "1.50",
@@ -279,7 +375,7 @@
             "brand": "TIGER HD",
             "pinned": "false",
             "hasNew": "false"
-        }, 
+        },
         {
             "name": "GLASS TIGER HD IPH 17 AIR",
             "price": "1.50",
@@ -319,7 +415,7 @@
             "brand": "TIGER HD",
             "pinned": "false",
             "hasNew": "false"
-        },                                           
+        },
         {
             "name": "IPH 17 GLASS CAMERA G-9002",
             "price": "2",
@@ -339,7 +435,7 @@
             "brand": "",
             "pinned": "false",
             "hasNew": "false"
-        },        
+        },
         {
             "name": "IPH 17 PRO GLASS CAMERA G-9002",
             "price": "2",
@@ -349,7 +445,7 @@
             "brand": "",
             "pinned": "false",
             "hasNew": "false"
-        },        
+        },
         {
             "name": "IPH 17 PRO MAX GLASS CAMERA G-9002",
             "price": "2",
@@ -359,7 +455,7 @@
             "brand": "",
             "pinned": "false",
             "hasNew": "false"
-        },        
+        },
         {
             "name": "IPH 11 GLASS CAMERA G-9002",
             "price": "1.50",
@@ -519,7 +615,7 @@
             "brand": "",
             "pinned": "false",
             "hasNew": "false"
-        },   
+        },
         {
             "name": "SAM S24 GLASS CAMERA G-9002",
             "price": "2",
@@ -529,7 +625,7 @@
             "brand": "",
             "pinned": "false",
             "hasNew": "false"
-        }, 
+        },
         {
             "name": "SAM S24 PLUS GLASS CAMERA G-9002",
             "price": "2",
@@ -539,7 +635,7 @@
             "brand": "",
             "pinned": "false",
             "hasNew": "false"
-        },                 
+        },
         {
             "name": "SAM S24 ULTRA GLASS CAMERA G-9002",
             "price": "2",
@@ -549,7 +645,7 @@
             "brand": "",
             "pinned": "false",
             "hasNew": "false"
-        },          
+        },
         {
             "name": "SAM S25 GLASS CAMERA G-9002",
             "price": "2",
@@ -559,7 +655,7 @@
             "brand": "",
             "pinned": "false",
             "hasNew": "false"
-        },      
+        },
         {
             "name": "SAM S25 PLUS GLASS CAMERA G-9002",
             "price": "2",
@@ -569,7 +665,7 @@
             "brand": "",
             "pinned": "false",
             "hasNew": "false"
-        },              
+        },
         {
             "name": "SAM S25 ULTRA GLASS CAMERA G-9002",
             "price": "2",
@@ -579,7 +675,7 @@
             "brand": "",
             "pinned": "false",
             "hasNew": "false"
-        },             
+        },
         {
             "name": "[IPH 14 PRO/PRO MAX] GLASS CAMERA EUROACS-G3",
             "price": "3.50",
@@ -609,7 +705,7 @@
             "brand": "Euroacs",
             "pinned": "false",
             "hasNew": "false"
-        },        
+        },
         {
             "name": "[IPH 16 PRO/PRO MAX] GLASS CAMERA EUROACS-G3",
             "price": "3.50",
@@ -629,7 +725,7 @@
             "brand": "Euroacs",
             "pinned": "false",
             "hasNew": "false"
-        }, 
+        },
         {
             "name": "[SAM S24] GLASS CAMERA EUROACS-G3",
             "price": "4",
@@ -649,7 +745,7 @@
             "brand": "Euroacs",
             "pinned": "false",
             "hasNew": "false"
-        }, 
+        },
         {
             "name": "[SAM S24 ULTRA] GLASS CAMERA EUROACS-G3",
             "price": "3.50",
@@ -659,7 +755,7 @@
             "brand": "Euroacs",
             "pinned": "false",
             "hasNew": "false"
-        },           
+        },
         {
             "name": "[SAM S25] GLASS CAMERA EUROACS-G3",
             "price": "3.50",
@@ -669,7 +765,7 @@
             "brand": "Euroacs",
             "pinned": "false",
             "hasNew": "false"
-        }, 
+        },
         {
             "name": "[SAM S25 PLUS] GLASS CAMERA EUROACS-G3",
             "price": "3.50",
@@ -689,7 +785,7 @@
             "brand": "Euroacs",
             "pinned": "false",
             "hasNew": "false"
-        },                                  
+        },
         {
             "name": "GLASS BIO HD EUROACS SAM A07",
             "price": "1.6",
@@ -709,7 +805,7 @@
             "brand": "Euroacs",
             "pinned": "false",
             "hasNew": "false"
-        },                
+        },
         {
             "name": "GLASS TIGER HD SAM A07",
             "price": "1.20",
@@ -719,7 +815,7 @@
             "brand": "TIGER HD",
             "pinned": "false",
             "hasNew": "false"
-        },  
+        },
         {
             "name": "GLASS TIGER HD SAM A17",
             "price": "1.20",
@@ -729,7 +825,7 @@
             "brand": "TIGER HD",
             "pinned": "false",
             "hasNew": "false"
-        },                
+        },
         {
             "name": "GLASS TIGER PRIVACY IPH 17",
             "price": "2",
@@ -739,7 +835,7 @@
             "brand": "TIGER PRIVACY",
             "pinned": "false",
             "hasNew": "false"
-        }, 
+        },
         {
             "name": "GLASS TIGER PRIVACY IPH 17 PRO",
             "price": "2",
@@ -749,7 +845,7 @@
             "brand": "TIGER PRIVACY",
             "pinned": "false",
             "hasNew": "false"
-        },   
+        },
         {
             "name": "GLASS TIGER PRIVACY IPH 17 PRO MAX",
             "price": "2",
@@ -769,7 +865,7 @@
             "brand": "TIGER PRIVACY",
             "pinned": "false",
             "hasNew": "false"
-        },                                   
+        },
         {
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 17",
             "price": "2.50",
@@ -779,7 +875,7 @@
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
-        },  
+        },
         {
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 17 PRO",
             "price": "2.50",
@@ -789,7 +885,7 @@
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
-        }, 
+        },
         {
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 17 PRO MAX",
             "price": "2.50",
@@ -799,7 +895,7 @@
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
-        },  
+        },
         {
             "name": "CASE PC 1793/A SHEFFAF MAGSAFE IPH 17 AIR",
             "price": "2.50",
@@ -809,7 +905,7 @@
             "brand": "Ümumi",
             "pinned": "false",
             "hasNew": "false"
-        },                             
+        },
         {
             "name": "OTURUCU L TO AUX JOKADE JA108 BK",
             "price": "3",
@@ -819,7 +915,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "CHARGER USB QC JOKADE JB098 C",
             "price": "4",
@@ -830,7 +926,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        }, 
+        },
         {
             "name": "CHARGER USB QC JOKADE JB098 M",
             "price": "4",
@@ -841,7 +937,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },         
+        },
         {
             "name": "CHARGER PD 45W JOKADE JB108 L",
             "price": "5.50",
@@ -852,7 +948,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },  
+        },
         {
             "name": "CHARGER PD 45W JOKADE JB108 C",
             "price": "5",
@@ -863,7 +959,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },          
+        },
         {
             "name": "CAR BASLIQ PD 90W JOKADE JH047 USB QC",
             "price": "4",
@@ -873,7 +969,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        }, 
+        },
         {
             "name": "CAR BASLIQ PD 100W JOKADE JH052 USB QC",
             "price": "19",
@@ -883,7 +979,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        }, 
+        },
         {
             "name": "CAR BASLIQ PD 100W JOKADE JH052 USB QC",
             "price": "19",
@@ -893,7 +989,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "CABLE USB SILICON JOKADE JA054 C",
             "price": "2",
@@ -913,7 +1009,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        }, 
+        },
         {
             "name": "CABLE USB SILICON JOKADE JA054 M",
             "price": "1.80",
@@ -923,7 +1019,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },                
+        },
         {
             "name": "CABLE USB JOKADE JA049 C",
             "price": "2.50",
@@ -933,7 +1029,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        }, 
+        },
         {
             "name": "CABLE USB JOKADE JA049 L",
             "price": "2.50",
@@ -943,7 +1039,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },         
+        },
         {
             "name": "CABLE 2 METR USB JOKADE JA041 MIKRO",
             "price": "1.80",
@@ -953,7 +1049,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "CABLE 2 METR USB JOKADE JA041 TYPE-C",
             "price": "2",
@@ -963,7 +1059,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "POCKET 3061",
             "price": "3",
@@ -973,7 +1069,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },          
+        },
         {
             "name": "CAR CHARGER PD 68W EUROACS EU-MC440 USB",
             "price": "17",
@@ -983,7 +1079,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "VINIL V-7060",
             "price": "2.50",
@@ -1113,7 +1209,7 @@
             "discount": "28",
             "pinned": false,
             "hasNew": false
-        }, 
+        },
         {
             "name": "VINIL V-7048",
             "price": "2.50",
@@ -1123,7 +1219,7 @@
             "discount": "28",
             "pinned": false,
             "hasNew": false
-        }, 
+        },
         {
             "name": "VINIL V-7028 MAGSAFE ",
             "price": "2.50",
@@ -1133,7 +1229,7 @@
             "discount": "28",
             "pinned": false,
             "hasNew": false
-        }, 
+        },
         {
             "name": "VINIL V-7028 MAGSAFE ",
             "price": "2.50",
@@ -1143,7 +1239,7 @@
             "discount": "28",
             "pinned": false,
             "hasNew": false
-        }, 
+        },
         {
             "name": "VINIL V-7028 MAGSAFE ",
             "price": "2.50",
@@ -1153,7 +1249,7 @@
             "discount": "28",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "BASLIQ PD 20W APPLE 100% ORIGINAL",
             "price": "35",
@@ -1164,7 +1260,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },         
+        },
         {
             "name": "POPSOCKET LABUBU MIRROR BZ-3058 ",
             "price": "2",
@@ -1174,7 +1270,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },         
+        },
         {
             "name": "STICKER LABUBU BZ-3059",
             "price": "1.50",
@@ -1184,7 +1280,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },           
+        },
         {
             "name": "STIKER BZ-3060 POPIT",
             "price": "1.50",
@@ -1194,7 +1290,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },         
+        },
         {
             "name": "HF L  APPLE 14 PRO MAX K194 ",
             "price": "3.5",
@@ -1204,7 +1300,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },         
+        },
         {
             "name": "HF L APPLE 14 PRO MAX K182",
             "price": "3.5",
@@ -1214,7 +1310,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "HF C APPLE 16 PRO MAX K193",
             "price": "3.5",
@@ -1234,7 +1330,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "HF C MI M24 ORIGINAL",
             "price": "5",
@@ -1244,7 +1340,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "HF C SAMSUNG ORIGINAL ",
             "price": "6",
@@ -1254,7 +1350,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },         
+        },
         {
             "name": "HF C SAMSUNG IC9501L",
             "price": "4",
@@ -1264,7 +1360,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },          
+        },
         {
             "name": "HF 3.5MM SAMGUNG ORIGINAL",
             "price": "5",
@@ -1274,7 +1370,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },         
+        },
         {
             "name": "HF 3.5MM SAMSUNG IC8501 ",
             "price": "3",
@@ -1284,7 +1380,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "HOLDER CAR WIRELESS AIR F18",
             "price": "27",
@@ -1294,7 +1390,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "COOLER S10",
             "price": "4",
@@ -1304,7 +1400,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },         
+        },
         {
             "name": "COOLER JS120 TYPE-C",
             "price": "11.50",
@@ -1314,7 +1410,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "COOLER CX06-LCD",
             "price": "15",
@@ -1324,7 +1420,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "SESGUCLENDIRICI KBROAD KTS-2119 5W WATERPROOF BLK ",
             "price": "8",
@@ -1334,7 +1430,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "SESGUCLENDIRICI GREATNICE GTS-2088 20W 4'x2 MIC",
             "price": "35",
@@ -1344,7 +1440,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },         
+        },
         {
             "name": "SESGUCLENDIRICI KBROAD KTS-2142 40W 8'x3 2MIC ",
             "price": "95",
@@ -1354,7 +1450,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },         
+        },
         {
             "name": "SESGUCLENDIRICI KBROAD KTS-2143 40W RGB 8''x3 2MIC",
             "price": "105",
@@ -1364,7 +1460,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },           
+        },
         {
             "name": "SESGUCLENDIRICI BRODU BTS-2250 60W 8'' 2MIC+REM ",
             "price": "140",
@@ -1374,7 +1470,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "DOLL BZ-3027 LABUBU ",
             "price": "12",
@@ -1384,7 +1480,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },          
+        },
         {
             "name": "DOLL BZ-3028 LABUBU COCA COLA ",
             "price": "15",
@@ -1394,8 +1490,8 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },        
-       {
+        },
+        {
             "name": "CHARGER PD 20W APPLE MH003 L",
             "price": "9.50",
             "imageSrc": "img/WhatsApp Şəkil 2025-09-03 saat 14.23.00_646d8de1.jpg",
@@ -1405,7 +1501,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },           
+        },
         {
             "name": "LED PLOKAMA PK-360 + HOLDER",
             "price": "18",
@@ -1415,7 +1511,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        }, 
+        },
         {
             "name": "LED PLOKAMA PK-330 +HOLDER",
             "price": "15",
@@ -1425,7 +1521,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },  
+        },
         {
             "name": "LED PLOKAMA LIVE R56SM PRO RGB+3HOLDER",
             "price": "65",
@@ -1435,7 +1531,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },  
+        },
         {
             "name": "LED PLOKAMA LIVE R45SM PRO RGB+3HOLDER",
             "price": "50",
@@ -1445,7 +1541,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },     
+        },
         {
             "name": "SELFIE LED PLOKAMA U80 PRO RGB",
             "price": "16",
@@ -1455,7 +1551,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        }, 
+        },
         {
             "name": "SELFIE LED PLOKAMA U20 PRO RGB",
             "price": "9.50",
@@ -1465,7 +1561,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },           
+        },
         {
             "name": "LED 45SM RGB+HOLDER",
             "price": "42",
@@ -1505,7 +1601,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },                        
+        },
         {
             "name": "TWS EUROACS EA-PRO2",
             "price": "19.50",
@@ -1516,7 +1612,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },   
+        },
         {
             "name": "TWS ONIKUMA P12",
             "price": "18",
@@ -1527,7 +1623,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },                  
+        },
         {
             "name": "KAMERA PTZ EUROACS EU-RC4 OUTDOOR HD",
             "price": "48.50",
@@ -1547,7 +1643,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        }, 
+        },
         {
             "name": "DVR CAR DASH CAM T717 WITH 3 CAMERA NO WIFI",
             "price": "25",
@@ -1557,7 +1653,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        }, 
+        },
         {
             "name": "DVR CAR DASH CAM A16 WITH 3 CAMERA WIFI ",
             "price": "35",
@@ -1567,7 +1663,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        }, 
+        },
         {
             "name": "DIGITAL CAMERA KIDS AM300 WITH 2 TERMAL PAPER",
             "price": "34",
@@ -1577,7 +1673,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        }, 
+        },
         {
             "name": "CAMERA DIGITAL RETRO CCD VIDEO RECORDER Y02",
             "price": "35",
@@ -1587,7 +1683,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        }, 
+        },
         {
             "name": "TWS G39 LABIRINT",
             "price": "15",
@@ -1598,7 +1694,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        }, 
+        },
         {
             "name": "POWERBANK 5000 DISPLAY WITH TWS",
             "price": "40",
@@ -1609,7 +1705,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "CHARGER PD 35W APPLE 16 PM C",
             "price": "15",
@@ -1620,7 +1716,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        }, 
+        },
         {
             "name": "CHARGER USB 100W HONOR HN2100 C",
             "price": "12",
@@ -1642,7 +1738,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },         
+        },
         {
             "name": "CHARGER PD 25W SAMSUNG TA8610 C",
             "price": "5.50",
@@ -1653,7 +1749,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "CHARGER PD 25W SAMSUNG TA8620 C",
             "price": "10",
@@ -1664,7 +1760,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        }, 
+        },
         {
             "name": "CHARGER PD 25W SAMSUNG ORIGILAN NEW C",
             "price": "15",
@@ -1675,7 +1771,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "CABLE PD APPLE MM34 C",
             "price": "4.50",
@@ -1685,7 +1781,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        }, 
+        },
         {
             "name": "CABLE PD APPLE LONG C",
             "price": "3",
@@ -1695,7 +1791,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },  
+        },
         {
             "name": "CABLE PD APPLE 2IN1",
             "price": "5",
@@ -1705,7 +1801,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },  
+        },
         {
             "name": "CABLE PD APPLE 16 PRO MAX C",
             "price": "8",
@@ -1715,7 +1811,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "BASLIQ PD 45W SAMSUNG ORIGINAL NFC NEW",
             "price": "25",
@@ -1725,7 +1821,7 @@
             "brand": "Samsung",
             "pinned": false,
             "hasNew": false
-        },         
+        },
         {
             "name": "BASLIQ PD 25W SAMSUNG TA2530 ",
             "price": "7",
@@ -1735,7 +1831,7 @@
             "brand": "Samsung",
             "pinned": false,
             "hasNew": false
-        },  
+        },
         {
             "name": "BASLIQ PD 25W SAMSUNG TA800 ORG",
             "price": "9",
@@ -1745,7 +1841,7 @@
             "brand": "Samsung",
             "pinned": false,
             "hasNew": false
-        },  
+        },
         {
             "name": "BASLIQ PD 25w SAMSUNG ORIGINAL NFC NEW",
             "price": "16",
@@ -1755,7 +1851,7 @@
             "brand": "Samsung",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "BASLIQ PD 25W SAMSUNG ORIGINAL NEW",
             "price": "12",
@@ -1765,7 +1861,7 @@
             "brand": "Samsung",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "BASLIQ PD 20W APPLE A2347",
             "price": "5",
@@ -1776,7 +1872,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "SELFIE STICK PLOKAMA K5 WITH LED",
             "price": "10",
@@ -1787,7 +1883,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },  
+        },
         {
             "name": "SESGUCLENDIRICI X-911 MIX COLOR",
             "price": "10",
@@ -1807,7 +1903,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },  
+        },
         {
             "name": "SESGUCLENDIRICI X-19 MIX COLOR",
             "price": "9.50",
@@ -1817,7 +1913,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "HF BIG BT MARSHALL MONITOR L3",
             "price": "17.50",
@@ -1826,7 +1922,7 @@
             "brand": "",
             "pinned": true,
             "hasNew": false
-        }, 
+        },
         {
             "name": "HF BIG BT MARSHALL MAJOR L5",
             "price": "14",
@@ -1835,7 +1931,7 @@
             "brand": "",
             "pinned": true,
             "hasNew": false
-        },        
+        },
         {
             "name": "HF BIG BT ST855 BLACK",
             "price": "16",
@@ -1883,7 +1979,7 @@
             "brand": "",
             "pinned": true,
             "hasNew": false
-        },  
+        },
         {
             "name": "HF BIG BT SODO SD1004",
             "price": "12.50",
@@ -1892,7 +1988,7 @@
             "brand": "",
             "pinned": true,
             "hasNew": false
-        },  
+        },
         {
             "name": "HF BIG BT SODO SD1004",
             "price": "17.50",
@@ -1901,7 +1997,7 @@
             "brand": "",
             "pinned": true,
             "hasNew": false
-        },  
+        },
         {
             "name": "HF BIG BT JBL TUNE 510 RGB",
             "price": "11",
@@ -1910,7 +2006,7 @@
             "brand": "JBL",
             "pinned": true,
             "hasNew": false
-        },        
+        },
         {
             "name": "HF BIG BT MARSHALL MONITOR 2 BROWN",
             "price": "24",
@@ -1920,7 +2016,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },  
+        },
         {
             "name": "HF BIG BT MARSHALL MONITOR 2 BROWN",
             "price": "24",
@@ -1930,7 +2026,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },  
+        },
         {
             "name": "HF BIG JBL 760BT ANC",
             "price": "12",
@@ -1940,7 +2036,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "[QARA] HF BIG BT GLBY CA-0353",
             "price": "29.50",
@@ -1970,7 +2066,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "[ORANGE] HF BIG BT GLBY CA-0353",
             "price": "29.50",
@@ -1980,7 +2076,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },       
+        },
         {
             "name": "[PURPLE] HF BIG BT GLBY CA-0353",
             "price": "29.50",
@@ -1990,7 +2086,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },         
+        },
         {
             "name": "HF BIG BT GLBY CA-0353",
             "price": "29.50",
@@ -2000,7 +2096,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },        
+        },
         {
             "name": "CAR BASLIQ PD 48W EUROACS EU-MC445 QC",
             "price": "7.50",
@@ -2914,7 +3010,7 @@
             "brand": "",
             "pinned": true,
             "hasNew": false
-        },        
+        },
         {
             "name": "TWS AIRPODS PRO A1105",
             "price": "10.50",
@@ -2925,10 +3021,10 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        }, 
+        },
         {
             "name": "TWS AIRPODS-3 A2566",
-            "price": "10.50",
+            "price": "10",
             "imageSrc": "img/a2566.jpg",
             "category": "A class Airpods",
             "group": "Airpods",
@@ -2936,11 +3032,22 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },                   
+        },
         {
             "name": "TWS AIRPODS PRO2 A2699",
             "price": "11.50",
             "imageSrc": "img/a2699.jpg",
+            "category": "A class Airpods",
+            "group": "Airpods",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "TWS AIRPODS PRO2 A2699",
+            "price": "11.50",
+            "imageSrc": "img/PRO2-A-CLASS.jpg",
             "category": "A class Airpods",
             "group": "Airpods",
             "brand": "",
@@ -2958,10 +3065,10 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },             
+        },
         {
             "name": "TWS AIRPODS-2 A CLASS",
-            "price": "15",
+            "price": "12.50",
             "imageSrc": "img/AIRPODS-2-A-CLASS.jpg",
             "category": "A class Airpods",
             "group": "Airpods",
@@ -2969,10 +3076,10 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },      
+        },
         {
             "name": "TWS AIRPODS-3 A CLASS",
-            "price": "15.50",
+            "price": "13.50",
             "imageSrc": "img/AIRPODS-3 A CLASS.jpg",
             "category": "A class Airpods",
             "group": "Airpods",
@@ -2980,10 +3087,10 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },       
+        },
         {
             "name": "TWS AIRPODS PRO2 A CLASS",
-            "price": "17",
+            "price": "16",
             "imageSrc": "img/PRO2-A-CLASS.jpg",
             "category": "A class Airpods",
             "group": "Airpods",
@@ -2991,10 +3098,10 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },                                                                       
+        },
         {
             "name": "TWS AIRPODS-4 A CLASS",
-            "price": "20",
+            "price": "16.50",
             "imageSrc": "img/AIRPODS-4-A-CLASS.jpg",
             "category": "A class Airpods",
             "group": "Airpods",
@@ -3002,7 +3109,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false
-        },           
+        },
         {
             "name": "TWS XIAOMI BUDS 6 LITE BLACK",
             "price": "32",
@@ -3500,7 +3607,7 @@
             "price": "7.50",
             "imageSrc": "img/EU-MQ712 CHARGER.jpg",
             "category": "Euroacs",
-            "group": "Adapterlər",             
+            "group": "Adapterlər",
             "brand": "Euroacs",
             "discount": "",
             "pinned": false,
@@ -3511,7 +3618,7 @@
             "price": "10",
             "imageSrc": "img/CHARGER-MQ715.jpg",
             "category": "Euroacs",
-            "group": "Adapterlər",             
+            "group": "Adapterlər",
             "brand": "Euroacs",
             "discount": "",
             "pinned": false,
@@ -3522,7 +3629,7 @@
             "price": "8.50",
             "imageSrc": "img/CHARGER-MQ711.jpg",
             "category": "Euroacs",
-            "group": "Adapterlər",             
+            "group": "Adapterlər",
             "brand": "Euroacs",
             "discount": "",
             "pinned": false,
@@ -5772,7 +5879,7 @@
             "price": "5.50",
             "imageSrc": "img/EU-MQ330.jpg",
             "category": "Euroacs",
-            "group": "Adapterlər",             
+            "group": "Adapterlər",
             "brand": "Euroacs",
             "discount": "",
             "pinned": false,
@@ -5783,7 +5890,7 @@
             "price": "5.50",
             "imageSrc": "img/EU-MQ330.jpg",
             "category": "Euroacs",
-            "group": "Adapterlər",             
+            "group": "Adapterlər",
             "brand": "Euroacs",
             "discount": "",
             "pinned": false,
@@ -5794,7 +5901,7 @@
             "price": "19,50",
             "imageSrc": "img/eu-mq352.jpg",
             "category": "Euroacs",
-            "group": "Adapterlər",             
+            "group": "Adapterlər",
             "brand": "Euroacs",
             "discount": "",
             "pinned": false,
@@ -6512,7 +6619,7 @@
             "price": "8",
             "imageSrc": "img/ta9202.jpg",
             "category": "Samsung (PD)",
-            "group": "Adapterlər",            
+            "group": "Adapterlər",
             "brand": "Samsung",
             "discount": "",
             "pinned": false,
@@ -8173,7 +8280,7 @@
             "brand": "TIGER HD",
             "pinned": "false",
             "hasNew": "false"
-        },        
+        },
         {
             "name": "GLASS TIGER HD HONOR 10 LITE",
             "price": "0.9",
@@ -11533,7 +11640,7 @@
             "brand": "TIGER PRIVACY",
             "pinned": "false",
             "hasNew": "false"
-        },        
+        },
         {
             "name": "GLASS TIGER PRIVACY HONOR 200 LITE",
             "price": "1.4",
@@ -13214,7 +13321,7 @@
             "price": "5.50",
             "imageSrc": "img/mg545-c.png",
             "category": "Euroacs",
-            "group": "Adapterlər",             
+            "group": "Adapterlər",
             "brand": "Euroacs",
             "pinned": "false",
             "hasNew": "false"
@@ -13224,7 +13331,7 @@
             "price": "5.50",
             "imageSrc": "img/mg545-m.png",
             "category": "Euroacs",
-            "group": "Adapterlər",             
+            "group": "Adapterlər",
             "brand": "Euroacs",
             "pinned": "false",
             "hasNew": "false"
@@ -14590,7 +14697,7 @@
             "price": "8",
             "imageSrc": "img/ma320-c.png",
             "category": "Euroacs",
-            "group": "Adapterlər",             
+            "group": "Adapterlər",
             "brand": "Euroacs",
             "pinned": true,
             "hasNew": false
@@ -14600,7 +14707,7 @@
             "price": "8",
             "imageSrc": "img/ma320-l.png",
             "category": "Euroacs",
-            "group": "Adapterlər",             
+            "group": "Adapterlər",
             "brand": "Euroacs",
             "pinned": true,
             "hasNew": false
@@ -14640,7 +14747,7 @@
             "price": "6.50",
             "imageSrc": "img/ma325-c.png",
             "category": "Euroacs",
-            "group": "Adapterlər",             
+            "group": "Adapterlər",
             "brand": "Euroacs",
             "pinned": true,
             "hasNew": false
@@ -14650,7 +14757,7 @@
             "price": "6.50",
             "imageSrc": "img/mg357-c.png",
             "category": "Euroacs",
-            "group": "Adapterlər",             
+            "group": "Adapterlər",
             "brand": "Euroacs",
             "pinned": true,
             "hasNew": false
@@ -14660,7 +14767,7 @@
             "price": "7.50",
             "imageSrc": "img/mg357-l.png",
             "category": "Euroacs",
-            "group": "Adapterlər",             
+            "group": "Adapterlər",
             "brand": "Euroacs",
             "pinned": true,
             "hasNew": false
@@ -14670,7 +14777,7 @@
             "price": "6",
             "imageSrc": "img/mg544-c.png",
             "category": "Euroacs",
-            "group": "Adapterlər",             
+            "group": "Adapterlər",
             "brand": "Euroacs",
             "pinned": true,
             "hasNew": false
@@ -14680,7 +14787,7 @@
             "price": "7",
             "imageSrc": "img/mg618.png",
             "category": "Euroacs",
-            "group": "Adapterlər",             
+            "group": "Adapterlər",
             "brand": "Euroacs",
             "pinned": true,
             "hasNew": false
@@ -14690,7 +14797,7 @@
             "price": "11",
             "imageSrc": "img/mg656.png",
             "category": "Euroacs",
-            "group": "Adapterlər",             
+            "group": "Adapterlər",
             "brand": "Euroacs",
             "pinned": true,
             "hasNew": false
@@ -15736,144 +15843,1395 @@
             "pinned": true,
             "hasNew": false
         },
-        { "name": "CASE TPU 1724/S HONOR 90", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S HONOR X5", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S HONOR X5B", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S HONOR X6A", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S HONOR X6B", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S HONOR X7", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S HONOR X7A", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S HONOR X7B", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S HONOR X7C", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S HONOR X8B", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S HONOR X8C", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S HONOR X9", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S HONOR X9A", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S HONOR X9B", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S HONOR X9C", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S IPH 11 PRO MAX", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S IPH 12 PRO", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S IPH 13 PRO", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S IPH 13 PRO MAX", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S IPH 15 PRO", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S IPH 15 PRO MAX", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S IPH X/XS", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM A03 CORE", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM A03S", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM A04", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM A04S", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM A05", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM A05S", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM A06", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM A10", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM A14", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM A15", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM A16", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM A25", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM A26", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM A33", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM A34", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM A35", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM A36", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM A50", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM A52", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM A53", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM A54", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM A55", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM A56", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM A73", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S SAM S23 FE", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S XRM 10", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S XRM 10A", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S XRM 10C", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S XRM 12C", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S XRM 13", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S XRM 13C", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S XRM 14C", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S XRM 8A", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S XRM 9", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S XRM 9A", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S XRM 9T", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S XRM NOTE 7", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S XRM NOTE 9", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S XRM NOTE 12 PRO", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S XRM NOTE 13", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S XRM NOTE 13 PRO", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S XRM NOTE 14", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU 1724/S XRM NOTE 14 PRO", "price": "1.50", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg", "group": "Case", "category": "Qara standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S IPH 17", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S IPH 17 AIR", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S IPH 17 PRO", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },        
-        { "name": "CASE TPU Z2526/S IPH 17 PRO MAX", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },        
-        { "name": "CASE TPU Z2526/S IPH 16", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S IPH 16 PRO", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S IPH 16 PRO MAX", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S IPH 16E", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S IPH 15", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S IPH 15 PRO", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S IPH 15 PRO MAX", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S IPH 15 PLUS", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S IPH 14", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S IPH 14 PRO", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S IPH 14 PRO MAX", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S IPH 11", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S IPH 12", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S IPH 12 PRO", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S IPH 12 PRO MAX", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S IPH 13", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S IPH 13 PRO", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },                                 
-        { "name": "CASE TPU Z2526/S IPH 13 PRO MAX", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S HONOR 200", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S HONOR 200 LITE", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S HONOR 200 PRO", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S HONOR 400 LITE", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S HONOR 90", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S HONOR X6A", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S HONOR X6B", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S HONOR X7A", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S HONOR X7B", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S HONOR X7C", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S HONOR X8A", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S HONOR X8B", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S HONOR X8C", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S HONOR X9A", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S HONOR X9B", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S HONOR X9C", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM A03", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM A03S", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM A04S", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM A05", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM A05S", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM A06", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM A10", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM A12", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM A13", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM A14", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM A15", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM A16", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM A25", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM A26", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM A33", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM A35", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM A36", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM A55", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM A56", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM S23", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM S23 ULTRA", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM S24", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM S24 ULTRA", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM S24FE", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM S25", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM S25 EDGE", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S SAM S25 ULTRA", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S XRM 14C", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S XRM A5", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S XRM NOTE 10", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S XRM NOTE 12", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S XRM NOTE 13", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S XRM NOTE 14", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S XRM NOTE 8", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S XRM NOTE 9", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" },
-        { "name": "CASE TPU Z2526/S XRM NOTE 9S", "price": "1.20", "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg", "group": "Case", "category": "Şeffaf standart", "brand": "Ümumi", "pinned": "false", "hasNew": "false" }                                    
+        {
+            "name": "CASE TPU 1724/S HONOR 90",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S HONOR X5",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S HONOR X5B",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S HONOR X6A",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S HONOR X6B",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S HONOR X7",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S HONOR X7A",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S HONOR X7B",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S HONOR X7C",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S HONOR X8B",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S HONOR X8C",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S HONOR X9",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S HONOR X9A",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S HONOR X9B",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S HONOR X9C",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S IPH 11 PRO MAX",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S IPH 12 PRO",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S IPH 13 PRO",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S IPH 13 PRO MAX",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S IPH 15 PRO",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S IPH 15 PRO MAX",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S IPH X/XS",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM A03 CORE",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM A03S",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM A04",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM A04S",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM A05",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM A05S",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM A06",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM A10",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM A14",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM A15",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM A16",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM A25",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM A26",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM A33",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM A34",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM A35",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM A36",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM A50",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM A52",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM A53",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM A54",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM A55",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM A56",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM A73",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S SAM S23 FE",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S XRM 10",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S XRM 10A",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S XRM 10C",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S XRM 12C",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S XRM 13",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S XRM 13C",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S XRM 14C",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S XRM 8A",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S XRM 9",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S XRM 9A",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S XRM 9T",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S XRM NOTE 7",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S XRM NOTE 9",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S XRM NOTE 12 PRO",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S XRM NOTE 13",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S XRM NOTE 13 PRO",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S XRM NOTE 14",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU 1724/S XRM NOTE 14 PRO",
+            "price": "1.50",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
+            "group": "Case",
+            "category": "Qara standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S IPH 17",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S IPH 17 AIR",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S IPH 17 PRO",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S IPH 17 PRO MAX",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S IPH 16",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S IPH 16 PRO",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S IPH 16 PRO MAX",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S IPH 16E",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S IPH 15",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S IPH 15 PRO",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S IPH 15 PRO MAX",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S IPH 15 PLUS",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S IPH 14",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S IPH 14 PRO",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S IPH 14 PRO MAX",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S IPH 11",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S IPH 12",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S IPH 12 PRO",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S IPH 12 PRO MAX",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S IPH 13",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S IPH 13 PRO",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S IPH 13 PRO MAX",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S HONOR 200",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S HONOR 200 LITE",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S HONOR 200 PRO",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S HONOR 400 LITE",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S HONOR 90",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S HONOR X6A",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S HONOR X6B",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S HONOR X7A",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S HONOR X7B",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S HONOR X7C",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S HONOR X8A",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S HONOR X8B",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S HONOR X8C",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S HONOR X9A",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S HONOR X9B",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S HONOR X9C",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM A03",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM A03S",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM A04S",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM A05",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM A05S",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM A06",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM A10",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM A12",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM A13",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM A14",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM A15",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM A16",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM A25",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM A26",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM A33",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM A35",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM A36",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM A55",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM A56",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM S23",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM S23 ULTRA",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM S24",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM S24 ULTRA",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM S24FE",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM S25",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM S25 EDGE",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S SAM S25 ULTRA",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S XRM 14C",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S XRM A5",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S XRM NOTE 10",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S XRM NOTE 12",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S XRM NOTE 13",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S XRM NOTE 14",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S XRM NOTE 8",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S XRM NOTE 9",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        },
+        {
+            "name": "CASE TPU Z2526/S XRM NOTE 9S",
+            "price": "1.20",
+            "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.17.39_0d47922b.jpg",
+            "group": "Case",
+            "category": "Şeffaf standart",
+            "brand": "Ümumi",
+            "pinned": "false",
+            "hasNew": "false"
+        }
     ]
 }

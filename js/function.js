@@ -27,7 +27,7 @@ $(document).ready(function() {
     let isLoading = false;
     let customData = [];
 
-    $.getJSON("products.json?v=167", function(data) {
+    $.getJSON("products.json?v=168", function(data) {
       products = data.products;
       getCategoryList();
 
@@ -395,9 +395,20 @@ $(document).ready(function() {
     const targetBrands = ['Foni', 'Euroacs', 'Joyroom'];
 
     let cashbackChips = ''
-    
+    let hasNewChips = '';
+
     if(targetBrands.includes(product.brand)) {
       cashbackChips = `<span class="cashback-chips">2% CASHBACK</span>`;
+    }
+
+    if(product.addedDate) {
+      var toDay = new Date();
+
+      let currentDate = `${toDay.getDate()}.${toDay.getMonth() + 1}.${toDay.getFullYear()}`;
+
+      if(getDateDiff(currentDate, product.addedDate) < 7) {
+        hasNewChips = `<span class="cashback-chips">NEW</span>`; 
+      }
     }
 
 
@@ -411,6 +422,7 @@ $(document).ready(function() {
           <div class="product-chips">
           ${product.brand ? `<span class="product-brand">${product.brand}</span>` : ''}   
           ${cashbackChips}
+          ${hasNewChips}
           </div>
 
 
@@ -699,5 +711,24 @@ let sliderItemList = products.slice(0, 20);
 
     console.log('sadsa')    
   });
+
+
+
+function getDateDiff(date1, date2) {
+  // Преобразуем строки формата 10.10.2025 → Date
+  const [day1, month1, year1] = date1.split('.').map(Number);
+  const [day2, month2, year2] = date2.split('.').map(Number);
+
+  const d1 = new Date(year1, month1 - 1, day1);
+  const d2 = new Date(year2, month2 - 1, day2);
+
+  // Разница в миллисекундах
+  const diffMs = Math.abs(d2 - d1);
+
+  // Переводим в дни
+  const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+
+  return diffDays;
+}    
 
 });
