@@ -27,7 +27,7 @@ $(document).ready(function() {
     let isLoading = false;
     let customData = [];
 
-    $.getJSON("products.json?v=169", function(data) {
+    $.getJSON("products.json?v=170", function(data) {
       products = data.products;
       getCategoryList();
 
@@ -397,9 +397,9 @@ $(document).ready(function() {
     let cashbackChips = ''
     let hasNewChips = '';
 
-    if(targetBrands.includes(product.brand)) {
-      cashbackChips = `<span class="cashback-chips">2% CASHBACK</span>`;
-    }
+    // if(targetBrands.includes(product.brand)) {
+    //   cashbackChips = `<span class="cashback-chips">2% CASHBACK</span>`;
+    // }
 
     if(product.addedDate) {
       var toDay = new Date();
