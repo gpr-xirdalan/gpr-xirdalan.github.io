@@ -1,6 +1,78 @@
 {
     "products": [
         {
+            "name": "TWS EUROACS C-VIBE 3 ENC",
+            "price": "22",
+            "imageSrc": "img/IMG-20251013-WA0015.jpg",
+            "category": "Airpods",
+            "group": "Digər airpodslar",
+            "brand": "Euroacs",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "13.10.2025"
+        },
+        {
+            "name": "TWS EUROACS SM-VIBE 3 ENC WH",
+            "price": "28",
+            "imageSrc": "img/IMG-20251013-WA0014.jpg",
+            "category": "Airpods",
+            "group": "Digər airpodslar",
+            "brand": "Euroacs",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "13.10.2025"
+        },
+        {
+            "name": "CHARGER JOYSTICK EUROACS EU-GC401",
+            "price": "25",
+            "imageSrc": "img/IMG-20251013-WA0013.jpg",
+            "category": "Qarışıq məhsullar",
+            "group": "Qarışıq məhsullar",
+            "brand": "Euroacs",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "13.10.2025"
+        },
+        {
+            "name": "TWS EUROACS C-VIBE 3 ENC",
+            "price": "22",
+            "imageSrc": "img/IMG-20251013-WA0012.jpg",
+            "category": "Airpods",
+            "group": "Digər airpodslar",
+            "brand": "Euroacs",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "13.10.2025"
+        },
+        {
+            "name": "CAMERA KIDS EUROACS EU-K302",
+            "price": "55",
+            "imageSrc": "img/IMG-20251013-WA0010.jpg",
+            "category": "Qarışıq məhsullar",
+            "group": "Qarışıq məhsullar",
+            "brand": "Euroacs",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "13.10.2025"
+        },
+        {
+            "name": "CAMERA KIDS EUROACS EU-K302",
+            "price": "55",
+            "imageSrc": "img/IMG-20251013-WA0009.jpg",
+            "category": "Qarışıq məhsullar",
+            "group": "Qarışıq məhsullar",
+            "brand": "Euroacs",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "13.10.2025"
+        },
+        {
             "name": "BASLIQ PD 20W FONI FN-B425 USB",
             "price": "4.50",
             "imageSrc": "img/Изображение WhatsApp 2025-10-10 в 18.22.06_0ff35832.jpg",
