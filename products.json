@@ -1,6 +1,105 @@
 {
     "products": [
         {
+            "name": "OTG JOYROOM USB S-H151",
+            "price": "4",
+            "imageSrc": "img/IMG-20251022-WA0010.jpg",
+            "category": "OTG",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "22.10.2025"
+        },
+        {
+            "name": "CABLE AUX EUROACS EU-D014",
+            "price": "1.50",
+            "imageSrc": "img/eu-d014.png",
+            "category": "AUX",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "22.10.2025"
+        },
+        {
+            "name": "CABLE AUX EUROACS EU-D015 1.5M",
+            "price": "1.80",
+            "imageSrc": "img/IMG-20251022-WA0006.jpg",
+            "category": "AUX",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "22.10.2025"
+        },
+        {
+            "name": "CABLE AUX FONI FC404 METAL",
+            "price": "1.50",
+            "imageSrc": "img/IMG-20251022-WA0012.jpg",
+            "category": "AUX",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "22.10.2025"
+        },
+        {
+            "name": "CABLE AUX BS-Y022",
+            "price": "4.50",
+            "imageSrc": "img/IMG-20251022-WA0007.jpg",
+            "category": "AUX",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "22.10.2025"
+        },
+        {
+            "name": "CABLE AUX EUROACS EU-P378",
+            "price": "3",
+            "imageSrc": "img/IMG-20251022-WA0008.jpg",
+            "category": "AUX",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "22.10.2025"
+        }, 
+        {
+            "name": "CABLE AUX KIN KY212",
+            "price": "2",
+            "imageSrc": "img/IMG-20251022-WA0009.jpg",
+            "category": "AUX",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "22.10.2025"
+        }, 
+        {
+            "name": "CABLE AUX KIN KY212",
+            "price": "2",
+            "imageSrc": "img/IMG-20251022-WA0009.jpg",
+            "category": "AUX",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "22.10.2025"
+        }, 
+        {
+            "name": "CABLE AUX 2M PIONER S720",
+            "price": "2",
+            "imageSrc": "img/IMG-20251022-WA0005.jpg",
+            "category": "AUX",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "22.10.2025"
+        },        
+        {
             "name": "TWS EUROACS C-VIBE 3 ENC",
             "price": "22",
             "imageSrc": "img/IMG-20251013-WA0015.jpg",
