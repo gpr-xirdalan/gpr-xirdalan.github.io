@@ -732,7 +732,7 @@ function getDateDiff(date1, date2) {
 }    
 
 
-const fullscreen = false;
+let fullscreen = false;
 
 function openFullscreen() {
   if (document.documentElement.requestFullscreen) {
