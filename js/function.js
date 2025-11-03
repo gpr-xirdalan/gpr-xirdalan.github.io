@@ -732,8 +732,6 @@ function getDateDiff(date1, date2) {
 }    
 
 
-let fullscreen = false;
-
 function openFullscreen() {
   if (document.documentElement.requestFullscreen) {
     document.documentElement.requestFullscreen();
@@ -746,11 +744,5 @@ function openFullscreen() {
   }
 }
 
-$(document).on('click', function() {
-  if(!fullscreen) {
-    openFullscreen();
-    fullscreen = true;
-  }
-});
 
 });

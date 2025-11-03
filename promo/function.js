@@ -27,7 +27,7 @@ $(document).ready(function() {
     let isLoading = false;
     let customData = [];
 
-    $.getJSON("products.json?v=178", function(data) {
+    $.getJSON("products.json?v=179", function(data) {
       products = data.products;
       getCategoryList();
 
@@ -732,8 +732,6 @@ function getDateDiff(date1, date2) {
 }    
 
 
-let fullscreen = false;
-
 function openFullscreen() {
   if (document.documentElement.requestFullscreen) {
     document.documentElement.requestFullscreen();
@@ -746,11 +744,5 @@ function openFullscreen() {
   }
 }
 
-$(document).on('click', function() {
-  if(!fullscreen) {
-    openFullscreen();
-    fullscreen = true;
-  }
-});
 
 });
