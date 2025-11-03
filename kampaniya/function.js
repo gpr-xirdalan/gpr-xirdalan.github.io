@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
     const urlParams = new URLSearchParams(window.location.search);
     const urlCategory = urlParams.get('category');
     let urlProductName = urlParams.get('product_name');
@@ -28,7 +27,7 @@ $(document).ready(function() {
     let isLoading = false;
     let customData = [];
 
-    $.getJSON("/kampaniya/products.json?v=118", function(data) {
+    $.getJSON("/products.json?v=177", function(data) {
       products = data.products;
       getCategoryList();
 
@@ -44,19 +43,23 @@ $(document).ready(function() {
         return selectCategory(urlCategory);
       }
 
-        loadProducts();
+      loadProducts();
     });
 
 
+
+    $(document).on('click', '.hide-price', function() {
+      $('.products-price').toggleClass('hide-product-price');
+    });
 
 
 
     $(window).on("scroll", function () {
       if($(window).scrollTop() > 100) {
         $('.search-container').addClass('search-container-scrolled');
-        $('.scroll-top').addClass('display-flex');
+        $('.scroll-nav').addClass('display-flex');
       } else { 
-        $('.scroll-top').removeClass('display-flex');
+        $('.scroll-nav').removeClass('display-flex');
         $('.search-container').removeClass('search-container-scrolled');
       }
 
@@ -109,7 +112,7 @@ $(document).ready(function() {
 
 
     $(document).on('click', '.open-add-to-card-modal', function() {
-        $('.add-to-card-modal').addClass('display-flex');
+        openAddOrderModal();
 
         let $this = $(this).closest('.products-card');
 
@@ -118,11 +121,15 @@ $(document).ready(function() {
         let productPrice = $this.find('.products-price').text();
         let id = $this.find('.id').val();
 
+        let productsBrand = $this.find('.product-brand').text() ?? '';
+
         $('.cart-product-image > img').attr('src', imageSrc);
         
         $('.card-product-name').html(productName);
         
         $('.cart-product-price').text(productPrice);
+
+        $('.cart-brand').html(productsBrand);
 
         $('.cart-id').val(id);
         
@@ -133,13 +140,15 @@ $(document).ready(function() {
 
 
     $(document).on('click', '.add-to-card', function() {
-        closeCartModal();
+        closeAddOrderModal();
         let $this = $(this).closest('.add-to-card-modal');
 
         let imageSrc = $this.find('.cart-product-image > img').attr('src');
         let productName = $this.find('.card-product-name').text();
         let productPrice = $this.find('.cart-product-price').text();
         let count = $this.find('.count').val();
+        let brand = $this.find('.cart-brand').text();
+
 
         if(!count || count <=0) {
           count = 1;
@@ -156,7 +165,8 @@ $(document).ready(function() {
             "productName": productName,
             "productPrice": productPrice,
             "count": count,
-            "getId": getId
+            "getId": getId,
+            "brand": brand
           };
 
         $('.count').val('');
@@ -174,30 +184,30 @@ $(document).ready(function() {
 
 
     $(document).on('click', '.close-add-card-modal', function() {
-      closeCartModal();
+      closeAddOrderModal();
     });
 
 
     $(document).on('click', '.close-card-list', function() {
-      $('.cart-list-modal').removeClass(['display-flex', 'active']);
-      $('body').removeClass('overflow-hidden');
-
+      closeCart();
     });
+
+
 
 
     $(document).on('click', '.openCart', function() {
       let savedOrder = getOrders();
 
-        $('body').addClass('overflow-hidden');
+      openCart();
 
 
-      $('.cart-list').html('');
-      $('.cart-list-modal').addClass(['display-flex', 'active']);
-
+      let targetBrands = ['Foni', 'Euroacs', 'Joyroom'];
 
       // {imageSrc: '/img/3.jpg', productName: '3 Qulaqlıq BT Euroacs EU-HS30 Black', productPrice: '0.60₼', count: '23', getId: 'SSW3767'}
       Object.keys(savedOrder).map(function(objectKey, index) {
           var row = savedOrder[objectKey];
+          
+          let itemSum = sumItemTotal(row.count, row.productPrice);
 
           $('.cart-list').prepend(`
             <div class="cart-list-item">
@@ -206,7 +216,7 @@ $(document).ready(function() {
                </div>
 
                <div class="cart-list-info">
-                  <span class="delete-product-at-card">Sil</span>
+                  <span class="delete-product-at-card"><i class="las la-times"></i></span>
 
                   <span class="cart-list-item-name">${row.productName}</span>
                   <span class="cart-list-item-productPrice">${row.productPrice}</span>
@@ -215,10 +225,15 @@ $(document).ready(function() {
                     <span class="cart-label">Say:</span>
                     <input type="number" class="input cart-list-item-count" value="${row.count}">
 
-                    <p class="sum">
+                    <div class="ssd">
+
+                      <p class="sum">
                          <span class="sum-title">Toplam:</span> 
                         <span class="cart-list-item-total">${sumItemTotal(row.count, row.productPrice)}₼</span> 
                       </p>
+                    <div>
+
+
                   </div>
 
                   <input type="hidden" class="cart-list-item-id" value="${row.getId}">
@@ -293,10 +308,15 @@ $(document).ready(function() {
     });
 
 
-    function closeCartModal() {
+    function closeAddOrderModal() {
       $('.add-to-card-modal').removeClass('display-flex');
       $('body').removeClass('overflow-hidden');
     } 
+
+    function openAddOrderModal() {
+      history.pushState({ modalOpen: true }, '');      
+      $('.add-to-card-modal').addClass('display-flex');
+    }
 
     $(document).on('input', '.cart-list-item-count', function() {
        let $delay = 450;
@@ -315,7 +335,7 @@ $(document).ready(function() {
 
 
        $(this).closest('.cart-list-item').find('.cart-list-item-total').html(`${sumItemTotal(newCount, card[getId].productPrice)}`);
-      
+
     });
 
 
@@ -372,16 +392,41 @@ $(document).ready(function() {
 
 
   function prepareProductCardTpl(product) {
+    const targetBrands = ['Foni', 'Euroacs', 'Joyroom'];
+
+    let cashbackChips = ''
+    let hasNewChips = '';
+
+    // if(targetBrands.includes(product.brand)) {
+    //   cashbackChips = `<span class="cashback-chips">2% CASHBACK</span>`;
+    // }
+
+    if(product.addedDate) {
+      var toDay = new Date();
+
+      let currentDate = `${toDay.getDate()}.${toDay.getMonth() + 1}.${toDay.getFullYear()}`;
+
+      if(getDateDiff(currentDate, product.addedDate) < 7) {
+        hasNewChips = `<span class="cashback-chips">NEW</span>`; 
+      }
+    }
+
+
     // let urlParse = encodeURIComponent(product.name);
     return `
         <div class="products-card animate__animated animate__fadeIn">
           <a href="javascript:void(0)" class="share" data-name="${product.name}">
-            
-            <span>Paylaş</span>
-
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 512 512.001" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M361.824 344.395c-24.531 0-46.633 10.593-61.972 27.445l-137.973-85.453A83.321 83.321 0 0 0 167.605 256a83.29 83.29 0 0 0-5.726-30.387l137.973-85.457c15.34 16.852 37.441 27.45 61.972 27.45 46.211 0 83.805-37.594 83.805-83.805C445.629 37.59 408.035 0 361.824 0c-46.21 0-83.804 37.594-83.804 83.805a83.403 83.403 0 0 0 5.726 30.386l-137.969 85.454c-15.34-16.852-37.441-27.45-61.972-27.45C37.594 172.195 0 209.793 0 256c0 46.21 37.594 83.805 83.805 83.805 24.53 0 46.633-10.594 61.972-27.45l137.97 85.454a83.408 83.408 0 0 0-5.727 30.39c0 46.207 37.593 83.801 83.804 83.801s83.805-37.594 83.805-83.8c0-46.212-37.594-83.805-83.805-83.805zm-53.246-260.59c0-29.36 23.887-53.246 53.246-53.246s53.246 23.886 53.246 53.246c0 29.36-23.886 53.246-53.246 53.246s-53.246-23.887-53.246-53.246zM83.805 309.246c-29.364 0-53.25-23.887-53.25-53.246s23.886-53.246 53.25-53.246c29.36 0 53.242 23.887 53.242 53.246s-23.883 53.246-53.242 53.246zm224.773 118.95c0-29.36 23.887-53.247 53.246-53.247s53.246 23.887 53.246 53.246c0 29.36-23.886 53.246-53.246 53.246s-53.246-23.886-53.246-53.246zm0 0" fill="#000000" opacity="1" data-original="#000000" class=""></path></g></svg>
           </a>
-          <span class="product-brand">${product.brand ?? ''}</span>   
+            
+          <div class="product-chips">
+          ${product.brand ? `<span class="product-brand">${product.brand}</span>` : ''}   
+          ${cashbackChips}
+          ${hasNewChips}
+          </div>
+
+
+
           <div class="prodcuts-image">
             <img src="${product.imageSrc}" alt="">
           </div>
@@ -395,7 +440,7 @@ $(document).ready(function() {
             ${product.discount 
 
             ? `<span class="product-discount-price">
-                  30% endirimlə:
+                  ${product.discount}% endirimlə:
                   <span class="products-price">${product.discount ? (product.price - ((product.price) * product.discount / 100)).toFixed(2) : product.price}₼</span>
               </span>` 
 
@@ -405,7 +450,7 @@ $(document).ready(function() {
             
           </div>
           
-          <button class="button open-add-to-card-modal">Səbətə əlavə et</button>
+          <button class="button open-add-to-card-modal"><i class="las la-cart-arrow-down"></i> Səbətə əlavə et</button>
 
           <input type="hidden" class="id" value="${generateRandomId()}">
 
@@ -432,23 +477,59 @@ $(document).ready(function() {
   function getCategoryList() {
     let selected = '';
 
+    let groupList = {};
+
     $.each(products, function(key, val) {
-      if(!category.includes(val.category)) {
-        category.push(val.category);
-      }  
+      if(val.group) {
+        if (!groupList[val.group]) {
+          groupList[val.group] = [];
+        }
+
+        if(!groupList[val.group].includes(val.category)) {
+          groupList[val.group].push(val.category);
+        }
+      } else if(!category.includes(val.category) && !val.group) {
+          category.push(val.category);
+      }     
     });
 
+
+    category.push(groupList);
+
+
+
+
     selectedRandomCategory();
+        let groupOptionList = '';
+
+
+        console.log(category);
 
     $.each(category, function(key, val) { 
-      if(selectedCategory && val === selectedCategory) {
-        selected = 'selected';
+        if (typeof val === "object" && !Array.isArray(val)) { // Проверяем, что это объект
+            Object.keys(val).forEach(groupKey => {
+                val[groupKey].forEach(groupVal => {
+                    groupOptionList += `<option class="select-category-option" ${selected} value="${groupVal}">${groupVal}</option>`;
+                });
+
+                $('.select-category').prepend(`
+                  <optgroup label="${groupKey}">
+                    ${groupOptionList}
+                  </optgroup>
+              `); 
+
+              groupOptionList = '';  
+            });
+
+        } else {
+          if(selectedCategory && val === selectedCategory) {
+            selected = 'selected';
+          }        
+        $('.select-category').append(`
+          <option class="select-category-option" ${selected} value="${val}">${val}</option>
+        `);       
       }
 
-
-      $('.select-category').append(`
-        <option class="select-category-option" ${selected} value="${val}">${val}</option>
-      `);
 
       selected = '';
     });
@@ -494,10 +575,16 @@ function generateRandomId() {
 function sumCardTotal() {
   let sumCard = [];
 
+  const targetBrands = ['Foni', 'Euroacs', 'Joyroom'];
+
   Object.keys(card).map(function(objectKey) {
     var row = card[objectKey];
-    sumCard.push(parseFloat(row.productPrice) * row.count);
+    rowSum = parseFloat(row.productPrice) * row.count;
+
+    sumCard.push(rowSum);
+
   });
+
 
   $('.sum-card').text(sumCard.reduce((partialSum, a) => partialSum + a, 0).toFixed(2)); 
 }
@@ -505,6 +592,11 @@ function sumCardTotal() {
 
 function selectedRandomCategory() {
   selectedCategory = category[Math.floor(Math.random() * category.length)];
+
+  if(typeof selectedCategory === 'object') {
+    selectedCategory = false;
+  }
+
 }
 
 
@@ -573,6 +665,92 @@ let sliderItemList = products.slice(0, 20);
     }); 
 }
 
+  function openCart() {
+    $('body').addClass('overflow-hidden');
+
+    history.pushState({ modalOpen: true }, ''); 
+
+    $('.cart-list').html('');
+    $('.cart-list-modal').addClass(['display-flex', 'active']);
+    $('.bottom-contol').addClass('hide-bottom-control');   
+  }
+
+  function closeCart() {
+    $('.cart-list-modal').removeClass(['display-flex', 'active']);
+    $('body').removeClass('overflow-hidden');    
+    $('.bottom-contol').removeClass('hide-bottom-control');   
+  }    
+
+
+  window.addEventListener('popstate', function (event) {
+    if ($('.cart-list-modal').hasClass('active')) {
+      closeCart(); 
+      history.pushState(null, ''); 
+      return;
+    }
+
+    if ($('.add-to-card-modal').hasClass('display-flex')) {
+      closeAddOrderModal();
+      history.pushState(null, ''); 
+      return;
+    }
+
+     history.back();
+  });
+
+
+    const select = document.getElementById('categorySelect'); 
+  $('.opencategory').click(function() {
+    // select.style.opacity = '1';
+    // select.style.pointerEvents = 'auto';
+    // select.style.position = 'fixed';
+    // select.style.left = '-9999px';
+
+    $('.select-category').focus();
+    $('.select-category').trigger('click');
+
+    console.log('sadsa')    
+  });
+
+
+
+function getDateDiff(date1, date2) {
+  // Преобразуем строки формата 10.10.2025 → Date
+  const [day1, month1, year1] = date1.split('.').map(Number);
+  const [day2, month2, year2] = date2.split('.').map(Number);
+
+  const d1 = new Date(year1, month1 - 1, day1);
+  const d2 = new Date(year2, month2 - 1, day2);
+
+  // Разница в миллисекундах
+  const diffMs = Math.abs(d2 - d1);
+
+  // Переводим в дни
+  const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+
+  return diffDays;
+}    
+
+
+let fullscreen = false;
+
+function openFullscreen() {
+  if (document.documentElement.requestFullscreen) {
+    document.documentElement.requestFullscreen();
+  } else if (document.documentElement.mozRequestFullScreen) { // Firefox
+    document.documentElement.mozRequestFullScreen();
+  } else if (document.documentElement.webkitRequestFullscreen) { // Chrome, Safari and Opera
+    document.documentElement.webkitRequestFullscreen();
+  } else if (document.documentElement.msRequestFullscreen) { // IE/Edge
+    document.documentElement.msRequestFullscreen();
+  }
+}
+
+$(document).on('click', function() {
+  if(!fullscreen) {
+    openFullscreen();
+    fullscreen = true;
+  }
 });
 
-
+});

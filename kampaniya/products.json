@@ -1,634 +1,158 @@
 {
     "products": [
-       {
-            "name": "HF WIRED C SOUNDER HS66 ",
-            "price": "2",
-            "imageSrc": "/img/HS66.jpg",
-            "category": "Kampaniya",
+        {
+            "name": "BASLIQ USB 120W FONI FT220 2PD TF+SF WH",
+            "price": "9",
+            "imageSrc": "img/promo/WhatsApp Şəkil 2025-11-03 saat 17.36.41_c5f22a64.jpg",
+            "category": "BASLIQ",
             "brand": "",
-            "discount": "30",
+            "discount": 50,
             "pinned": false,
-            "hasNew": false
+            "hasNew": false,
+            "addedDate": "03.11.2025"
         },
         {
-            "name": "HF WIRED C SOUNDER HS55 ",
-            "price": "2.80",
-            "imageSrc": "/img/HS55.jpg",
-            "category": "Kampaniya",
+            "name": "BASLIQ USB QC4.0 FONI FN071 TF",
+            "price": "3.50",
+            "imageSrc": "img/promo/WhatsApp Şəkil 2025-11-03 saat 17.35.29_9c18f524.jpg",
+            "category": "BASLIQ",
             "brand": "",
-            "discount": "30",
+            "discount": 50,
             "pinned": false,
-            "hasNew": false
+            "hasNew": false,
+            "addedDate": "03.11.2025"
         },
         {
-            "name": "HF WIRED C SOUNDER HS33 BLACK",
-            "price": "2.80",
-            "imageSrc": "/img/HS33.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "HF 3.5MM SOUNDER J88 BLACK",
-            "price": "1.60",
-            "imageSrc": "/img/sounder-j88.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "HF 3.5MM SOUNDER J55 GREY",
-            "price": "1.60",
-            "imageSrc": "/img/sounder-j55.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "HF WIRED 3.5MM CT32",
-            "price": "1.60",
-            "imageSrc": "/img/ct32.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "HF WIRED 3.5MM CT31",
-            "price": "1.60",
-            "imageSrc": "/img/ct31.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "CHARGER PD 20W ASPOR A801 L ",
-            "price": "5.10",
-            "imageSrc": "/img/a801.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "BASLIQ USB 2.4A MOXOM MX24 2USB ACIQDA",
-            "price": "2.80",
-            "imageSrc": "/img/basliq-mx24.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "BASLIQ USB 30W GUVENPIL GPL-50 TF",
-            "price": "8",
-            "imageSrc": "/img/gpl-50.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "SESGUCLENDIRICI X1 MINI MIX COLORS",
+            "name": "BASLIQ PD 20W FONI FN06 QC BLK",
             "price": "5",
-            "imageSrc": "/img/x1-mini.jpg",
-            "category": "Kampaniya",
-            "brand": "Ümumi",
-            "discount": "30",
-            "pinned": true,
-            "hasNew": false
-        },
-        {
-            "name": "BASLIQ PD 20W FONI FN06 QC ",
-            "price": "5",
-            "imageSrc": "/img/fn06.jpg",
-            "category": "Kampaniya",
+            "imageSrc": "img/promo/WhatsApp Şəkil 2025-11-03 saat 17.35.02_42ea20ad.jpg",
+            "category": "BASLIQ",
             "brand": "",
-            "discount": "30",
+            "discount": 30,
             "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "TWS BEAM 3 WITH DISPLAY BLACK",
-            "price": "29",
-            "imageSrc": "/img/beam-3.jpg",
-            "category": "Kampaniya",
-            "brand": "Ümumi",
-            "discount": "30",
-            "pinned": true,
-            "hasNew": false
-        },
-        {
-            "name": "TWS BEAM 3 WITH DISPLAY PURPLE",
-            "price": "29",
-            "imageSrc": "/img/beam-3.jpg",
-            "category": "Kampaniya",
-            "discount": "30",
-            "brand": "Ümumi",
-            "pinned": true,
-            "hasNew": false
-        },
-        {
-            "name": "TWS YX28 WITH DISPLAY",
-            "price": "28",
-            "imageSrc": "/img/YX28.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "TWS FONI FN-TW3",
-            "price": "16.50",
-            "imageSrc": "/img/FN-TW3.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "TWS JNE08 BLACK",
-            "price": "14.50",
-            "imageSrc": "/img/jne08.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "TWS JNE08 WHITE",
-            "price": "14.50",
-            "imageSrc": "/img/jne08.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "TWS MATE60 ANC+ENC BLACK",
-            "price": "20",
-            "imageSrc": "/img/MATE60.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "TWS MATE60 ANC+ENC WHITE",
-            "price": "20",
-            "imageSrc": "/img/MATE60.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "TWS MT-B70 BLACK",
-            "price": "19.50",
-            "imageSrc": "/img/bt-m70.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "TWS MT-B70 PINK",
-            "price": "19.50",
-            "imageSrc": "/img/bt-m70.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "TWS MT-B70 WHITE",
-            "price": "19.50",
-            "imageSrc": "/img/bt-m70.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "SESGUCLENDIRICI KTS-1813 20W 4\"x2 ",
-            "price": "42",
-            "imageSrc": "/img/kts-1813.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "SESGUCLENDIRICI KTS-1762 40W 8\"x2 MIC+REMOTE",
-            "price": "85",
-            "imageSrc": "/img/kts-1762.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "SESGUCLENDIRICI GTS-1852 40W 6.5\"x2 MIC BLACK ",
-            "price": "48",
-            "imageSrc": "/img/GTS-1852.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "SESGUCLENDIRICI DH1208 3W",
-            "price": "7",
-            "imageSrc": "/img/dh1208.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "MOUSE+QULAQLIQ OYUN JEDEL CP06 ",
-            "price": "25",
-            "imageSrc": "/img/cp06.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "CAR BASLIQ QC ASPOR A901",
-            "price": "3.30",
-            "imageSrc": "/img/a901.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "CAR BASLIQ PD ASPOR A906",
-            "price": "4.20",
-            "imageSrc": "/img/a906.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "CABLE PD DADU C85 L",
-            "price": "3",
-            "imageSrc": "/img/C85.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "CABLE PD DADU C85 C",
-            "price": "2",
-            "imageSrc": "/img/C85.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "CABLE USB FONI FN-C76 LIGHTNING",
-            "price": "2",
-            "imageSrc": "/img/FN-C76.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "CABLE USB FONI FN-C76 MIKRO",
-            "price": "1.80",
-            "imageSrc": "/img/FN-C76.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "CABLE USB FONI FN-C76 TYPE-C",
-            "price": "2",
-            "imageSrc": "/img/FN-C76.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "CABLE USB FONI FN-C28 LIGHTNING",
-            "price": "2.20",
-            "imageSrc": "/img/fn-c28.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "CABLE USB FONI FN-C28 MIKRO",
-            "price": "2",
-            "imageSrc": "/img/fn-c28.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "CABLE USB FONI FN-C28 TYPE-C",
-            "price": "2.20",
-            "imageSrc": "/img/fn-c28.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "CABLE USB FONI FN-AC82 OD 6.0 MIKRO",
-            "price": "1.70",
-            "imageSrc": "/img/fn-ac82-c.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "CABLE USB FONI FN-AC82 OD 6.0 LIGHTNING",
-            "price": "2",
-            "imageSrc": "/img/fn-ac82-c.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "CABLE USB FONI FN-AC82 OD 6.0 TYPE-C",
-            "price": "1.80",
-            "imageSrc": "/img/fn-ac82-c.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "HF BIG BT SONY WH1000XM5",
-            "price": "15",
-            "imageSrc": "/img/wh1000xm5.jpg",
-            "category": "Kampaniya",
-            "brand": "Sony",
-            "discount": "30",
-            "pinned": true,
-            "hasNew": false
-        },
-        {
-            "name": "HF BIG BT SONY M5 ",
-            "price": "19.50",
-            "imageSrc": "/img/bt-sony-m5.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "HF BIG BT PULSE RGB  ",
-            "price": "23",
-            "imageSrc": "/img/hf-big-pulse.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "HF BIG BT JBL TUNE 510",
-            "price": "12",
-            "imageSrc": "/img/tune-510.jpg",
-            "category": "Kampaniya",
-            "discount": "30",
-            "brand": "JBL",
-            "pinned": true,
-            "hasNew": false
-        },
-        {
-            "name": "HF BIG BT JBL MSL-710",
-            "price": "12",
-            "imageSrc": "/img/msl-710.jpg",
-            "category": "Kampaniya",
-            "discount": "30",
-            "brand": "JBL",
-            "pinned": true,
-            "hasNew": false
-        },
-        {
-            "name": "HF BIG JBL 760BT ANC BLUE",
-            "price": "25",
-            "imageSrc": "/img/760bt-blue.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "HF BIG JBL 760BT ANC BLACK ",
-            "price": "25",
-            "imageSrc": "/img/760bt.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "FM CAR BT P4 QC",
-            "price": "7",
-            "imageSrc": "/img/bt-p4.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "FM CAR BT P3 PD ",
-            "price": "9.50",
-            "imageSrc": "/img/bt-p3.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "FM CAR BT P13 QC",
-            "price": "7",
-            "imageSrc": "/img/bt-p13.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "FM CAR BT P1 PD ",
-            "price": "9.50",
-            "imageSrc": "/img/bt-p1-pd.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "FM CAR BT M32P QC",
-            "price": "7",
-            "imageSrc": "/img/bt-m32.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "FM CAR BT M25 PD ",
-            "price": "11",
-            "imageSrc": "/img/bt-m25.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "FM CAR BT HM02 ",
-            "price": "9.50",
-            "imageSrc": "/img/hm02.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "FM CAR BT H45",
-            "price": "10",
-            "imageSrc": "/img/bt-h45.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "FM CAR BT H42",
-            "price": "13.50",
-            "imageSrc": "/img/BT-H42.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "FM CAR BT C31 ",
-            "price": "7",
-            "imageSrc": "/img/bt-c31.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "FM CAR BT C24S ",
-            "price": "11",
-            "imageSrc": "/img/car-c24s.jpg",
-            "category": "Kampaniya",
-            "brand": "Ümumi",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "BASLIQ PD 45W FONI FT215 USB TF+SF",
-            "price": "7",
-            "imageSrc": "/img/ft215.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
-        },
-        {
-            "name": "BASLIQ PD 35W SAMSUNG S22",
-            "price": "5",
-            "imageSrc": "/img/s22-black.jpg",
-            "category": "Kampaniya",
-            "brand": "",
-            "discount": "30",
-            "pinned": false,
-            "hasNew": false
+            "hasNew": false,
+            "addedDate": "03.11.2025"
         },
         {
             "name": "BASLIQ PD 35W FONI FT212 USB TF+SF WH",
             "price": "6",
-            "imageSrc": "/img/ft212.jpg",
-            "category": "Kampaniya",
+            "imageSrc": "img/promo/WhatsApp Şəkil 2025-11-03 saat 17.34.36_3274911b.jpg",
+            "category": "BASLIQ",
             "brand": "",
-            "discount": "30",
+            "discount": 50,
             "pinned": false,
-            "hasNew": false
+            "hasNew": false,
+            "addedDate": "03.11.2025"
         },
         {
-            "name": "BASLIQ PD 20W APPLE 13PRO MAX WHITE",
-            "price": "5",
-            "imageSrc": "/img/pd20w-13promax.jpg",
-            "category": "Kampaniya",
+            "name": "BASLIQ PD 35W EUROACS EU-MA250 TF",
+            "price": "7",
+            "imageSrc": "img/promo/WhatsApp Şəkil 2025-11-03 saat 17.27.25_f2020e7e.jpg",
+            "category": "BASLIQ",
             "brand": "",
-            "discount": "30",
+            "discount": 50,
             "pinned": false,
-            "hasNew": false
-        }      
+            "hasNew": false,
+            "addedDate": "03.11.2025"
+        },
+        {
+            "name": "BASLIQ PD 30W EUROACS EU-MA280 SF BLK",
+            "price": "8",
+            "imageSrc": "img/promo/WhatsApp Şəkil 2025-11-03 saat 17.26.56_15c06d5c.jpg",
+            "category": "BASLIQ",
+            "brand": "",
+            "discount": 50,
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "03.11.2025"
+        },
+        {
+            "name": "BASLIQ PD 35W EUROACS EU-MA317 2PD SF WH",
+            "price": "9",
+            "imageSrc": "img/promo/WhatsApp Şəkil 2025-11-03 saat 17.26.36_9c7b6211.jpg",
+            "category": "BASLIQ",
+            "brand": "",
+            "discount": 50,
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "03.11.2025"
+        },
+        {
+            "name": "BASLIQ USB 30W GUVENPIL GPL-50 TF",
+            "price": "8",
+            "imageSrc": "img/promo/WhatsApp Şəkil 2025-11-03 saat 17.26.16_de131c16.jpg",
+            "category": "BASLIQ",
+            "brand": "",
+            "discount": 50,
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "03.11.2025"
+        },
+        {
+            "name": "BASLIQ PD 15W SAMSUNG TA7101",
+            "price": "3.50",
+            "imageSrc": "img/promo/WhatsApp Şəkil 2025-11-03 saat 17.16.50_802d33a7.jpg",
+            "category": "BASLIQ",
+            "brand": "",
+            "discount": 30,
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "03.11.2025"
+        },
+        {
+            "name": "BASLIQ PD 20W EUROACS EU-MA272 BLK",
+            "price": "6",
+            "imageSrc": "img/promo/WhatsApp Şəkil 2025-11-03 saat 17.14.57_44908203.jpg",
+            "category": "BASLIQ",
+            "brand": "",
+            "discount": 30,
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "03.11.2025"
+        },
+        {
+            "name": "BASLIQ USB 2.4A MOXOM MX24 2USB ACIQDA",
+            "price": "4",
+            "imageSrc": "img/promo/WhatsApp Şəkil 2025-11-03 saat 17.12.26_1b86ff12.jpg",
+            "category": "BASLIQ",
+            "brand": "",
+            "discount": 50,
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "03.11.2025"
+        },
+        {
+            "name": "BASLIQ USB 2.4A ORIGINAL E071 2USB",
+            "price": "3",
+            "imageSrc": "img/promo/WhatsApp Şəkil 2025-11-03 saat 17.12.07_b793ed02.jpg",
+            "category": "BASLIQ",
+            "brand": "",
+            "discount": 50,
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "03.11.2025"
+        },
+        {
+            "name": "BASLIQ PD 45W EUROACS EU-MA305 USB TF+SF",
+            "price": "7.50",
+            "imageSrc": "img/promo/WhatsApp Şəkil 2025-11-03 saat 17.11.34_d80fb4ae.jpg",
+            "category": "BASLIQ",
+            "brand": "",
+            "discount": 30,
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "03.11.2025"
+        },
+        {
+            "name": "BASLIQ PD 25W SAMSUNG S23",
+            "price": "6.50",
+            "imageSrc": "img/promo/WhatsApp Şəkil 2025-11-03 saat 17.11.11_d20b92e1.jpg",
+            "category": "BASLIQ",
+            "brand": "",
+            "discount": 50,
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "03.11.2025"
+        }
     ]
 }
