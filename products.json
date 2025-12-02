@@ -1,6 +1,315 @@
 {
     "products": [
         {
+            "name": "HOLDER CAR VACUUM LBT L-905B",
+            "price": "5.50",
+            "imageSrc": "img/Изображение WhatsApp 2025-12-02 в 09.49.30_77423017.jpg",
+            "category": "Car Holder",
+            "group": "Avtomobil aksesuarları",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "CABLE USB EUROACS EU-Z214 SILICONE Lightning",
+            "price": "2.50",
+            "imageSrc": "img/Изображение WhatsApp 2025-12-01 в 11.39.06_b19c372d-l.jpg",
+            "category": "Cable",
+            "brand": "Euroacs",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "CABLE USB EUROACS EU-Z214 SILICONE  Type-C",
+            "price": "2.20",
+            "imageSrc": "img/Изображение WhatsApp 2025-12-01 в 11.39.06_69ecf628-c.jpg",
+            "category": "Cable",
+            "brand": "Euroacs",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "CABLE PD EUROACS EU-Z214 SILICONE Type-C",
+            "price": "2.50",
+            "imageSrc": "img/Изображение WhatsApp 2025-12-01 в 11.38.48_35f496d8-c.jpg",
+            "category": "Cable",
+            "brand": "Euroacs",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "CABLE PD EUROACS EU-Z214 SILICONE Lightning",
+            "price": "3",
+            "imageSrc": "img/Изображение WhatsApp 2025-12-01 в 11.38.48_35f496d8-l.jpg",
+            "category": "Cable",
+            "brand": "Euroacs",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "TERMOS 500ML EUROACS EU-FT3",
+            "price": "8",
+            "imageSrc": "img/Изображение WhatsApp 2025-12-01 в 11.31.55_5d034a70.jpg",
+            "category": "Qarışıq məhsullar",
+            "group": "Qarışıq məhsullar",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },          
+        {
+            "name": "MIC EUROACS EU-CM3",
+            "price": "35",
+            "imageSrc": "img/Изображение WhatsApp 2025-12-01 в 11.26.40_cc005204.jpg",
+            "category": "Qarışıq məhsullar",
+            "group": "Qarışıq məhsullar",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },  
+        {
+            "name": "CAMERA PTZ INDOOR EUROACS EU-RC5",
+            "price": "45",
+            "imageSrc": "img/Изображение WhatsApp 2025-12-01 в 11.25.28_a5a18388.jpg",
+            "category": "Qarışıq məhsullar",
+            "group": "Qarışıq məhsullar",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "CABLE USB EUROACS EU-Z211 Lightning",
+            "price": "3.50",
+            "imageSrc": "img/Изображение WhatsApp 2025-12-01 в 11.24.27_f5e397c5-L.jpg",
+            "category": "Cable",
+            "brand": "Euroacs",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "CABLE USB EUROACS EU-Z211 TYPE-C",
+            "price": "3.20",
+            "imageSrc": "img/Изображение WhatsApp 2025-12-01 в 11.24.27_f5e397c5-C.jpg",
+            "category": "Cable",
+            "brand": "Euroacs",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "CABLE PD EUROACS EU-Z211 Lightning",
+            "price": "4",
+            "imageSrc": "img/Изображение WhatsApp 2025-12-01 в 11.24.09_aa93f38d-c.jpg",
+            "category": "Cable",
+            "brand": "Euroacs",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "CABLE PD EUROACS EU-Z211 Lightning",
+            "price": "4",
+            "imageSrc": "img/Изображение WhatsApp 2025-12-01 в 11.24.09_aa93f38d-c.jpg",
+            "category": "Cable",
+            "brand": "Euroacs",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "CABLE PD EUROACS EU-Z211 TYPE-C",
+            "price": "3.80",
+            "imageSrc": "img/Изображение WhatsApp 2025-12-01 в 11.24.09_aa93f38d-c.jpg",
+            "category": "Cable",
+            "brand": "Euroacs",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },
+        {
+            "name": "CABLE USB EUROACS EU-Z209 METAL Lightning",
+            "price": "3.20",
+            "imageSrc": "img/Изображение WhatsApp 2025-12-01 в 11.19.31_6bee1988-l.jpg",
+            "category": "Cable",
+            "brand": "Euroacs",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "CABLE USB EUROACS EU-Z209 METAL Type-C",
+            "price": "3",
+            "imageSrc": "img/Изображение WhatsApp 2025-12-01 в 11.19.31_6bee1988-c.jpg",
+            "category": "Cable",
+            "brand": "Euroacs",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "CABLE PD EUROACS EU-Z209 METAL Lightning",
+            "price": "4",
+            "imageSrc": "img/Изображение WhatsApp 2025-12-01 в 11.19.12_f2e0c16b-L.jpg",
+            "category": "Cable",
+            "brand": "Euroacs",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        }, 
+        {
+            "name": "CABLE PD EUROACS EU-Z209 METAL TYPE-C",
+            "price": "3.50",
+            "imageSrc": "img/Изображение WhatsApp 2025-12-01 в 11.19.12_f2e0c16b-C.jpg",
+            "category": "Cable",
+            "brand": "Euroacs",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },  
+        {
+            "name": "RECEIVER BT CAR FONI FN-BT440",
+            "price": "5.50",
+            "imageSrc": "img/Изображение WhatsApp 2025-11-21 в 16.48.35_8f637eaa.jpg",
+            "category": "Oturucu",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },    
+        {
+            "name": "SPEAKER 2x4' FONI FN-S4210 4'X2 BLACK",
+            "price": "18",
+            "imageSrc": "img/Изображение WhatsApp 2025-11-20 в 11.49.00_43f7458c.jpg",
+            "category": "Sesguclendirici",
+            "group": "Sesguclendirici",
+            "brand": "Foni",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "10.10.2025"
+        },  
+        {
+            "name": "SPEAKER 2x3' FONI FN-S3210 BLACK",
+            "price": "11.50",
+            "imageSrc": "img/Изображение WhatsApp 2025-11-20 в 11.47.59_813e18ae.jpg",
+            "category": "Sesguclendirici",
+            "group": "Sesguclendirici",
+            "brand": "Foni",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "10.10.2025"
+        },    
+        {
+            "name": "CAR BASLIQ PD FONI FN-KB210 US",
+            "price": "2.50",
+            "imageSrc": "img/Изображение WhatsApp 2025-11-20 в 11.45.33_1532de36.jpg",
+            "category": "Car charger",
+            "group": false,
+            "brand": "Foni",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "10.10.2025"
+        },    
+        {
+            "name": "CABLE PD FONI FN-1020 C WHITE",
+            "price": "1",
+            "imageSrc": "img/Изображение WhatsApp 2025-11-20 в 11.38.53_0de72ad2.jpg",
+            "category": "Cable",
+            "brand": "Foni",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },  
+        {
+            "name": "CABLE USB FONI FN-1020 Type-C",
+            "price": "0.70",
+            "imageSrc": "img/Изображение WhatsApp 2025-11-20 в 11.37.16_e859cd4e-C.jpg",
+            "category": "Cable",
+            "brand": "Foni",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },  
+        {
+            "name": "CABLE USB FONI FN-1020 Lightning",
+            "price": "0.70",
+            "imageSrc": "img/Изображение WhatsApp 2025-11-20 в 11.37.16_e859cd4e-L.jpg",
+            "category": "Cable",
+            "brand": "Foni",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },  
+        {
+            "name": "CABLE USB FONI FN-1020 MIKRO",
+            "price": "0.60",
+            "imageSrc": "img/Изображение WhatsApp 2025-11-20 в 11.37.16_e859cd4eM.jpg",
+            "category": "Cable",
+            "brand": "Foni",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },    
+        {
+            "name": "CANTA COMPUTER 14'' 408Y BLACK",
+            "price": "10",
+            "imageSrc": "img/Изображение WhatsApp 2025-11-18 в 13.06.12_7c135e00.jpg",
+            "category": "Canta noutbuk",
+            "group": "Qarışıq məhsullar",
+            "brand": "Ümumi",
+            "pinned": true,
+            "hasNew": false
+        },  
+        {
+            "name": "CANTA COMPUTER 14'' 408Y GREY",
+            "price": "10",
+            "imageSrc": "img/Изображение WhatsApp 2025-11-18 в 13.06.12_7c135e00.jpg",
+            "category": "Canta noutbuk",
+            "group": "Qarışıq məhsullar",
+            "brand": "Ümumi",
+            "pinned": true,
+            "hasNew": false
+        },            
+        {
+            "name": "POWERBANK MW 5000 EUROACS EU-PW150 22.5W",
+            "price": "28.50",
+            "imageSrc": "img/Изображение WhatsApp 2025-10-29 в 11.34.32_21c47331.jpg",
+            "category": "Magsafe",
+            "group": "Powerbank",
+            "brand": "Euroacs",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },    
+        {
+            "name": "FM CAR EUROACS EU-F255 2IN1 PD",
+            "price": "16",
+            "imageSrc": "img/Изображение WhatsApp 2025-10-29 в 09.34.16_d96dbc5c.jpg",
+            "category": "FM modulyator",
+            "brand": "Euroacs",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },    
+        {
+            "name": "MIKROFON UHF EUROACS EU-MS901",
+            "price": "35",
+            "imageSrc": "img/Изображение WhatsApp 2025-10-29 в 09.33.37_d80cb371.jpg",
+            "category": "Qarışıq məhsullar",
+            "group": "Qarışıq məhsullar",
+            "brand": "Euroacs",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },    
+        {
             "name": "OTG JOYROOM USB S-H151",
             "price": "4",
             "imageSrc": "img/IMG-20251022-WA0010.jpg",
@@ -3980,7 +4289,7 @@
         },
         {
             "name": "SHIT QARALDAN F1 AVTO SPREY",
-            "price": "1.80",
+            "price": "2",
             "imageSrc": "img/SHIT-QARALDICI.jpg",
             "category": "Aksesuarlar",
             "group": "Avtomobil aksesuarları",
@@ -4065,7 +4374,7 @@
         },
         {
             "name": "START BUTTON BMW",
-            "price": "7",
+            "price": "5",
             "imageSrc": "img/START-BUTTON.jpg",
             "category": "Aksesuarlar",
             "group": "Avtomobil aksesuarları",
@@ -4076,7 +4385,7 @@
         },
         {
             "name": "START BUTTON BYD",
-            "price": "7",
+            "price": "5",
             "imageSrc": "img/START-BUTTON.jpg",
             "category": "Aksesuarlar",
             "group": "Avtomobil aksesuarları",
@@ -4087,7 +4396,7 @@
         },
         {
             "name": "START BUTTON CHEVROLET",
-            "price": "7",
+            "price": "5",
             "imageSrc": "img/START-BUTTON.jpg",
             "category": "Aksesuarlar",
             "group": "Avtomobil aksesuarları",
@@ -4098,7 +4407,7 @@
         },
         {
             "name": "START BUTTON HUNDAI",
-            "price": "7",
+            "price": "5",
             "imageSrc": "img/START-BUTTON.jpg",
             "category": "Aksesuarlar",
             "group": "Avtomobil aksesuarları",
@@ -4109,7 +4418,7 @@
         },
         {
             "name": "START BUTTON KIA",
-            "price": "7",
+            "price": "5",
             "imageSrc": "img/START-BUTTON.jpg",
             "category": "Aksesuarlar",
             "group": "Avtomobil aksesuarları",
@@ -4120,7 +4429,7 @@
         },
         {
             "name": "START BUTTON M-BENZ",
-            "price": "7",
+            "price": "5",
             "imageSrc": "img/START-BUTTON.jpg",
             "category": "Aksesuarlar",
             "group": "Avtomobil aksesuarları",
@@ -4131,7 +4440,7 @@
         },
         {
             "name": "START BUTTON TOYOTA",
-            "price": "7",
+            "price": "5",
             "imageSrc": "img/START-BUTTON.jpg",
             "category": "Aksesuarlar",
             "group": "Avtomobil aksesuarları",
@@ -4142,7 +4451,7 @@
         },
         {
             "name": "START BUTTON VIP",
-            "price": "7",
+            "price": "5",
             "imageSrc": "img/START-BUTTON.jpg",
             "category": "Aksesuarlar",
             "group": "Avtomobil aksesuarları",
@@ -16089,7 +16398,7 @@
         },
         {
             "name": "CASE TPU 1724/S HONOR 90",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16099,7 +16408,7 @@
         },
         {
             "name": "CASE TPU 1724/S HONOR X5",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16109,7 +16418,7 @@
         },
         {
             "name": "CASE TPU 1724/S HONOR X5B",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16119,7 +16428,7 @@
         },
         {
             "name": "CASE TPU 1724/S HONOR X6A",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16129,7 +16438,7 @@
         },
         {
             "name": "CASE TPU 1724/S HONOR X6B",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16139,7 +16448,7 @@
         },
         {
             "name": "CASE TPU 1724/S HONOR X7",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16149,7 +16458,7 @@
         },
         {
             "name": "CASE TPU 1724/S HONOR X7A",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16159,7 +16468,7 @@
         },
         {
             "name": "CASE TPU 1724/S HONOR X7B",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16169,7 +16478,7 @@
         },
         {
             "name": "CASE TPU 1724/S HONOR X7C",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16179,7 +16488,7 @@
         },
         {
             "name": "CASE TPU 1724/S HONOR X8B",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16189,7 +16498,7 @@
         },
         {
             "name": "CASE TPU 1724/S HONOR X8C",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16199,7 +16508,7 @@
         },
         {
             "name": "CASE TPU 1724/S HONOR X9",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16209,7 +16518,7 @@
         },
         {
             "name": "CASE TPU 1724/S HONOR X9A",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16219,7 +16528,7 @@
         },
         {
             "name": "CASE TPU 1724/S HONOR X9B",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16229,7 +16538,7 @@
         },
         {
             "name": "CASE TPU 1724/S HONOR X9C",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16239,7 +16548,7 @@
         },
         {
             "name": "CASE TPU 1724/S IPH 11 PRO MAX",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16249,7 +16558,7 @@
         },
         {
             "name": "CASE TPU 1724/S IPH 12 PRO",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16259,7 +16568,7 @@
         },
         {
             "name": "CASE TPU 1724/S IPH 13 PRO",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16269,7 +16578,7 @@
         },
         {
             "name": "CASE TPU 1724/S IPH 13 PRO MAX",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16279,7 +16588,7 @@
         },
         {
             "name": "CASE TPU 1724/S IPH 15 PRO",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16289,7 +16598,7 @@
         },
         {
             "name": "CASE TPU 1724/S IPH 15 PRO MAX",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16299,7 +16608,7 @@
         },
         {
             "name": "CASE TPU 1724/S IPH X/XS",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16309,7 +16618,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM A03 CORE",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16319,7 +16628,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM A03S",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16329,7 +16638,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM A04",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16339,7 +16648,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM A04S",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16349,7 +16658,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM A05",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16359,7 +16668,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM A05S",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16369,7 +16678,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM A06",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16379,7 +16688,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM A10",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16389,7 +16698,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM A14",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16399,7 +16708,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM A15",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16409,7 +16718,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM A16",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16419,7 +16728,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM A25",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16429,7 +16738,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM A26",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16439,7 +16748,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM A33",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16449,7 +16758,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM A34",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16459,7 +16768,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM A35",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16469,7 +16778,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM A36",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16479,7 +16788,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM A50",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16489,7 +16798,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM A52",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16499,7 +16808,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM A53",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16509,7 +16818,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM A54",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16519,7 +16828,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM A55",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16529,7 +16838,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM A56",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16539,7 +16848,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM A73",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16549,7 +16858,7 @@
         },
         {
             "name": "CASE TPU 1724/S SAM S23 FE",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16559,7 +16868,7 @@
         },
         {
             "name": "CASE TPU 1724/S XRM 10",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16569,7 +16878,7 @@
         },
         {
             "name": "CASE TPU 1724/S XRM 10A",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16579,7 +16888,7 @@
         },
         {
             "name": "CASE TPU 1724/S XRM 10C",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16589,7 +16898,7 @@
         },
         {
             "name": "CASE TPU 1724/S XRM 12C",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16599,7 +16908,7 @@
         },
         {
             "name": "CASE TPU 1724/S XRM 13",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16609,7 +16918,7 @@
         },
         {
             "name": "CASE TPU 1724/S XRM 13C",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16619,7 +16928,7 @@
         },
         {
             "name": "CASE TPU 1724/S XRM 14C",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16629,7 +16938,7 @@
         },
         {
             "name": "CASE TPU 1724/S XRM 8A",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16639,7 +16948,7 @@
         },
         {
             "name": "CASE TPU 1724/S XRM 9",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16649,7 +16958,7 @@
         },
         {
             "name": "CASE TPU 1724/S XRM 9A",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16659,7 +16968,7 @@
         },
         {
             "name": "CASE TPU 1724/S XRM 9T",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16669,7 +16978,7 @@
         },
         {
             "name": "CASE TPU 1724/S XRM NOTE 7",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16679,7 +16988,7 @@
         },
         {
             "name": "CASE TPU 1724/S XRM NOTE 9",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16689,7 +16998,7 @@
         },
         {
             "name": "CASE TPU 1724/S XRM NOTE 12 PRO",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16699,7 +17008,7 @@
         },
         {
             "name": "CASE TPU 1724/S XRM NOTE 13",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16709,7 +17018,7 @@
         },
         {
             "name": "CASE TPU 1724/S XRM NOTE 13 PRO",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16719,7 +17028,7 @@
         },
         {
             "name": "CASE TPU 1724/S XRM NOTE 14",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
@@ -16729,7 +17038,7 @@
         },
         {
             "name": "CASE TPU 1724/S XRM NOTE 14 PRO",
-            "price": "1.50",
+            "price": "1",
             "imageSrc": "img/WhatsApp Şəkil 2025-10-01 saat 13.22.45_90c5752b.jpg",
             "group": "Case",
             "category": "Qara standart",
