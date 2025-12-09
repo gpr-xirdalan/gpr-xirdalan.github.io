@@ -9,7 +9,7 @@
             "discount": "",
             "pinned": false,
             "hasNew": false,
-            "addedDate": "08.10.2025"
+            "addedDate": "08.12.2025"
         },        
         {
             "name": "CABLE PD APPLE ORIGINAL MM093 C",
@@ -20,17 +20,7 @@
             "pinned": true,
             "hasNew": false,
             "addedDate": "08.12.2025"
-        },         
-        {
-            "name": "CABLE PD APPLE ORIGINAL MM093 C",
-            "price": "10",
-            "imageSrc": "img/Изображение WhatsApp 2025-12-08 в 10.47.49_9aa9249a.jpg",
-            "category": "Cable",
-            "brand": "Apple",
-            "pinned": true,
-            "hasNew": false,
-            "addedDate": "08.12.2025"
-        },   
+        },    
         {
             "name": "CABLE PD EUROACS EU-Z160 BRAID 27W L WH",
             "price": "3.20",
