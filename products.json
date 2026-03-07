@@ -1,6 +1,198 @@
 {
     "products": [
         {
+            "name": "MOUSE GAMING WIRED FONI FN-GX50 RGB",
+            "price": "4.50",
+            "imageSrc": "img/WhatsApp Image 2026-02-04 at 14.41.27.jpeg",
+            "category": "Mouse",
+            "brand": "Foni",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false
+        },        
+        {
+            "name": "KEYBOARD WIRED JEDEL K13 BLK",
+            "price": "7",
+            "imageSrc": "img/WhatsApp Image 2026-02-19 at 17.38.01.jpeg",
+            "category": "Qarışıq məhsullar",
+            "group": "Qarışıq məhsullar",
+            "brand": "",
+            "discount": "",
+            "pinned": false,
+            "hasNew": false,
+            "addedDate": "07.03.2026"
+        },        
+        {
+            "name": "HF BIG AIRPODS MAX NO BAG",
+            "price": "14",
+            "imageSrc": "img/WhatsApp Image 2026-03-04 at 16.36.02.jpeg",
+            "category": "HF BIG BT",
+            "brand": "Ümumi",
+            "pinned": true,
+            "hasNew": false,
+            "addedDate": "07.03.2026"
+        },
+        {
+            "name": "HF BIG B1 ARMY",
+            "price": "7.50",
+            "imageSrc": "img/WhatsApp Image 2026-03-04 at 16.36.02.jpeg",
+            "category": "HF BIG BT",
+            "brand": "Ümumi",
+            "pinned": true,
+            "hasNew": false,
+            "addedDate": "07.03.2026"
+        },
+        {
+            "name": "HF BIG BL-4 KIDS",
+            "price": "7.50",
+            "imageSrc": "img/WhatsApp Image 2026-03-04 at 16.37.56.jpeg",
+            "category": "HF BIG BT",
+            "brand": "Ümumi",
+            "pinned": true,
+            "hasNew": false,
+            "addedDate": "07.03.2026"
+        },
+        {
+            "name": "HF BIG I18",
+            "price": "13",
+            "imageSrc": "img/WhatsApp Image 2026-03-04 at 16.39.42.jpeg",
+            "category": "HF BIG BT",
+            "brand": "Ümumi",
+            "pinned": true,
+            "hasNew": false,
+            "addedDate": "07.03.2026"
+        },
+        {
+            "name": "HF BIG MSL810 KIDS",
+            "price": "14",
+            "imageSrc": "img/WhatsApp Image 2026-03-04 at 16.45.05.jpeg",
+            "category": "HF BIG BT",
+            "brand": "Ümumi",
+            "pinned": true,
+            "hasNew": false,
+            "addedDate": "07.03.2026"
+        },
+        {
+            "name": "HF BIG P9 GRAFFITI",
+            "price": "7.50",
+            "imageSrc": "img/WhatsApp Image 2026-03-04 at 16.47.49.jpeg",
+            "category": "HF BIG BT",
+            "brand": "Ümumi",
+            "pinned": true,
+            "hasNew": false,
+            "addedDate": "07.03.2026"
+        },
+        {
+            "name": "HF BIG WBK861 KIDS WHITE ",
+            "price": "17",
+            "imageSrc": "img/WhatsApp Image 2026-03-04 at 16.49.39.jpeg",
+            "category": "HF BIG BT",
+            "brand": "Ümumi",
+            "pinned": true,
+            "hasNew": false,
+            "addedDate": "07.03.2026"
+        },
+        {
+            "name": "HF BIG WBK862 KIDS BROWN",
+            "price": "17",
+            "imageSrc": "img/WhatsApp Image 2026-03-04 at 16.50.25.jpeg",
+            "category": "HF BIG BT",
+            "brand": "Ümumi",
+            "pinned": true,
+            "hasNew": false,
+            "addedDate": "07.03.2026"
+        },         
+        {
+            "name": "HF BIG XY262 DISPLAY",
+            "price": "11.50",
+            "imageSrc": "img/WhatsApp Image 2026-03-04 at 16.51.37.jpeg",
+            "category": "HF BIG BT",
+            "brand": "Ümumi",
+            "pinned": true,
+            "hasNew": false,
+            "addedDate": "07.03.2026"
+        },  
+        {
+            "name": "[BLACK] HF BIG Y08",
+            "price": "4",
+            "imageSrc": "img/WhatsApp Image 2026-03-04 at 16.53.07.jpeg",
+            "category": "HF BIG BT",
+            "brand": "Ümumi",
+            "pinned": true,
+            "hasNew": false,
+            "addedDate": "07.03.2026"
+        },  
+        {
+            "name": "[BLACK] HF BIG Y08",
+            "price": "4",
+            "imageSrc": "img/WhatsApp Image 2026-03-04 at 16.53.07.jpeg",
+            "category": "HF BIG BT",
+            "brand": "Ümumi",
+            "pinned": true,
+            "hasNew": false,
+            "addedDate": "07.03.2026"
+        },         
+        {
+            "name": "[SILVER] HF BIG AIRPODS MAX NV",
+            "price": "18",
+            "imageSrc": "img/WhatsApp Image 2026-03-04 at 17.05.23.jpeg",
+            "category": "HF BIG BT",
+            "brand": "Ümumi",
+            "pinned": true,
+            "hasNew": false,
+            "addedDate": "07.03.2026"
+        },         
+        {
+            "name": "[GOLD] HF BIG AIRPODS MAX NV",
+            "price": "18",
+            "imageSrc": "img/WhatsApp Image 2026-03-04 at 17.05.23.jpeg",
+            "category": "HF BIG BT",
+            "brand": "Ümumi",
+            "pinned": true,
+            "hasNew": false,
+            "addedDate": "07.03.2026"
+        },         
+        {
+            "name": "[BLUE] HF BIG AIRPODS MAX NV",
+            "price": "18",
+            "imageSrc": "img/WhatsApp Image 2026-03-04 at 17.05.23.jpeg",
+            "category": "HF BIG BT",
+            "brand": "Ümumi",
+            "pinned": true,
+            "hasNew": false,
+            "addedDate": "07.03.2026"
+        }, 
+        {
+            "name": "[BLACK] HF BIG AIRPODS MAX NV",
+            "price": "18",
+            "imageSrc": "img/WhatsApp Image 2026-03-04 at 17.05.23.jpeg",
+            "category": "HF BIG BT",
+            "brand": "Ümumi",
+            "pinned": true,
+            "hasNew": false,
+            "addedDate": "07.03.2026"
+        },        
+        {
+            "name": "[BLACK] HF BIG P9 RAUND",
+            "price": "5",
+            "imageSrc": "img/WhatsApp Image 2026-03-05 at 15.23.56.jpeg",
+            "category": "HF BIG BT",
+            "brand": "Ümumi",
+            "pinned": true,
+            "hasNew": false,
+            "addedDate": "07.03.2026"
+        },         
+        {
+            "name": "[SILVER] HF BIG P9 RAUND",
+            "price": "5",
+            "imageSrc": "img/WhatsApp Image 2026-03-05 at 15.23.56.jpeg",
+            "category": "HF BIG BT",
+            "brand": "Ümumi",
+            "pinned": true,
+            "hasNew": false,
+            "addedDate": "07.03.2026"
+        },        
+        {
             "name": "CABLE AUX JOKADE JA107 BLACK",
             "price": "1.20",
             "imageSrc": "img/Изображение WhatsApp 2025-12-08 в 10.49.25_02c78960.jpg",
