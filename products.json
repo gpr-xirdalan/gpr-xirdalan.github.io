@@ -295,7 +295,7 @@
         },        
         {
             "name": "[2GB] FONI",
-            "price": "5",
+            "price": "6",
             "imageSrc": "img/FONI-2GB.jpg",
             "category": "Fleşka / Foni",
             "group": "Fleşkalar",
@@ -306,7 +306,7 @@
         },        
         {
             "name": "[4GB] FONI",
-            "price": "5.50",
+            "price": "6.50",
             "imageSrc": "img/FONI-4GB.jpg",
             "category": "Fleşka / Foni",
             "group": "Fleşkalar",
@@ -317,7 +317,7 @@
         },     
         {
             "name": "[8GB] FONI",
-            "price": "6.30",
+            "price": "7.50",
             "imageSrc": "img/FONI-8GB.jpg",
             "category": "Fleşka / Foni",
             "group": "Fleşkalar",
@@ -328,7 +328,7 @@
         },  
         {
             "name": "[16GB] FONI",
-            "price": "6.80",
+            "price": "8.50",
             "imageSrc": "img/FONI-16GB.jpg",
             "category": "Fleşka / Foni",
             "group": "Fleşkalar",
@@ -339,7 +339,7 @@
         },     
         {
             "name": "[32GB] FONI",
-            "price": "7.80",
+            "price": "11.50",
             "imageSrc": "img/FONI-32GB.jpg",
             "category": "Fleşka / Foni",
             "group": "Fleşkalar",
@@ -350,7 +350,7 @@
         },    
         {
             "name": "[64GB] FONI",
-            "price": "10",
+            "price": "15.50",
             "imageSrc": "img/FONI-64GB.jpg",
             "category": "Fleşka / Foni",
             "group": "Fleşkalar",
@@ -5352,7 +5352,7 @@
         },
         {
             "name": "[4GB] EUROACS EU-D131 MINI",
-            "price": "7",
+            "price": "7.50",
             "imageSrc": "img/EU-D131.jpg",
             "category": "Fleşka / mini Euroacs",
             "group": "Fleşkalar",
@@ -5362,16 +5362,6 @@
         },
         {
             "name": "[8GB] EUROACS EU-D131 MINI",
-            "price": "8",
-            "imageSrc": "img/EU-D131.jpg",
-            "category": "Fleşka / mini Euroacs",
-            "group": "Fleşkalar",
-            "brand": "Euroacs",
-            "pinned": true,
-            "hasNew": false
-        },
-        {
-            "name": "[16GB] EUROACS EU-D131 MINI",
             "price": "8.50",
             "imageSrc": "img/EU-D131.jpg",
             "category": "Fleşka / mini Euroacs",
@@ -5381,8 +5371,18 @@
             "hasNew": false
         },
         {
+            "name": "[16GB] EUROACS EU-D131 MINI",
+            "price": "10",
+            "imageSrc": "img/EU-D131.jpg",
+            "category": "Fleşka / mini Euroacs",
+            "group": "Fleşkalar",
+            "brand": "Euroacs",
+            "pinned": true,
+            "hasNew": false
+        },
+        {
             "name": "[32GB] EUROACS EU-D131 MINI",
-            "price": "9.50",
+            "price": "13",
             "imageSrc": "img/EU-D131.jpg",
             "category": "Fleşka / mini Euroacs",
             "group": "Fleşkalar",
@@ -5392,7 +5392,7 @@
         },
         {
             "name": "[64GB] EUROACS EU-D131 MINI",
-            "price": "12",
+            "price": "18",
             "imageSrc": "img/EU-D131.jpg",
             "category": "Fleşka / mini Euroacs",
             "group": "Fleşkalar",
@@ -5402,7 +5402,7 @@
         },
         {
             "name": "[128GB] EUROACS EU-D131 MINI",
-            "price": "19.50",
+            "price": "27",
             "imageSrc": "img/EU-D131.jpg",
             "category": "Fleşka / mini Euroacs",
             "group": "Fleşkalar",
@@ -6581,7 +6581,7 @@
         },
         {
             "name": "[16GB] EUROACS EU-D135 USB 3.1",
-            "price": "13",
+            "price": "15",
             "imageSrc": "img/EU-D135.jpg",
             "group": "Fleşkalar",
             "category": "Fleşka / Euroacs 3.1",
@@ -6592,7 +6592,7 @@
         },
         {
             "name": "[32GB] EUROACS EU-D135 USB 3.1",
-            "price": "15.50",
+            "price": "19",
             "imageSrc": "img/EU-D135.jpg",
             "group": "Fleşkalar",
             "category": "Fleşka / Euroacs 3.1",
@@ -6603,7 +6603,7 @@
         },
         {
             "name": "[64GB] EUROACS EU-D135 USB 3.1",
-            "price": "18.50",
+            "price": "23",
             "imageSrc": "img/EU-D135.jpg",
             "group": "Fleşkalar",
             "category": "Fleşka / Euroacs 3.1",
@@ -6614,7 +6614,7 @@
         },
         {
             "name": "[128GB] EUROACS EU-D135 USB 3.1",
-            "price": "29.50",
+            "price": "38",
             "imageSrc": "img/EU-D135.jpg",
             "group": "Fleşkalar",
             "category": "Fleşka / Euroacs 3.1",
@@ -14820,7 +14820,7 @@
         },
         {
             "name": "[2GB] EUROACS",
-            "price": "6",
+            "price": "6.50",
             "imageSrc": "img/yaddas-usb-2gb.png",
             "category": "Fleşka / Euroacs",
             "group": "Fleşkalar",
@@ -14840,7 +14840,7 @@
         },
         {
             "name": "[2GB] SAMSUNG",
-            "price": "6",
+            "price": "6.50",
             "imageSrc": "img/fleska-samsung.jpg",
             "category": "Fleşka / Samsung",
             "group": "Fleşkalar",
@@ -14850,7 +14850,7 @@
         },
         {
             "name": "[4GB] EUROACS",
-            "price": "6.20",
+            "price": "7",
             "imageSrc": "img/yaddas-usb-4gb.png",
             "category": "Fleşka / Euroacs",
             "group": "Fleşkalar",
@@ -14870,7 +14870,7 @@
         },
         {
             "name": "[4GB] SAMSUNG",
-            "price": "6.50",
+            "price": "7",
             "imageSrc": "img/fleska-samsung.jpg",
             "category": "Fleşka / Samsung",
             "group": "Fleşkalar",
@@ -14880,7 +14880,7 @@
         },
         {
             "name": "[8GB] EUROACS",
-            "price": "7.50",
+            "price": "8",
             "imageSrc": "img/yaddas-usb-8gb.png",
             "category": "Fleşka / Euroacs",
             "group": "Fleşkalar",
@@ -14900,7 +14900,7 @@
         },
         {
             "name": "[8GB] SAMSUNG",
-            "price": "7.30",
+            "price": "8",
             "imageSrc": "img/fleska-samsung.jpg",
             "category": "Fleşka / Samsung",
             "group": "Fleşkalar",
@@ -14910,7 +14910,7 @@
         },
         {
             "name": "[16GB] EUROACS",
-            "price": "8",
+            "price": "9.50",
             "imageSrc": "img/yaddas-usb-16gb.png",
             "category": "Fleşka / Euroacs",
             "group": "Fleşkalar",
@@ -14930,7 +14930,7 @@
         },
         {
             "name": "[16GB] SAMSUNG",
-            "price": "7.80",
+            "price": "9.50",
             "imageSrc": "img/fleska-samsung.jpg",
             "category": "Fleşka / Samsung",
             "group": "Fleşkalar",
@@ -14940,7 +14940,7 @@
         },
         {
             "name": "[32GB] EUROACS",
-            "price": "9",
+            "price": "12.50",
             "imageSrc": "img/yaddas-usb-32gb.png",
             "category": "Fleşka / Euroacs",
             "group": "Fleşkalar",
@@ -14960,7 +14960,7 @@
         },
         {
             "name": "[32GB] SAMSUNG",
-            "price": "8.80",
+            "price": "12.50",
             "imageSrc": "img/fleska-samsung.jpg",
             "category": "Fleşka / Samsung",
             "group": "Fleşkalar",
@@ -14970,7 +14970,7 @@
         },
         {
             "name": "[64GB] EUROACS",
-            "price": "11.50",
+            "price": "17",
             "imageSrc": "img/yaddas-usb-64gb.png",
             "category": "Fleşka / Euroacs",
             "group": "Fleşkalar",
@@ -14990,7 +14990,7 @@
         },
         {
             "name": "[64GB] SAMSUNG",
-            "price": "11",
+            "price": "17",
             "imageSrc": "img/fleska-samsung.jpg",
             "category": "Fleşka / Samsung",
             "group": "Fleşkalar",
@@ -15000,7 +15000,7 @@
         },
         {
             "name": "[128GB] EUROACS",
-            "price": "18.50",
+            "price": "26",
             "imageSrc": "img/yaddas-usb-128gb.png",
             "category": "Fleşka / Euroacs",
             "group": "Fleşkalar",
@@ -15020,7 +15020,7 @@
         },
         {
             "name": "YADDAS USB 128GB SAMSUNG",
-            "price": "18",
+            "price": "26",
             "imageSrc": "img/fleska-samsung.jpg",
             "category": "Fleşka / Samsung",
             "group": "Fleşkalar",
@@ -15030,7 +15030,7 @@
         },
         {
             "name": "YADDAS MIKRO 4GB EUROACS",
-            "price": "5.80",
+            "price": "6",
             "imageSrc": "img/yaddas-mikro-4gb.jpg",
             "category": "Yaddaş kartı EUROACS",
             "group": "Yaddaş kartları",
@@ -15040,7 +15040,7 @@
         },
         {
             "name": "YADDAS MIKRO 8GB EUROACS",
-            "price": "6",
+            "price": "7",
             "imageSrc": "img/yaddas-mikro-8gb.jpg",
             "category": "Yaddaş kartı EUROACS",
             "group": "Yaddaş kartları",
@@ -15050,7 +15050,7 @@
         },
         {
             "name": "YADDAS MIKRO 16GB EUROACS",
-            "price": "7",
+            "price": "9",
             "imageSrc": "img/yaddas-mikro-16gb.jpg",
             "category": "Yaddaş kartı EUROACS",
             "group": "Yaddaş kartları",
@@ -15060,7 +15060,7 @@
         },
         {
             "name": "YADDAS MIKRO 32GB EUROACS",
-            "price": "9",
+            "price": "13",
             "imageSrc": "img/yaddas-mikro-32gb.jpg",
             "category": "Yaddaş kartı EUROACS",
             "group": "Yaddaş kartları",
@@ -15070,7 +15070,7 @@
         },
         {
             "name": "YADDAS MIKRO 64GB EUROACS",
-            "price": "12",
+            "price": "20",
             "imageSrc": "img/yaddas-mikro-64gb.jpg",
             "category": "Yaddaş kartı EUROACS",
             "group": "Yaddaş kartları",
@@ -15080,7 +15080,7 @@
         },
         {
             "name": "YADDAS MIKRO 128GB EUROACS",
-            "price": "25",
+            "price": "40",
             "imageSrc": "img/yaddas-mikro-128gb.jpg",
             "category": "Yaddaş kartı EUROACS",
             "group": "Yaddaş kartları",
