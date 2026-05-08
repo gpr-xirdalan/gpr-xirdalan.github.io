@@ -32,7 +32,7 @@ $(document).ready(function() {
     let recentlyViewed = getRecentlyViewed();
     let topCategories = [];
 
-    $.getJSON("products.json?v=177", function(data) {
+    $.getJSON("products.json?v=186", function(data) {
       products = data.products;
       buildProductMap();
       latestProductKeys = getLatestProductKeys(products, 60);
