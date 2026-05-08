@@ -47,7 +47,50 @@
 
 		<div class="search">
 			<span class="label">Axtar</span>
-			<input type="text" class="search-json input">
+			<input type="text" class="search-json input" placeholder="Mehsul, brend ve ya kategoriya axtar">
+			<div class="search-suggestions"></div>
+			<div class="catalog-toolbar">
+				<div class="catalog-filter-group">
+					<button type="button" class="catalog-filter-btn active" data-filter="all">
+						<i class="las la-border-all"></i>
+						<span>Hamisi</span>
+					</button>
+					<button type="button" class="catalog-filter-btn" data-filter="discount">
+						<i class="las la-tags"></i>
+						<span>Endirim</span>
+					</button>
+					<button type="button" class="catalog-filter-btn" data-filter="latest">
+						<i class="las la-clock"></i>
+						<span>Yeniler</span>
+					</button>
+					<button type="button" class="catalog-filter-btn" data-filter="favorites">
+						<i class="lar la-heart"></i>
+						<span>Favoritler</span>
+						<span class="favorite-count">0</span>
+					</button>
+					<button type="button" class="catalog-filter-btn" data-filter="viewed">
+						<i class="las la-history"></i>
+						<span>Baxilanlar</span>
+					</button>
+				</div>
+
+				<div class="catalog-sort-group">
+					<select class="sort-products input" aria-label="Sort products">
+						<option value="default">Standart</option>
+						<option value="newest">Yeni birinci</option>
+						<option value="cheap">Ucuzdan bahaliya</option>
+						<option value="expensive">Bahadan ucuza</option>
+						<option value="discount">Endirim faizi</option>
+					</select>
+					<button type="button" class="clear-search">
+						<i class="las la-times"></i>
+						<span>Sifirla</span>
+					</button>
+				</div>
+			</div>
+			<div class="recent-searches"></div>
+			<div class="quick-categories"></div>
+			<div class="results-summary">Mehsullar yuklenir...</div>
 		</div>
 
 		<div class="content" id="content">
@@ -63,6 +106,14 @@
 					<span class="label">Axtar...</span>
 					<input type="text" class="input " placeholder="USB...">
 				</div> -->
+			</div>
+
+			<div class="recently-viewed-section hide">
+				<div class="section-heading">
+					<span class="section-title">Son baxilanlar</span>
+					<button type="button" class="show-viewed-filter">Hamisini goster</button>
+				</div>
+				<div class="recently-viewed-list"></div>
 			</div>
 
 			<div class="products-container">
@@ -120,7 +171,21 @@
 			</div>
 		</div>
 
+	<div class="mobile-cart-summary">
+		<button class="mobile-cart-summary-btn openCart" type="button">
+			<span class="mobile-cart-summary-text">Sebet bosdur</span>
+			<span class="mobile-cart-summary-total">0.00 AZN</span>
+		</button>
+	</div>
+
 	<div class="bottom-contol">	
+		<div class="cart-controll animate__animated animate__fadeInUp mobile-search-control">
+			<button class="focus-search-btn" type="button">
+				<i class="las la-search"></i>
+				<span class="button-text">Axtar</span>
+			</button>
+		</div>
+
 		<div class="search-by-category-wrapper" id="categorySelect">
 			<!-- <label for="categorySelect" class="select-label label">Kateqoriyalar</label> -->
 
@@ -140,6 +205,7 @@
 		<div class="cart-controll animate__animated animate__fadeInUp">
 			<button class="openCart">
 				<i class="las la-shopping-basket"></i> 
+				<span class="cart-count-badge">0</span>
 				<span class="button-text">Səbətə keç</span> 
 			</button>
 			<!-- (<span class="sum-card">0</span>₼) -->
@@ -176,6 +242,7 @@
 					  </span>
 					</div>	 -->	
 
+					<button class="clear-cart animate__animated animate__fadeInUp" type="button"><i class="las la-trash"></i> Temizle</button>
 					<button class="send-cart animate__animated animate__fadeInUp"> <i class="las la-check"></i> Sifarisi tamamla</button>
 				</div>			
 

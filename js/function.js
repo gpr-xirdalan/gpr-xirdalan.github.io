@@ -16,22 +16,34 @@ $(document).ready(function() {
 
      sumCardTotal();
     }
-
-    console.log(card);
-
     let products = [];
     let category = [];
     let selectedCategory = '';
     let batchSize = 20;
     let currentIndex = 0;
     let isLoading = false;
-    let customData = [];
+    let searchQuery = '';
+    let activeQuickFilter = 'all';
+    let sortMode = 'default';
+    let favorites = getFavorites();
+    let latestProductKeys = new Set();
+    let productMap = {};
+    let recentSearches = getRecentSearches();
+    let recentlyViewed = getRecentlyViewed();
+    let topCategories = [];
 
     $.getJSON("products.json?v=177", function(data) {
       products = data.products;
+      buildProductMap();
+      latestProductKeys = getLatestProductKeys(products, 60);
       getCategoryList();
 
       drawSliderItem();
+      updateCatalogMeta();
+      renderRecentSearches();
+      renderQuickCategories();
+      renderRecentlyViewed();
+      sumCardTotal();
 
 
       if(urlProductName) {
@@ -64,7 +76,7 @@ $(document).ready(function() {
       }
 
       if (!isLoading && $(window).scrollTop() + $(window).height() >= $(document).height() - 400) {
-        if (currentIndex < products.length) {
+        if (currentIndex < getCatalogData().length) {
           isLoading = true;
           setTimeout(() => {
             loadProducts();
@@ -81,24 +93,139 @@ $(document).ready(function() {
        let $delay = 450;
        let vals = $(this).val().toLowerCase().trim();
 
+       searchQuery = vals;
+       clearTimeout($(this).data('timer'));
+       renderSearchSuggestions(vals);
 
-       if(vals.length > 2) {
-         clearTimeout($(this).data('timer'));
-
+       if(vals.length > 0) {
          $(this).data('timer', setTimeout(function() {
-            // let jsonSearchArr = [];
-
             searchByName(vals);
          }, $delay));
        }
 
        if(!vals || vals === 'undefined') {
-         $(".products-list").html('');
-         currentIndex = 0;
-         resetSearchResult();
-         selectedRandomCategory();
-         loadProducts();
+         searchQuery = '';
+         renderCatalog();
        }
+    });
+
+    $(document).on('focus', '.search-json', function() {
+      renderSearchSuggestions($(this).val().toLowerCase().trim());
+      renderRecentSearches();
+    });
+
+    $(document).on('keydown', '.search-json', function(event) {
+      if(event.key === 'Enter') {
+        let query = $(this).val().toLowerCase().trim();
+
+        if(query) {
+          addRecentSearch(query);
+          renderRecentSearches();
+        }
+
+        hideSearchSuggestions();
+      }
+    });
+
+    $(document).on('click', '.clear-search', function() {
+      resetSearchResult();
+      activeQuickFilter = 'all';
+      sortMode = 'default';
+      selectedCategory = false;
+      $('.select-category').val('all');
+      $('.sort-products').val(sortMode);
+      renderCatalog();
+    });
+
+    $(document).on('click', '.focus-search-btn', function() {
+      let $search = $('.search');
+      $('html, body').stop().animate({scrollTop: $search.offset().top - 10}, 300);
+      $('.search-json').trigger('focus');
+    });
+
+    $(document).on('click', '.catalog-filter-btn', function() {
+      activeQuickFilter = $(this).data('filter') || 'all';
+      renderCatalog();
+    });
+
+    $(document).on('change', '.sort-products', function() {
+      sortMode = $(this).val() || 'default';
+      renderCatalog();
+    });
+
+    $(document).on('click', '.favorite-product', function(event) {
+      event.preventDefault();
+      event.stopPropagation();
+
+      let productId = $(this).data('product-id') || $(this).closest('.products-card').find('.id').val();
+      toggleFavorite(productId);
+      updateFavoriteButtons();
+      updateCatalogMeta();
+
+      if(activeQuickFilter === 'favorites') {
+        renderCatalog();
+      }
+    });
+
+    $(document).on('click', '.show-viewed-filter', function() {
+      activeQuickFilter = 'viewed';
+      renderCatalog();
+      scrollTop();
+    });
+
+    $(document).on('click', '.quick-category-chip', function() {
+      let categoryValue = decodeURIComponent($(this).data('category') || 'all');
+      selectCategory(categoryValue);
+      scrollTop();
+    });
+
+    $(document).on('click', '.recent-search-chip', function() {
+      applySearchTerm(decodeURIComponent($(this).data('search') || ''), false);
+    });
+
+    $(document).on('click', '.clear-recent-searches', function() {
+      recentSearches = [];
+      saveRecentSearches();
+      renderRecentSearches();
+      renderSearchSuggestions($('.search-json').val().toLowerCase().trim());
+    });
+
+    $(document).on('click', '.search-suggestion-item', function() {
+      let suggestionType = $(this).data('type');
+      let value = decodeURIComponent($(this).data('value') || '');
+
+      if(suggestionType === 'category') {
+        selectCategory(value);
+        hideSearchSuggestions();
+        scrollTop();
+        return;
+      }
+
+      applySearchTerm(value, false);
+    });
+
+    $(document).on('click', '.recently-viewed-card', function() {
+      openAddModalById($(this).data('product-id'));
+    });
+
+    $(document).on('click', '.quick-add-btn', function() {
+      incrementCartProduct($(this).data('product-id'), 1, true);
+    });
+
+    $(document).on('click', '.product-qty-btn', function() {
+      let productId = $(this).closest('.product-inline-cart').data('product-id');
+      let delta = $(this).data('delta') === 'minus' ? -1 : 1;
+      incrementCartProduct(productId, delta, delta > 0);
+    });
+
+    $(document).on('click', '.product-preview-trigger', function() {
+      openAddModalById($(this).closest('.products-card').data('product-id') || $(this).data('product-id'));
+    });
+
+    $(document).on('click', function(event) {
+      if(!$(event.target).closest('.search').length) {
+        hideSearchSuggestions();
+      }
     });
 
 
@@ -112,30 +239,8 @@ $(document).ready(function() {
 
 
     $(document).on('click', '.open-add-to-card-modal', function() {
-        openAddOrderModal();
-
         let $this = $(this).closest('.products-card');
-
-        let imageSrc = $this.find('.prodcuts-image > img').attr('src');
-        let productName = $this.find('.products-name').text();
-        let productPrice = $this.find('.products-price').text();
-        let id = $this.find('.id').val();
-
-        let productsBrand = $this.find('.product-brand').text() ?? '';
-
-        $('.cart-product-image > img').attr('src', imageSrc);
-        
-        $('.card-product-name').html(productName);
-        
-        $('.cart-product-price').text(productPrice);
-
-        $('.cart-brand').html(productsBrand);
-
-        $('.cart-id').val(id);
-        
-        $('.count').focus();
-
-        $('body').addClass('overflow-hidden');
+        openAddModalById($this.data('product-id') || $this.find('.id').val());
     });
 
 
@@ -147,7 +252,7 @@ $(document).ready(function() {
         let productName = $this.find('.card-product-name').text();
         let productPrice = $this.find('.cart-product-price').text();
         let count = $this.find('.count').val();
-        let brand = $this.find('.cart-brand').text();
+        let brand = $this.find('.cart-brand').val();
 
 
         if(!count || count <=0) {
@@ -155,11 +260,11 @@ $(document).ready(function() {
         }
 
         let getId = $this.find('.cart-id').val();
+        let modalProduct = getProductById(getId);
 
-        if (!card[getId]) {
-          card[getId] = [];
-        }  
-
+        if(modalProduct) {
+          setCartProductCount(getId, count, false);
+        } else {
           card[getId] = {
             "imageSrc": imageSrc,
             "productName": productName,
@@ -168,18 +273,14 @@ $(document).ready(function() {
             "getId": getId,
             "brand": brand
           };
+          updateLocalStorage();
+          sumCardTotal();
+          syncProductCardStates();
+        }
 
         $('.count').val('');
 
-        $('.showNotice').addClass('active');
-
-        setTimeout(function(){
-          $('.showNotice').removeClass('active');
-       }, 1000);
-
-        updateLocalStorage();
-
-        sumCardTotal();
+        showNotice('Elave olundu');
     });
 
 
@@ -196,18 +297,23 @@ $(document).ready(function() {
 
 
     $(document).on('click', '.openCart', function() {
-      let savedOrder = getOrders();
-
       openCart();
+      renderCartList();
+    });
 
+    function renderCartList() {
+      let savedOrder = getOrders();
+      $('.cart-list').html('');
 
-      let targetBrands = ['Foni', 'Euroacs', 'Joyroom'];
+      if(!savedOrder || Object.keys(savedOrder).length === 0) {
+        showEmptyCart();
+        return;
+      }
+
 
       // {imageSrc: '/img/3.jpg', productName: '3 Qulaqlıq BT Euroacs EU-HS30 Black', productPrice: '0.60₼', count: '23', getId: 'SSW3767'}
-      Object.keys(savedOrder).map(function(objectKey, index) {
+      Object.keys(savedOrder).map(function(objectKey) {
           var row = savedOrder[objectKey];
-          
-          let itemSum = sumItemTotal(row.count, row.productPrice);
 
           $('.cart-list').prepend(`
             <div class="cart-list-item">
@@ -223,15 +329,19 @@ $(document).ready(function() {
 
                   <div class="cart-list-info-count-group">
                     <span class="cart-label">Say:</span>
-                    <input type="number" class="input cart-list-item-count" value="${row.count}">
+                    <div class="cart-quantity-control">
+                      <button type="button" class="cart-qty-btn cart-qty-minus">-</button>
+                      <input type="number" min="1" class="input cart-list-item-count" value="${row.count}">
+                      <button type="button" class="cart-qty-btn cart-qty-plus">+</button>
+                    </div>
 
                     <div class="ssd">
 
                       <p class="sum">
                          <span class="sum-title">Toplam:</span> 
-                        <span class="cart-list-item-total">${sumItemTotal(row.count, row.productPrice)}₼</span> 
+                        <span class="cart-list-item-total">${sumItemTotal(row.count, row.productPrice)} AZN</span> 
                       </p>
-                    <div>
+                    </div>
 
 
                   </div>
@@ -241,7 +351,17 @@ $(document).ready(function() {
             </div>
           `);
       });
-    });
+    }
+
+    function showEmptyCart() {
+      $('.cart-list').html(`
+        <div class="cart-empty">
+          <i class="las la-shopping-basket"></i>
+          <span>Sebet bosdur</span>
+          <small>Mehsul secib bura elave edin.</small>
+        </div>
+      `);
+    }
 
     $(document).on('click', '.delete-product-at-card', function() {
        let id = $(this).closest('.cart-list-info').find('.cart-list-item-id').val();
@@ -252,6 +372,20 @@ $(document).ready(function() {
 
        sumCardTotal();
        updateLocalStorage();
+       syncProductCardStates();
+
+       if(Object.values(card).filter(Boolean).length === 0) {
+         showEmptyCart();
+       }
+    });
+
+    $(document).on('click', '.clear-cart', function() {
+      card = [];
+      updateLocalStorage();
+      sumCardTotal();
+      syncProductCardStates();
+      showEmptyCart();
+      showNotice('Sebet temizlendi');
     });
 
 
@@ -259,6 +393,11 @@ $(document).ready(function() {
       let strs = '';
       let orderId = Date.now();
 
+      if(Object.values(card).filter(Boolean).length === 0) {
+        showNotice('Sebet bosdur');
+        showEmptyCart();
+        return;
+      }
 
         // **Тестируем**
       order = {
@@ -269,12 +408,14 @@ $(document).ready(function() {
 
       Object.keys(card).map(function(objectKey, index) {
           var row = card[objectKey];
+          let orderRow = {
+            ...row,
+            productPrice: `${normalizePriceValue(row.productPrice).toFixed(2)} AZN`
+          };
 
-          strs = strs + `${row.productName} - ${row.count} ədəd \n \n`;
+          strs = strs + `${row.productName} - ${row.count} eded \n \n`;
 
-          row.productPrice = row.productPrice.replace('₼', ' AZN')
-
-          order.card.push(row);
+          order.card.push(orderRow);
       });      
 
         strs = strs + `https://gpr-xirdalan.github.io/orderView.html?orderId=${orderId}`;
@@ -303,6 +444,7 @@ $(document).ready(function() {
             sumCardTotal();
 
             updateLocalStorage();
+            syncProductCardStates();
           }
         });
     });
@@ -318,56 +460,91 @@ $(document).ready(function() {
       $('.add-to-card-modal').addClass('display-flex');
     }
 
+    $(document).on('click', '.cart-qty-btn', function() {
+       let $input = $(this).closest('.cart-quantity-control').find('.cart-list-item-count');
+       let currentCount = parseInt($input.val(), 10) || 1;
+
+       if($(this).hasClass('cart-qty-plus')) {
+         currentCount += 1;
+       } else {
+         currentCount -= 1;
+       }
+
+       $input.val(Math.max(currentCount, 1)).trigger('input');
+    });
+
     $(document).on('input', '.cart-list-item-count', function() {
        let $delay = 450;
        let getId = $(this).closest('.cart-list-item').find('.cart-list-item-id').val();
-       let newCount = $(this).val();
+       let newCount = Math.max(parseInt($(this).val(), 10) || 1, 1);
+
+       $(this).val(newCount);
+
+       if(!card[getId]) {
+         return;
+       }
+
+       card[getId].count = newCount;
+       sumCardTotal();
 
        clearTimeout($(this).data('timer'));
       
        $(this).data('timer', setTimeout(function(){
-         card[getId].count = newCount;
-          sumCardTotal(); 
-
-          updateLocalStorage();
+         updateLocalStorage();
+         syncProductCardStates();
        }, $delay));
 
 
 
-       $(this).closest('.cart-list-item').find('.cart-list-item-total').html(`${sumItemTotal(newCount, card[getId].productPrice)}`);
+       $(this).closest('.cart-list-item').find('.cart-list-item-total').html(`${sumItemTotal(newCount, card[getId].productPrice)} AZN`);
 
     });
 
 
   function sumItemTotal(count, price) {
-    price = price.replace('₼', '');
-    return (count * price).toFixed(2);
+    return (Math.max(parseInt(count, 10) || 1, 1) * normalizePriceValue(price)).toFixed(2);
   }
 
 
   function loadProducts() {
-    let filtredData = [];
+    let filtredData = getCatalogData();
+    let emptyTitle = 'Netice tapilmadi';
+    let emptyText = 'Axtarisi, kategoriyani ve ya filtri deyisin.';
 
-    if (currentIndex >= products.length) return;
-
-    let endIndex = Math.min(currentIndex + batchSize, products.length);
-
-    if(selectedCategory) {      
-      filtredData = products.filter(item => item.category.toLowerCase().trim() == selectedCategory.toLowerCase().trim());
-    } else {
-      filtredData = products;
+    if(activeQuickFilter === 'favorites') {
+      emptyTitle = 'Favorit mehsul yoxdur';
+      emptyText = 'Urek duymesine toxunun, mehsul burada gorunsun.';
     }
 
-    if(customData.length > 0) {
-       filtredData = customData;
+    if(activeQuickFilter === 'viewed') {
+      emptyTitle = 'Baxilan mehsul yoxdur';
+      emptyText = 'Mehsulu acin, sonra burada tez tapacaqsiniz.';
     }
 
+    updateCatalogMeta(filtredData.length);
 
-    console.log(filtredData.length);
+    if(filtredData.length === 0) {
+      $('.products-list').html(`
+        <div class="catalog-empty">
+          <i class="las la-search"></i>
+          <span>${emptyTitle}</span>
+          <small>${emptyText}</small>
+        </div>
+      `);
+      isLoading = false;
+      return;
+    }
+
+    if (currentIndex >= filtredData.length) {
+      isLoading = false;
+      return;
+    }
+
+    let endIndex = Math.min(currentIndex + batchSize, filtredData.length);
 
     let batch = filtredData.slice(currentIndex, endIndex);
 
-    promises = [];
+    let promises = [];
 
     $.each(batch, function(key, val) {
       promises.push(appendProductCard(val));
@@ -389,35 +566,67 @@ $(document).ready(function() {
     window.location.href = whatsappLink;
   });
 
+  function renderCardOrderControl(productId) {
+    let cartItem = card[productId];
+    let cartCount = cartItem ? Math.max(parseInt(cartItem.count, 10) || 1, 1) : 0;
+
+    if(cartCount > 0) {
+      return `
+        <div class="card-order-tools active">
+          <div class="product-inline-cart" data-product-id="${productId}">
+            <button type="button" class="product-qty-btn" data-delta="minus">-</button>
+            <span class="product-inline-count">${cartCount} eded</span>
+            <button type="button" class="product-qty-btn" data-delta="plus">+</button>
+          </div>
+          <button type="button" class="card-secondary-btn open-add-to-card-modal">Say sec</button>
+        </div>
+      `;
+    }
+
+    return `
+      <div class="card-order-tools">
+        <button type="button" class="button quick-add-btn" data-product-id="${productId}">
+          <i class="las la-bolt"></i>
+          <span>1 toxunusla elave et</span>
+        </button>
+        <button type="button" class="card-secondary-btn open-add-to-card-modal">Say sec</button>
+      </div>
+    `;
+  }
+
 
 
   function prepareProductCardTpl(product) {
-    const targetBrands = ['Foni', 'Euroacs', 'Joyroom'];
+    const productId = getProductKey(product);
+    const isFavorite = favorites.includes(productId);
 
     let cashbackChips = ''
     let hasNewChips = '';
-
-    // if(targetBrands.includes(product.brand)) {
-    //   cashbackChips = `<span class="cashback-chips">2% CASHBACK</span>`;
-    // }
 
     if(product.addedDate) {
       var toDay = new Date();
 
       let currentDate = `${toDay.getDate()}.${toDay.getMonth() + 1}.${toDay.getFullYear()}`;
 
-      if(getDateDiff(currentDate, product.addedDate) < 7) {
+      if(getDateDiff(currentDate, product.addedDate) < 7 || isLatestProduct(product)) {
         hasNewChips = `<span class="cashback-chips">NEW</span>`; 
       }
+    }
+
+    if(!hasNewChips && isLatestProduct(product)) {
+      hasNewChips = `<span class="cashback-chips">NEW</span>`;
     }
 
 
     // let urlParse = encodeURIComponent(product.name);
     return `
-        <div class="products-card animate__animated animate__fadeIn">
+        <div class="products-card animate__animated animate__fadeIn" data-product-id="${productId}">
           <a href="javascript:void(0)" class="share" data-name="${product.name}">
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 512 512.001" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M361.824 344.395c-24.531 0-46.633 10.593-61.972 27.445l-137.973-85.453A83.321 83.321 0 0 0 167.605 256a83.29 83.29 0 0 0-5.726-30.387l137.973-85.457c15.34 16.852 37.441 27.45 61.972 27.45 46.211 0 83.805-37.594 83.805-83.805C445.629 37.59 408.035 0 361.824 0c-46.21 0-83.804 37.594-83.804 83.805a83.403 83.403 0 0 0 5.726 30.386l-137.969 85.454c-15.34-16.852-37.441-27.45-61.972-27.45C37.594 172.195 0 209.793 0 256c0 46.21 37.594 83.805 83.805 83.805 24.53 0 46.633-10.594 61.972-27.45l137.97 85.454a83.408 83.408 0 0 0-5.727 30.39c0 46.207 37.593 83.801 83.804 83.801s83.805-37.594 83.805-83.8c0-46.212-37.594-83.805-83.805-83.805zm-53.246-260.59c0-29.36 23.887-53.246 53.246-53.246s53.246 23.886 53.246 53.246c0 29.36-23.886 53.246-53.246 53.246s-53.246-23.887-53.246-53.246zM83.805 309.246c-29.364 0-53.25-23.887-53.25-53.246s23.886-53.246 53.25-53.246c29.36 0 53.242 23.887 53.242 53.246s-23.883 53.246-53.242 53.246zm224.773 118.95c0-29.36 23.887-53.247 53.246-53.247s53.246 23.887 53.246 53.246c0 29.36-23.886 53.246-53.246 53.246s-53.246-23.886-53.246-53.246zm0 0" fill="#000000" opacity="1" data-original="#000000" class=""></path></g></svg>
           </a>
+          <button type="button" class="favorite-product ${isFavorite ? 'active' : ''}" data-product-id="${productId}" aria-label="Favorit">
+            <i class="${isFavorite ? 'las' : 'lar'} la-heart"></i>
+          </button>
             
           <div class="product-chips">
           ${product.brand ? `<span class="product-brand">${product.brand}</span>` : ''}   
@@ -427,11 +636,11 @@ $(document).ready(function() {
 
 
 
-          <div class="prodcuts-image">
+          <div class="prodcuts-image product-preview-trigger" data-product-id="${productId}">
             <img src="${product.imageSrc}" alt="">
           </div>
 
-          <span class="products-name">${product.name}</span>
+          <span class="products-name product-preview-trigger" data-product-id="${productId}">${product.name}</span>
           
           <div class="product-price-container">
 
@@ -450,9 +659,9 @@ $(document).ready(function() {
             
           </div>
           
-          <button class="button open-add-to-card-modal"><i class="las la-cart-arrow-down"></i> Səbətə əlavə et</button>
+          ${renderCardOrderControl(productId)}
 
-          <input type="hidden" class="id" value="${generateRandomId()}">
+          <input type="hidden" class="id" value="${productId}">
 
         </div>
     `;
@@ -472,6 +681,121 @@ $(document).ready(function() {
   function insertProductCard(product) {
     $('.products-list').html(prepareProductCardTpl(product));
   }    
+
+  function buildProductMap() {
+    productMap = {};
+
+    $.each(products, function(_, product) {
+      productMap[getProductKey(product)] = product;
+    });
+  }
+
+  function getProductById(productId) {
+    return productMap[productId] || null;
+  }
+
+  function getCategoryStats() {
+    let stats = {};
+
+    $.each(products, function(_, product) {
+      let categoryName = String(product.category || '').trim();
+
+      if(!categoryName) {
+        return;
+      }
+
+      stats[categoryName] = (stats[categoryName] || 0) + 1;
+    });
+
+    return Object.keys(stats)
+      .map(name => ({ name: name, count: stats[name] }))
+      .sort((a, b) => b.count - a.count);
+  }
+
+  function renderQuickCategories() {
+    let chips = ['<button type="button" class="quick-category-chip ' + (!selectedCategory ? 'active' : '') + '" data-category="all">Hamisi</button>'];
+
+    $.each(topCategories, function(_, item) {
+      let isActive = normalizeText(selectedCategory) === normalizeText(item.name);
+      chips.push(`
+        <button type="button" class="quick-category-chip ${isActive ? 'active' : ''}" data-category="${encodeURIComponent(item.name)}">
+          <span>${item.name}</span>
+          <small>${item.count}</small>
+        </button>
+      `);
+    });
+
+    $('.quick-categories').html(chips.join(''));
+  }
+
+  function openAddModalById(productId) {
+    let product = getProductById(productId);
+
+    if(!product) {
+      return;
+    }
+
+    addViewedProduct(productId);
+    openAddOrderModal();
+
+    $('.cart-product-image > img').attr('src', product.imageSrc);
+    $('.card-product-name').text(product.name);
+    $('.cart-product-price').text(formatMoney(getProductPrice(product)));
+    $('.cart-brand').val(product.brand || '');
+    $('.cart-id').val(productId);
+    $('.count').val(card[productId] ? card[productId].count : 1).trigger('focus');
+    $('body').addClass('overflow-hidden');
+  }
+
+  function createCartItem(product, count) {
+    return {
+      imageSrc: product.imageSrc,
+      productName: product.name,
+      productPrice: formatMoney(getProductPrice(product)),
+      count: Math.max(parseInt(count, 10) || 1, 1),
+      getId: getProductKey(product),
+      brand: product.brand || ''
+    };
+  }
+
+  function setCartProductCount(productId, count, notifyUser) {
+    let product = getProductById(productId);
+    let normalizedCount = Math.max(parseInt(count, 10) || 0, 0);
+
+    if(!product) {
+      return;
+    }
+
+    if(normalizedCount <= 0) {
+      delete card[productId];
+    } else {
+      card[productId] = createCartItem(product, normalizedCount);
+    }
+
+    updateLocalStorage();
+    sumCardTotal();
+    syncProductCardStates();
+
+    if($('.cart-list-modal').hasClass('active')) {
+      renderCartList();
+    }
+
+    if(notifyUser) {
+      showNotice(normalizedCount > 0 ? 'Elave olundu' : 'Mehsul silindi');
+    }
+  }
+
+  function incrementCartProduct(productId, delta, notifyUser) {
+    let currentCount = card[productId] ? Math.max(parseInt(card[productId].count, 10) || 1, 1) : 0;
+    setCartProductCount(productId, currentCount + delta, notifyUser);
+  }
+
+  function syncProductCardStates() {
+    $('.products-card').each(function() {
+      let productId = $(this).data('product-id') || $(this).find('.id').val();
+      $(this).find('.card-order-tools').replaceWith(renderCardOrderControl(productId));
+    });
+  }
 
 
   function getCategoryList() {
@@ -495,15 +819,13 @@ $(document).ready(function() {
 
 
     category.push(groupList);
+    topCategories = getCategoryStats().slice(0, 12);
 
 
 
 
-    selectedRandomCategory();
+    selectedCategory = false;
         let groupOptionList = '';
-
-
-        console.log(category);
 
     $.each(category, function(key, val) { 
         if (typeof val === "object" && !Array.isArray(val)) { // Проверяем, что это объект
@@ -551,15 +873,14 @@ $(document).ready(function() {
       }
     });
 
-    $(".products-list").html('');
     resetSearchResult();
-    currentIndex = 0;
-    loadProducts();
+    renderCatalog();
   }
 
   function resetSearchResult() {
     $('.search-json').val('');
-    customData = [];
+    searchQuery = '';
+    hideSearchSuggestions();
   }
 
 function generateRandomId() {
@@ -574,12 +895,17 @@ function generateRandomId() {
 
 function sumCardTotal() {
   let sumCard = [];
-
-  const targetBrands = ['Foni', 'Euroacs', 'Joyroom'];
+  let productCount = 0;
 
   Object.keys(card).map(function(objectKey) {
     var row = card[objectKey];
-    rowSum = parseFloat(row.productPrice) * row.count;
+    if(!row) {
+      return;
+    }
+
+    let rowCount = Math.max(parseInt(row.count, 10) || 1, 1);
+    let rowSum = normalizePriceValue(row.productPrice) * rowCount;
+    productCount += rowCount;
 
     sumCard.push(rowSum);
 
@@ -587,6 +913,10 @@ function sumCardTotal() {
 
 
   $('.sum-card').text(sumCard.reduce((partialSum, a) => partialSum + a, 0).toFixed(2)); 
+  $('.cart-count-badge').text(productCount).toggleClass('active', productCount > 0);
+  $('.mobile-cart-summary').toggleClass('active', productCount > 0);
+  $('.mobile-cart-summary-text').text(productCount > 0 ? `Sebetde ${productCount} mehsul` : 'Sebet bosdur');
+  $('.mobile-cart-summary-total').text(`${sumCard.reduce((partialSum, a) => partialSum + a, 0).toFixed(2)} AZN`);
 }
 
 
@@ -597,6 +927,343 @@ function selectedRandomCategory() {
     selectedCategory = false;
   }
 
+}
+
+function renderCatalog() {
+  $(".products-list").html('');
+  currentIndex = 0;
+  isLoading = false;
+  loadProducts();
+}
+
+function getCatalogData() {
+  let filtredData = products.slice();
+
+  if(selectedCategory) {
+    filtredData = filtredData.filter(item => normalizeText(item.category) == normalizeText(selectedCategory));
+  }
+
+  if(searchQuery) {
+    filtredData = filtredData.filter(item => productMatchesSearch(item, searchQuery));
+  }
+
+  if(activeQuickFilter === 'discount') {
+    filtredData = filtredData.filter(item => getProductDiscount(item) > 0);
+  }
+
+  if(activeQuickFilter === 'latest') {
+    filtredData = filtredData.filter(item => isLatestProduct(item));
+  }
+
+  if(activeQuickFilter === 'favorites') {
+    filtredData = filtredData.filter(item => favorites.includes(getProductKey(item)));
+  }
+
+  if(activeQuickFilter === 'viewed') {
+    filtredData = filtredData.filter(item => recentlyViewed.includes(getProductKey(item)));
+  }
+
+  return sortProducts(filtredData);
+}
+
+function productMatchesSearch(product, query) {
+  let normalizedQuery = normalizeText(query);
+  let searchable = [
+    product.name,
+    product.category,
+    product.brand
+  ].map(normalizeText).join(' ');
+
+  return searchable.includes(normalizedQuery);
+}
+
+function sortProducts(list) {
+  let sorted = list.slice();
+
+  if(activeQuickFilter === 'latest' && sortMode === 'default') {
+    return sorted.sort((a, b) => parseProductDate(b.addedDate) - parseProductDate(a.addedDate));
+  }
+
+  switch(sortMode) {
+    case 'newest':
+      return sorted.sort((a, b) => parseProductDate(b.addedDate) - parseProductDate(a.addedDate));
+    case 'cheap':
+      return sorted.sort((a, b) => getProductPrice(a) - getProductPrice(b));
+    case 'expensive':
+      return sorted.sort((a, b) => getProductPrice(b) - getProductPrice(a));
+    case 'discount':
+      return sorted.sort((a, b) => getProductDiscount(b) - getProductDiscount(a));
+    default:
+      return sorted;
+  }
+}
+
+function getProductPrice(product) {
+  let price = normalizePriceValue(product.price);
+  let discount = getProductDiscount(product);
+
+  if(discount > 0) {
+    return price - (price * discount / 100);
+  }
+
+  return price;
+}
+
+function getProductDiscount(product) {
+  return normalizePriceValue(product.discount);
+}
+
+function formatMoney(value) {
+  return `${normalizePriceValue(value).toFixed(2)} AZN`;
+}
+
+function normalizePriceValue(value) {
+  let parsed = parseFloat(String(value || '').replace(',', '.').replace(/[^\d.]/g, ''));
+  return Number.isFinite(parsed) ? parsed : 0;
+}
+
+function normalizeText(value) {
+  return String(value || '').toLowerCase().trim();
+}
+
+function parseProductDate(value) {
+  if(!value) {
+    return 0;
+  }
+
+  let parts = String(value).split('.').map(Number);
+
+  if(parts.length !== 3) {
+    return 0;
+  }
+
+  return new Date(parts[2], parts[1] - 1, parts[0]).getTime();
+}
+
+function getLatestProductKeys(productList, limit) {
+  return new Set(productList
+    .slice()
+    .sort((a, b) => parseProductDate(b.addedDate) - parseProductDate(a.addedDate))
+    .slice(0, limit)
+    .map(getProductKey)
+  );
+}
+
+function isLatestProduct(product) {
+  return latestProductKeys.has(getProductKey(product)) || product.hasNew === true;
+}
+
+function getProductKey(product) {
+  let source = `${product.name || ''}|${product.imageSrc || ''}|${product.category || ''}`;
+  let hash = 0;
+
+  for(let i = 0; i < source.length; i += 1) {
+    hash = ((hash << 5) - hash) + source.charCodeAt(i);
+    hash |= 0;
+  }
+
+  return `p${Math.abs(hash).toString(36)}` || generateRandomId();
+}
+
+function getFavorites() {
+  try {
+    return JSON.parse(localStorage.getItem('favoriteProducts')) || [];
+  } catch (error) {
+    return [];
+  }
+}
+
+function saveFavorites() {
+  localStorage.setItem('favoriteProducts', JSON.stringify(favorites));
+}
+
+function toggleFavorite(productId) {
+  if(!productId) {
+    return;
+  }
+
+  if(favorites.includes(productId)) {
+    favorites = favorites.filter(item => item !== productId);
+    showNotice('Favoritden silindi');
+  } else {
+    favorites.push(productId);
+    showNotice('Favoritlere elave olundu');
+  }
+
+  saveFavorites();
+}
+
+function updateFavoriteButtons() {
+  $('.favorite-product').each(function() {
+    let productId = $(this).data('product-id');
+    let isFavorite = favorites.includes(productId);
+
+    $(this).toggleClass('active', isFavorite);
+    $(this).find('i').attr('class', `${isFavorite ? 'las' : 'lar'} la-heart`);
+  });
+}
+
+function getRecentSearches() {
+  try {
+    return JSON.parse(localStorage.getItem('recentSearches')) || [];
+  } catch (error) {
+    return [];
+  }
+}
+
+function saveRecentSearches() {
+  localStorage.setItem('recentSearches', JSON.stringify(recentSearches));
+}
+
+function addRecentSearch(query) {
+  let normalizedQuery = normalizeText(query);
+
+  if(!normalizedQuery || normalizedQuery.length < 2) {
+    return;
+  }
+
+  recentSearches = recentSearches.filter(item => item !== normalizedQuery);
+  recentSearches.unshift(normalizedQuery);
+  recentSearches = recentSearches.slice(0, 8);
+  saveRecentSearches();
+}
+
+function renderRecentSearches() {
+  if(!recentSearches.length) {
+    $('.recent-searches').html('');
+    return;
+  }
+
+  $('.recent-searches').html(`
+    <div class="recent-searches-head">
+      <span class="recent-searches-title">Son axtarislar</span>
+      <button type="button" class="clear-recent-searches">Temizle</button>
+    </div>
+    <div class="recent-searches-list">
+      ${recentSearches.map(item => `<button type="button" class="recent-search-chip" data-search="${encodeURIComponent(item)}">${item}</button>`).join('')}
+    </div>
+  `);
+}
+
+function renderSearchSuggestions(query) {
+  let normalizedQuery = normalizeText(query);
+  let suggestionHtml = [];
+
+  if(!normalizedQuery) {
+    if(recentSearches.length) {
+      suggestionHtml.push(`<div class="search-suggestion-group"><span class="search-suggestion-title">Son axtarislar</span>${recentSearches.slice(0, 4).map(item => `<button type="button" class="search-suggestion-item" data-type="search" data-value="${encodeURIComponent(item)}"><i class="las la-history"></i><span>${item}</span></button>`).join('')}</div>`);
+    }
+  } else {
+    let matchedProducts = products.filter(product => productMatchesSearch(product, normalizedQuery)).slice(0, 5);
+    let matchedCategories = getCategoryStats().filter(item => normalizeText(item.name).includes(normalizedQuery)).slice(0, 4);
+
+    if(matchedProducts.length) {
+      suggestionHtml.push(`
+        <div class="search-suggestion-group">
+          <span class="search-suggestion-title">Mehsullar</span>
+          ${matchedProducts.map(product => `<button type="button" class="search-suggestion-item" data-type="search" data-value="${encodeURIComponent(product.name)}"><img src="${product.imageSrc}" alt=""><span>${product.name}</span></button>`).join('')}
+        </div>
+      `);
+    }
+
+    if(matchedCategories.length) {
+      suggestionHtml.push(`
+        <div class="search-suggestion-group">
+          <span class="search-suggestion-title">Kateqoriyalar</span>
+          ${matchedCategories.map(item => `<button type="button" class="search-suggestion-item" data-type="category" data-value="${encodeURIComponent(item.name)}"><i class="las la-stream"></i><span>${item.name}</span><small>${item.count}</small></button>`).join('')}
+        </div>
+      `);
+    }
+  }
+
+  $('.search-suggestions')
+    .html(suggestionHtml.join(''))
+    .toggleClass('active', suggestionHtml.length > 0);
+}
+
+function hideSearchSuggestions() {
+  $('.search-suggestions').removeClass('active').html('');
+}
+
+function applySearchTerm(term, skipHistory) {
+  let normalizedTerm = normalizeText(term);
+
+  if(!normalizedTerm) {
+    return;
+  }
+
+  $('.search-json').val(normalizedTerm);
+  searchByName(normalizedTerm);
+
+  if(!skipHistory) {
+    addRecentSearch(normalizedTerm);
+    renderRecentSearches();
+  }
+
+  hideSearchSuggestions();
+  scrollTop();
+}
+
+function getRecentlyViewed() {
+  try {
+    return JSON.parse(localStorage.getItem('recentlyViewedProducts')) || [];
+  } catch (error) {
+    return [];
+  }
+}
+
+function saveRecentlyViewed() {
+  localStorage.setItem('recentlyViewedProducts', JSON.stringify(recentlyViewed));
+}
+
+function addViewedProduct(productId) {
+  if(!productId) {
+    return;
+  }
+
+  recentlyViewed = recentlyViewed.filter(item => item !== productId);
+  recentlyViewed.unshift(productId);
+  recentlyViewed = recentlyViewed.slice(0, 10);
+  saveRecentlyViewed();
+  renderRecentlyViewed();
+}
+
+function renderRecentlyViewed() {
+  let viewedProducts = recentlyViewed.map(getProductById).filter(Boolean).slice(0, 8);
+
+  if(!viewedProducts.length) {
+    $('.recently-viewed-section').addClass('hide');
+    $('.recently-viewed-list').html('');
+    return;
+  }
+
+  $('.recently-viewed-section').removeClass('hide');
+  $('.recently-viewed-list').html(viewedProducts.map(product => `
+    <button type="button" class="recently-viewed-card" data-product-id="${getProductKey(product)}">
+      <span class="recently-viewed-thumb"><img src="${product.imageSrc}" alt=""></span>
+      <span class="recently-viewed-name">${product.name}</span>
+      <span class="recently-viewed-price">${formatMoney(getProductPrice(product))}</span>
+    </button>
+  `).join(''));
+}
+
+function updateCatalogMeta(total) {
+  let resultCount = typeof total === 'number' ? total : getCatalogData().length;
+
+  $('.results-summary').text(`${resultCount} mehsul gosterilir`);
+  $('.favorite-count').text(favorites.length);
+  $('.catalog-filter-btn').removeClass('active');
+  $(`.catalog-filter-btn[data-filter="${activeQuickFilter}"]`).addClass('active');
+  renderQuickCategories();
+}
+
+function showNotice(message) {
+  $('.notice').text(message);
+  $('.showNotice').addClass('active');
+
+  setTimeout(function(){
+    $('.showNotice').removeClass('active');
+  }, 1200);
 }
 
 
@@ -611,27 +1278,23 @@ function scrollTop() {
 
 
 function searchByName(name) {
-  customData = products.filter(
-      record => record.name.toLowerCase().includes(name) 
-  );
-
-
-   if(customData.length > 0) {
-     selectedCategory = false;
-
-     $(".products-list").html('');
-     currentIndex = 0;
-     loadProducts(customData);
-   } 
+  searchQuery = name;
+  selectedCategory = false;
+  $('.select-category').val('all');
+  renderCatalog();
 }
 
 function updateLocalStorage() {
-  localStorage.setItem("orders", JSON.stringify(Object.values(card)));
+  localStorage.setItem("orders", JSON.stringify(Object.values(card).filter(Boolean)));
 }
 
 
 function getOrders() {
-  return savedOrder = JSON.parse(localStorage.getItem("orders"));  
+  try {
+    return JSON.parse(localStorage.getItem("orders")) || [];
+  } catch (error) {
+    return [];
+  }
 }
 
 function drawSliderItem() {
@@ -708,8 +1371,6 @@ let sliderItemList = products.slice(0, 20);
 
     $('.select-category').focus();
     $('.select-category').trigger('click');
-
-    console.log('sadsa')    
   });
 
 
